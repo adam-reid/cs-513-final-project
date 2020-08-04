@@ -19,7 +19,7 @@ def process(input_file: str) -> None:
     target_column_index = -1
     valid_timestamp_formats = ["%Y-%m-%dT%H:%M:%S%z", "%m/%d/%Y %H:%M:%S %p", "%b %d %Y %H:%M%p"]
 
-    with open(input_file, 'r') as infile, open(output_file,'w') as outfile:
+    with open(input_file, 'r') as infile, open(output_file, 'w', newline='') as outfile:
         writer = csv.writer(outfile)
         
         for i, row in enumerate(csv.reader(infile)):

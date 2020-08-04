@@ -1,0 +1,2182 @@
+
+% FACT: program(program_id, program_name, qualified_program_name, begin_annotation_id, end_annotation_id).
+program(1, 'Parallel_OR', 'Parallel_OR', 1, 575).
+program(2, 'core/text-transform0', 'Parallel_OR.core/text-transform0', 130, 135).
+program(3, 'group_1_core/mass-edit1', 'Parallel_OR.group_1_core/mass-edit1', 136, 141).
+program(4, 'group_2_core/text-transform2', 'Parallel_OR.group_2_core/text-transform2', 142, 147).
+program(5, 'core/text-transform3', 'Parallel_OR.core/text-transform3', 148, 153).
+program(6, 'core/text-transform4', 'Parallel_OR.core/text-transform4', 154, 159).
+program(7, 'core/text-transform5', 'Parallel_OR.core/text-transform5', 160, 165).
+program(8, 'core/text-transform6', 'Parallel_OR.core/text-transform6', 166, 171).
+program(9, 'core/mass-edit7', 'Parallel_OR.core/mass-edit7', 172, 177).
+program(10, 'group_3_core/text-transform8', 'Parallel_OR.group_3_core/text-transform8', 178, 183).
+program(11, 'group_4_core/mass-edit9', 'Parallel_OR.group_4_core/mass-edit9', 184, 189).
+program(12, 'group_5_core/mass-edit10', 'Parallel_OR.group_5_core/mass-edit10', 190, 195).
+program(13, 'group_6_core/text-transform11', 'Parallel_OR.group_6_core/text-transform11', 196, 201).
+program(14, 'group_7_core/mass-edit12', 'Parallel_OR.group_7_core/mass-edit12', 202, 207).
+program(15, 'group_8_core/text-transform13', 'Parallel_OR.group_8_core/text-transform13', 208, 213).
+program(16, 'group_9_core/mass-edit14', 'Parallel_OR.group_9_core/mass-edit14', 214, 219).
+program(17, 'group_10_core/text-transform15', 'Parallel_OR.group_10_core/text-transform15', 220, 225).
+program(18, 'group_11_core/mass-edit16', 'Parallel_OR.group_11_core/mass-edit16', 226, 231).
+program(19, 'group_12_core/mass-edit17', 'Parallel_OR.group_12_core/mass-edit17', 232, 237).
+program(20, 'group_13_core/mass-edit18', 'Parallel_OR.group_13_core/mass-edit18', 238, 243).
+program(21, 'group_14_core/mass-edit19', 'Parallel_OR.group_14_core/mass-edit19', 244, 249).
+program(22, 'group_15_core/mass-edit20', 'Parallel_OR.group_15_core/mass-edit20', 250, 255).
+program(23, 'group_16_core/mass-edit21', 'Parallel_OR.group_16_core/mass-edit21', 256, 261).
+program(24, 'group_17_core/mass-edit22', 'Parallel_OR.group_17_core/mass-edit22', 262, 267).
+program(25, 'group_18_core/mass-edit23', 'Parallel_OR.group_18_core/mass-edit23', 268, 273).
+program(26, 'group_19_core/mass-edit24', 'Parallel_OR.group_19_core/mass-edit24', 274, 279).
+program(27, 'group_20_core/mass-edit25', 'Parallel_OR.group_20_core/mass-edit25', 280, 285).
+program(28, 'group_21_core/mass-edit26', 'Parallel_OR.group_21_core/mass-edit26', 286, 291).
+program(29, 'group_22_core/mass-edit27', 'Parallel_OR.group_22_core/mass-edit27', 292, 297).
+program(30, 'group_23_core/mass-edit28', 'Parallel_OR.group_23_core/mass-edit28', 298, 303).
+program(31, 'group_24_core/mass-edit29', 'Parallel_OR.group_24_core/mass-edit29', 304, 309).
+program(32, 'group_25_core/mass-edit30', 'Parallel_OR.group_25_core/mass-edit30', 310, 315).
+program(33, 'group_26_core/mass-edit31', 'Parallel_OR.group_26_core/mass-edit31', 316, 321).
+program(34, 'group_27_core/mass-edit32', 'Parallel_OR.group_27_core/mass-edit32', 322, 327).
+program(35, 'group_28_core/mass-edit33', 'Parallel_OR.group_28_core/mass-edit33', 328, 333).
+program(36, 'group_29_core/mass-edit34', 'Parallel_OR.group_29_core/mass-edit34', 334, 339).
+program(37, 'group_30_core/mass-edit35', 'Parallel_OR.group_30_core/mass-edit35', 340, 345).
+program(38, 'group_31_core/mass-edit36', 'Parallel_OR.group_31_core/mass-edit36', 346, 351).
+program(39, 'group_32_core/mass-edit37', 'Parallel_OR.group_32_core/mass-edit37', 352, 357).
+program(40, 'group_33_core/mass-edit38', 'Parallel_OR.group_33_core/mass-edit38', 358, 363).
+program(41, 'group_34_core/mass-edit39', 'Parallel_OR.group_34_core/mass-edit39', 364, 369).
+program(42, 'group_35_core/mass-edit40', 'Parallel_OR.group_35_core/mass-edit40', 370, 375).
+program(43, 'group_36_core/mass-edit41', 'Parallel_OR.group_36_core/mass-edit41', 376, 381).
+program(44, 'group_37_core/mass-edit42', 'Parallel_OR.group_37_core/mass-edit42', 382, 387).
+program(45, 'group_38_core/mass-edit43', 'Parallel_OR.group_38_core/mass-edit43', 388, 393).
+program(46, 'group_39_core/mass-edit44', 'Parallel_OR.group_39_core/mass-edit44', 394, 399).
+program(47, 'group_40_core/mass-edit45', 'Parallel_OR.group_40_core/mass-edit45', 400, 405).
+program(48, 'group_41_core/mass-edit46', 'Parallel_OR.group_41_core/mass-edit46', 406, 411).
+program(49, 'group_42_core/mass-edit47', 'Parallel_OR.group_42_core/mass-edit47', 412, 417).
+program(50, 'group_43_core/mass-edit48', 'Parallel_OR.group_43_core/mass-edit48', 418, 423).
+program(51, 'group_44_core/mass-edit49', 'Parallel_OR.group_44_core/mass-edit49', 424, 429).
+program(52, 'group_45_core/mass-edit50', 'Parallel_OR.group_45_core/mass-edit50', 430, 435).
+program(53, 'group_46_core/text-transform51', 'Parallel_OR.group_46_core/text-transform51', 436, 441).
+program(54, 'group_47_core/text-transform52', 'Parallel_OR.group_47_core/text-transform52', 442, 447).
+program(55, 'group_48_core/text-transform53', 'Parallel_OR.group_48_core/text-transform53', 448, 453).
+program(56, 'group_49_core/text-transform54', 'Parallel_OR.group_49_core/text-transform54', 454, 459).
+program(57, 'group_50_core/text-transform55', 'Parallel_OR.group_50_core/text-transform55', 460, 465).
+program(58, 'group_51_core/text-transform56', 'Parallel_OR.group_51_core/text-transform56', 466, 471).
+program(59, 'group_52_core/text-transform57', 'Parallel_OR.group_52_core/text-transform57', 472, 477).
+program(60, 'group_53_core/text-transform58', 'Parallel_OR.group_53_core/text-transform58', 478, 483).
+program(61, 'group_54_core/text-transform59', 'Parallel_OR.group_54_core/text-transform59', 484, 489).
+program(62, 'group_55_core/text-transform60', 'Parallel_OR.group_55_core/text-transform60', 490, 495).
+program(63, 'group_56_core/text-transform61', 'Parallel_OR.group_56_core/text-transform61', 496, 501).
+program(64, 'group_57_core/text-transform62', 'Parallel_OR.group_57_core/text-transform62', 502, 507).
+program(65, 'group_58_core/text-transform63', 'Parallel_OR.group_58_core/text-transform63', 508, 513).
+program(66, 'CombineDataCleaningChanges', 'Parallel_OR.CombineDataCleaningChanges', 514, 574).
+
+% FACT: workflow(program_id).
+workflow(1).
+
+% FACT: function(program_id).
+
+% FACT: has_subprogram(program_id, subprogram_id).
+has_subprogram(1, 2).
+has_subprogram(1, 3).
+has_subprogram(1, 4).
+has_subprogram(1, 5).
+has_subprogram(1, 6).
+has_subprogram(1, 7).
+has_subprogram(1, 8).
+has_subprogram(1, 9).
+has_subprogram(1, 10).
+has_subprogram(1, 11).
+has_subprogram(1, 12).
+has_subprogram(1, 13).
+has_subprogram(1, 14).
+has_subprogram(1, 15).
+has_subprogram(1, 16).
+has_subprogram(1, 17).
+has_subprogram(1, 18).
+has_subprogram(1, 19).
+has_subprogram(1, 20).
+has_subprogram(1, 21).
+has_subprogram(1, 22).
+has_subprogram(1, 23).
+has_subprogram(1, 24).
+has_subprogram(1, 25).
+has_subprogram(1, 26).
+has_subprogram(1, 27).
+has_subprogram(1, 28).
+has_subprogram(1, 29).
+has_subprogram(1, 30).
+has_subprogram(1, 31).
+has_subprogram(1, 32).
+has_subprogram(1, 33).
+has_subprogram(1, 34).
+has_subprogram(1, 35).
+has_subprogram(1, 36).
+has_subprogram(1, 37).
+has_subprogram(1, 38).
+has_subprogram(1, 39).
+has_subprogram(1, 40).
+has_subprogram(1, 41).
+has_subprogram(1, 42).
+has_subprogram(1, 43).
+has_subprogram(1, 44).
+has_subprogram(1, 45).
+has_subprogram(1, 46).
+has_subprogram(1, 47).
+has_subprogram(1, 48).
+has_subprogram(1, 49).
+has_subprogram(1, 50).
+has_subprogram(1, 51).
+has_subprogram(1, 52).
+has_subprogram(1, 53).
+has_subprogram(1, 54).
+has_subprogram(1, 55).
+has_subprogram(1, 56).
+has_subprogram(1, 57).
+has_subprogram(1, 58).
+has_subprogram(1, 59).
+has_subprogram(1, 60).
+has_subprogram(1, 61).
+has_subprogram(1, 62).
+has_subprogram(1, 63).
+has_subprogram(1, 64).
+has_subprogram(1, 65).
+has_subprogram(1, 66).
+
+% FACT: port(port_id, port_type, port_name, qualified_port_name, port_annotation_id, data_id).
+port(1, 'param', 'expression:sub_ops_17', 'Parallel_OR<-expression:sub_ops_17', 3, 1).
+port(2, 'param', 'expression:sub_ops_47', 'Parallel_OR<-expression:sub_ops_47', 4, 2).
+port(3, 'param', 'expression:sub_ops_16', 'Parallel_OR<-expression:sub_ops_16', 5, 3).
+port(4, 'param', 'expression:sub_ops_55', 'Parallel_OR<-expression:sub_ops_55', 6, 4).
+port(5, 'param', 'expression:value.trim()', 'Parallel_OR<-expression:value.trim()', 7, 5).
+port(6, 'param', 'expression:sub_ops_12', 'Parallel_OR<-expression:sub_ops_12', 8, 6).
+port(7, 'param', 'expression:sub_ops_3', 'Parallel_OR<-expression:sub_ops_3', 9, 7).
+port(8, 'param', 'expression:sub_ops_4', 'Parallel_OR<-expression:sub_ops_4', 10, 8).
+port(9, 'param', 'expression:sub_ops_20', 'Parallel_OR<-expression:sub_ops_20', 11, 9).
+port(10, 'param', 'expression:sub_ops_19', 'Parallel_OR<-expression:sub_ops_19', 12, 10).
+port(11, 'param', 'expression:sub_ops_36', 'Parallel_OR<-expression:sub_ops_36', 13, 11).
+port(12, 'param', 'expression:sub_ops_26', 'Parallel_OR<-expression:sub_ops_26', 14, 12).
+port(13, 'param', 'expression:sub_ops_52', 'Parallel_OR<-expression:sub_ops_52', 15, 13).
+port(14, 'param', 'expression:value.toNumber()', 'Parallel_OR<-expression:value.toNumber()', 16, 14).
+port(15, 'param', 'expression:sub_ops_2', 'Parallel_OR<-expression:sub_ops_2', 17, 15).
+port(16, 'param', 'expression:sub_ops_34', 'Parallel_OR<-expression:sub_ops_34', 18, 16).
+port(17, 'param', 'expression:sub_ops_50', 'Parallel_OR<-expression:sub_ops_50', 19, 17).
+port(18, 'param', 'expression:sub_ops_58', 'Parallel_OR<-expression:sub_ops_58', 20, 18).
+port(19, 'param', 'expression:sub_ops_7', 'Parallel_OR<-expression:sub_ops_7', 21, 19).
+port(20, 'param', 'expression:sub_ops_15', 'Parallel_OR<-expression:sub_ops_15', 22, 20).
+port(21, 'param', 'expression:sub_ops_24', 'Parallel_OR<-expression:sub_ops_24', 23, 21).
+port(22, 'param', 'expression:sub_ops_48', 'Parallel_OR<-expression:sub_ops_48', 24, 22).
+port(23, 'param', 'expression:sub_ops_32', 'Parallel_OR<-expression:sub_ops_32', 25, 23).
+port(24, 'param', 'expression:sub_ops_14', 'Parallel_OR<-expression:sub_ops_14', 26, 24).
+port(25, 'param', 'expression:sub_ops_25', 'Parallel_OR<-expression:sub_ops_25', 27, 25).
+port(26, 'param', 'expression:sub_ops_30', 'Parallel_OR<-expression:sub_ops_30', 28, 26).
+port(27, 'param', 'expression:sub_ops_13', 'Parallel_OR<-expression:sub_ops_13', 29, 27).
+port(28, 'param', 'expression:sub_ops_41', 'Parallel_OR<-expression:sub_ops_41', 30, 28).
+port(29, 'param', 'expression:sub_ops_11', 'Parallel_OR<-expression:sub_ops_11', 31, 29).
+port(30, 'param', 'expression:sub_ops_18', 'Parallel_OR<-expression:sub_ops_18', 32, 30).
+port(31, 'param', 'expression:sub_ops_28', 'Parallel_OR<-expression:sub_ops_28', 33, 31).
+port(32, 'param', 'expression:sub_ops_49', 'Parallel_OR<-expression:sub_ops_49', 34, 32).
+port(33, 'param', 'expression:value', 'Parallel_OR<-expression:value', 35, 33).
+port(34, 'param', 'expression:sub_ops_33', 'Parallel_OR<-expression:sub_ops_33', 36, 34).
+port(35, 'param', 'expression:sub_ops_37', 'Parallel_OR<-expression:sub_ops_37', 37, 35).
+port(36, 'param', 'expression:value.toDate()', 'Parallel_OR<-expression:value.toDate()', 38, 36).
+port(37, 'param', 'expression:sub_ops_10', 'Parallel_OR<-expression:sub_ops_10', 39, 37).
+port(38, 'param', 'expression:sub_ops_35', 'Parallel_OR<-expression:sub_ops_35', 40, 38).
+port(39, 'param', 'expression:sub_ops_40', 'Parallel_OR<-expression:sub_ops_40', 41, 39).
+port(40, 'param', 'expression:sub_ops_57', 'Parallel_OR<-expression:sub_ops_57', 42, 40).
+port(41, 'param', 'expression:sub_ops_27', 'Parallel_OR<-expression:sub_ops_27', 43, 41).
+port(42, 'param', 'expression:sub_ops_43', 'Parallel_OR<-expression:sub_ops_43', 44, 42).
+port(43, 'param', 'expression:sub_ops_54', 'Parallel_OR<-expression:sub_ops_54', 45, 43).
+port(44, 'param', 'expression:sub_ops_6', 'Parallel_OR<-expression:sub_ops_6', 46, 44).
+port(45, 'param', 'expression:sub_ops_31', 'Parallel_OR<-expression:sub_ops_31', 47, 45).
+port(46, 'param', 'expression:sub_ops_46', 'Parallel_OR<-expression:sub_ops_46', 48, 46).
+port(47, 'param', 'expression:sub_ops_39', 'Parallel_OR<-expression:sub_ops_39', 49, 47).
+port(48, 'param', 'expression:sub_ops_9', 'Parallel_OR<-expression:sub_ops_9', 50, 48).
+port(49, 'param', 'expression:sub_ops_5', 'Parallel_OR<-expression:sub_ops_5', 51, 49).
+port(50, 'param', 'expression:sub_ops_22', 'Parallel_OR<-expression:sub_ops_22', 52, 50).
+port(51, 'param', 'expression:sub_ops_23', 'Parallel_OR<-expression:sub_ops_23', 53, 51).
+port(52, 'param', 'expression:sub_ops_44', 'Parallel_OR<-expression:sub_ops_44', 54, 52).
+port(53, 'param', 'expression:sub_ops_45', 'Parallel_OR<-expression:sub_ops_45', 55, 53).
+port(54, 'param', 'expression:sub_ops_1', 'Parallel_OR<-expression:sub_ops_1', 56, 54).
+port(55, 'param', 'expression:sub_ops_51', 'Parallel_OR<-expression:sub_ops_51', 57, 55).
+port(56, 'param', 'expression:sub_ops_42', 'Parallel_OR<-expression:sub_ops_42', 58, 56).
+port(57, 'param', 'expression:sub_ops_53', 'Parallel_OR<-expression:sub_ops_53', 59, 57).
+port(58, 'param', 'expression:sub_ops_8', 'Parallel_OR<-expression:sub_ops_8', 60, 58).
+port(59, 'param', 'expression:sub_ops_29', 'Parallel_OR<-expression:sub_ops_29', 61, 59).
+port(60, 'param', 'expression:sub_ops_38', 'Parallel_OR<-expression:sub_ops_38', 62, 60).
+port(61, 'param', 'expression:sub_ops_21', 'Parallel_OR<-expression:sub_ops_21', 63, 61).
+port(62, 'param', 'expression:sub_ops_56', 'Parallel_OR<-expression:sub_ops_56', 64, 62).
+port(63, 'in', 'Crafts', 'Parallel_OR<-Crafts', 65, 63).
+port(64, 'in', 'Poultry', 'Parallel_OR<-Poultry', 66, 64).
+port(65, 'in', 'updateTime', 'Parallel_OR<-updateTime', 67, 65).
+port(66, 'in', 'Tofu', 'Parallel_OR<-Tofu', 68, 66).
+port(67, 'in', 'Season1Date_1', 'Parallel_OR<-Season1Date_1', 69, 67).
+port(68, 'in', 'Longitude', 'Parallel_OR<-Longitude', 70, 68).
+port(69, 'in', 'SFMNP', 'Parallel_OR<-SFMNP', 71, 69).
+port(70, 'in', 'Facebook', 'Parallel_OR<-Facebook', 72, 70).
+port(71, 'in', 'Herbs', 'Parallel_OR<-Herbs', 73, 71).
+port(72, 'in', 'Grains', 'Parallel_OR<-Grains', 74, 72).
+port(73, 'in', 'County_1', 'Parallel_OR<-County_1', 75, 73).
+port(74, 'in', 'Season1Time', 'Parallel_OR<-Season1Time', 76, 74).
+port(75, 'in', 'Jams', 'Parallel_OR<-Jams', 77, 75).
+port(76, 'in', 'city', 'Parallel_OR<-city', 78, 76).
+port(77, 'in', 'Street', 'Parallel_OR<-Street', 79, 77).
+port(78, 'in', 'Season1Date', 'Parallel_OR<-Season1Date', 80, 78).
+port(79, 'in', 'WICcash', 'Parallel_OR<-WICcash', 81, 79).
+port(80, 'in', 'Prepared', 'Parallel_OR<-Prepared', 82, 80).
+port(81, 'in', 'City', 'Parallel_OR<-City', 83, 81).
+port(82, 'in', 'State', 'Parallel_OR<-State', 84, 82).
+port(83, 'in', 'Credit', 'Parallel_OR<-Credit', 85, 83).
+port(84, 'in', 'MarketName_1', 'Parallel_OR<-MarketName_1', 86, 84).
+port(85, 'in', 'MarketName', 'Parallel_OR<-MarketName', 87, 85).
+port(86, 'in', 'Nursery', 'Parallel_OR<-Nursery', 88, 86).
+port(87, 'in', 'Soap', 'Parallel_OR<-Soap', 89, 87).
+port(88, 'in', 'Juices', 'Parallel_OR<-Juices', 90, 88).
+port(89, 'in', 'Season3Date_1', 'Parallel_OR<-Season3Date_1', 91, 89).
+port(90, 'in', 'County', 'Parallel_OR<-County', 92, 90).
+port(91, 'in', 'Organic', 'Parallel_OR<-Organic', 93, 91).
+port(92, 'in', 'Season2Date', 'Parallel_OR<-Season2Date', 94, 92).
+port(93, 'in', 'Maple', 'Parallel_OR<-Maple', 95, 93).
+port(94, 'in', 'Bakedgoods', 'Parallel_OR<-Bakedgoods', 96, 94).
+port(95, 'in', 'Season3Date', 'Parallel_OR<-Season3Date', 97, 95).
+port(96, 'in', 'Season2Date_1', 'Parallel_OR<-Season2Date_1', 98, 96).
+port(97, 'in', 'Youtube', 'Parallel_OR<-Youtube', 99, 97).
+port(98, 'in', 'WIC', 'Parallel_OR<-WIC', 100, 98).
+port(99, 'in', 'Seafood', 'Parallel_OR<-Seafood', 101, 99).
+port(100, 'in', 'Season2Time', 'Parallel_OR<-Season2Time', 102, 100).
+port(101, 'in', 'Cheese', 'Parallel_OR<-Cheese', 103, 101).
+port(102, 'in', 'Location', 'Parallel_OR<-Location', 104, 102).
+port(103, 'in', 'MarketName_2', 'Parallel_OR<-MarketName_2', 105, 103).
+port(104, 'in', 'SNAP', 'Parallel_OR<-SNAP', 106, 104).
+port(105, 'in', 'Fruits', 'Parallel_OR<-Fruits', 107, 105).
+port(106, 'in', 'Beans', 'Parallel_OR<-Beans', 108, 106).
+port(107, 'in', 'WildHarvested', 'Parallel_OR<-WildHarvested', 109, 107).
+port(108, 'in', 'FMID', 'Parallel_OR<-FMID', 110, 108).
+port(109, 'in', 'Latitude', 'Parallel_OR<-Latitude', 111, 109).
+port(110, 'in', 'Nuts', 'Parallel_OR<-Nuts', 112, 110).
+port(111, 'in', 'Season4Date', 'Parallel_OR<-Season4Date', 113, 111).
+port(112, 'in', 'Honey', 'Parallel_OR<-Honey', 114, 112).
+port(113, 'in', 'Eggs', 'Parallel_OR<-Eggs', 115, 113).
+port(114, 'in', 'Plants', 'Parallel_OR<-Plants', 116, 114).
+port(115, 'in', 'Meat', 'Parallel_OR<-Meat', 117, 115).
+port(116, 'in', 'Wine', 'Parallel_OR<-Wine', 118, 116).
+port(117, 'in', 'Twitter', 'Parallel_OR<-Twitter', 119, 117).
+port(118, 'in', 'OtherMedia', 'Parallel_OR<-OtherMedia', 120, 118).
+port(119, 'in', 'Trees', 'Parallel_OR<-Trees', 121, 119).
+port(120, 'in', 'Mushrooms', 'Parallel_OR<-Mushrooms', 122, 120).
+port(121, 'in', 'Website', 'Parallel_OR<-Website', 123, 121).
+port(122, 'in', 'PetFood', 'Parallel_OR<-PetFood', 124, 122).
+port(123, 'in', 'Coffee', 'Parallel_OR<-Coffee', 125, 123).
+port(124, 'in', 'Flowers', 'Parallel_OR<-Flowers', 126, 124).
+port(125, 'in', 'Vegetables', 'Parallel_OR<-Vegetables', 127, 125).
+port(126, 'in', 'Zip', 'Parallel_OR<-Zip', 128, 126).
+port(127, 'out', 'CleanData', 'Parallel_OR->CleanData', 129, 127).
+port(128, 'param', 'expression:value.trim()', 'Parallel_OR.core/text-transform0<-expression:value.trim()', 132, 128).
+port(129, 'in', 'MarketName', 'Parallel_OR.core/text-transform0<-MarketName', 133, 129).
+port(130, 'out', 'MarketName_1', 'Parallel_OR.core/text-transform0->MarketName_1', 134, 130).
+port(131, 'param', 'expression:sub_ops_1', 'Parallel_OR.group_1_core/mass-edit1<-expression:sub_ops_1', 138, 131).
+port(132, 'in', 'MarketName_1', 'Parallel_OR.group_1_core/mass-edit1<-MarketName_1', 139, 130).
+port(133, 'out', 'MarketName_2', 'Parallel_OR.group_1_core/mass-edit1->MarketName_2', 140, 132).
+port(134, 'param', 'expression:sub_ops_2', 'Parallel_OR.group_2_core/text-transform2<-expression:sub_ops_2', 144, 133).
+port(135, 'in', 'MarketName_2', 'Parallel_OR.group_2_core/text-transform2<-MarketName_2', 145, 132).
+port(136, 'out', 'MarketName_3', 'Parallel_OR.group_2_core/text-transform2->MarketName_3', 146, 134).
+port(137, 'param', 'expression:value.toNumber()', 'Parallel_OR.core/text-transform3<-expression:value.toNumber()', 150, 135).
+port(138, 'in', 'FMID', 'Parallel_OR.core/text-transform3<-FMID', 151, 136).
+port(139, 'out', 'FMID_1', 'Parallel_OR.core/text-transform3->FMID_1', 152, 137).
+port(140, 'param', 'expression:value.toDate()', 'Parallel_OR.core/text-transform4<-expression:value.toDate()', 156, 138).
+port(141, 'in', 'updateTime', 'Parallel_OR.core/text-transform4<-updateTime', 157, 139).
+port(142, 'out', 'updateTime_1', 'Parallel_OR.core/text-transform4->updateTime_1', 158, 140).
+port(143, 'param', 'expression:value.toNumber()', 'Parallel_OR.core/text-transform5<-expression:value.toNumber()', 162, 135).
+port(144, 'in', 'Latitude', 'Parallel_OR.core/text-transform5<-Latitude', 163, 141).
+port(145, 'out', 'Latitude_1', 'Parallel_OR.core/text-transform5->Latitude_1', 164, 142).
+port(146, 'param', 'expression:value.toNumber()', 'Parallel_OR.core/text-transform6<-expression:value.toNumber()', 168, 135).
+port(147, 'in', 'Longitude', 'Parallel_OR.core/text-transform6<-Longitude', 169, 143).
+port(148, 'out', 'Longitude_1', 'Parallel_OR.core/text-transform6->Longitude_1', 170, 144).
+port(149, 'param', 'expression:value', 'Parallel_OR.core/mass-edit7<-expression:value', 174, 145).
+port(150, 'in', 'County', 'Parallel_OR.core/mass-edit7<-County', 175, 146).
+port(151, 'out', 'County_1', 'Parallel_OR.core/mass-edit7->County_1', 176, 147).
+port(152, 'param', 'expression:sub_ops_3', 'Parallel_OR.group_3_core/text-transform8<-expression:sub_ops_3', 180, 148).
+port(153, 'in', 'County_1', 'Parallel_OR.group_3_core/text-transform8<-County_1', 181, 147).
+port(154, 'out', 'County_2', 'Parallel_OR.group_3_core/text-transform8->County_2', 182, 149).
+port(155, 'param', 'expression:sub_ops_4', 'Parallel_OR.group_4_core/mass-edit9<-expression:sub_ops_4', 186, 150).
+port(156, 'in', 'city', 'Parallel_OR.group_4_core/mass-edit9<-city', 187, 151).
+port(157, 'out', 'city_1', 'Parallel_OR.group_4_core/mass-edit9->city_1', 188, 152).
+port(158, 'param', 'expression:sub_ops_5', 'Parallel_OR.group_5_core/mass-edit10<-expression:sub_ops_5', 192, 153).
+port(159, 'in', 'Season1Date', 'Parallel_OR.group_5_core/mass-edit10<-Season1Date', 193, 154).
+port(160, 'out', 'Season1Date_1', 'Parallel_OR.group_5_core/mass-edit10->Season1Date_1', 194, 155).
+port(161, 'param', 'expression:sub_ops_6', 'Parallel_OR.group_6_core/text-transform11<-expression:sub_ops_6', 198, 156).
+port(162, 'in', 'Season1Date_1', 'Parallel_OR.group_6_core/text-transform11<-Season1Date_1', 199, 155).
+port(163, 'out', 'Season1Date_2', 'Parallel_OR.group_6_core/text-transform11->Season1Date_2', 200, 157).
+port(164, 'param', 'expression:sub_ops_7', 'Parallel_OR.group_7_core/mass-edit12<-expression:sub_ops_7', 204, 158).
+port(165, 'in', 'Season2Date', 'Parallel_OR.group_7_core/mass-edit12<-Season2Date', 205, 159).
+port(166, 'out', 'Season2Date_1', 'Parallel_OR.group_7_core/mass-edit12->Season2Date_1', 206, 160).
+port(167, 'param', 'expression:sub_ops_8', 'Parallel_OR.group_8_core/text-transform13<-expression:sub_ops_8', 210, 161).
+port(168, 'in', 'Season2Date_1', 'Parallel_OR.group_8_core/text-transform13<-Season2Date_1', 211, 160).
+port(169, 'out', 'Season2Date_2', 'Parallel_OR.group_8_core/text-transform13->Season2Date_2', 212, 162).
+port(170, 'param', 'expression:sub_ops_9', 'Parallel_OR.group_9_core/mass-edit14<-expression:sub_ops_9', 216, 163).
+port(171, 'in', 'Season3Date', 'Parallel_OR.group_9_core/mass-edit14<-Season3Date', 217, 164).
+port(172, 'out', 'Season3Date_1', 'Parallel_OR.group_9_core/mass-edit14->Season3Date_1', 218, 165).
+port(173, 'param', 'expression:sub_ops_10', 'Parallel_OR.group_10_core/text-transform15<-expression:sub_ops_10', 222, 166).
+port(174, 'in', 'Season3Date_1', 'Parallel_OR.group_10_core/text-transform15<-Season3Date_1', 223, 165).
+port(175, 'out', 'Season3Date_2', 'Parallel_OR.group_10_core/text-transform15->Season3Date_2', 224, 167).
+port(176, 'param', 'expression:sub_ops_11', 'Parallel_OR.group_11_core/mass-edit16<-expression:sub_ops_11', 228, 168).
+port(177, 'in', 'Organic', 'Parallel_OR.group_11_core/mass-edit16<-Organic', 229, 169).
+port(178, 'out', 'Organic_1', 'Parallel_OR.group_11_core/mass-edit16->Organic_1', 230, 170).
+port(179, 'param', 'expression:sub_ops_12', 'Parallel_OR.group_12_core/mass-edit17<-expression:sub_ops_12', 234, 171).
+port(180, 'in', 'Credit', 'Parallel_OR.group_12_core/mass-edit17<-Credit', 235, 172).
+port(181, 'out', 'Credit_1', 'Parallel_OR.group_12_core/mass-edit17->Credit_1', 236, 173).
+port(182, 'param', 'expression:sub_ops_13', 'Parallel_OR.group_13_core/mass-edit18<-expression:sub_ops_13', 240, 174).
+port(183, 'in', 'WIC', 'Parallel_OR.group_13_core/mass-edit18<-WIC', 241, 175).
+port(184, 'out', 'WIC_1', 'Parallel_OR.group_13_core/mass-edit18->WIC_1', 242, 176).
+port(185, 'param', 'expression:sub_ops_14', 'Parallel_OR.group_14_core/mass-edit19<-expression:sub_ops_14', 246, 177).
+port(186, 'in', 'WICcash', 'Parallel_OR.group_14_core/mass-edit19<-WICcash', 247, 178).
+port(187, 'out', 'WICcash_1', 'Parallel_OR.group_14_core/mass-edit19->WICcash_1', 248, 179).
+port(188, 'param', 'expression:sub_ops_15', 'Parallel_OR.group_15_core/mass-edit20<-expression:sub_ops_15', 252, 180).
+port(189, 'in', 'SFMNP', 'Parallel_OR.group_15_core/mass-edit20<-SFMNP', 253, 181).
+port(190, 'out', 'SFMNP_1', 'Parallel_OR.group_15_core/mass-edit20->SFMNP_1', 254, 182).
+port(191, 'param', 'expression:sub_ops_16', 'Parallel_OR.group_16_core/mass-edit21<-expression:sub_ops_16', 258, 183).
+port(192, 'in', 'SNAP', 'Parallel_OR.group_16_core/mass-edit21<-SNAP', 259, 184).
+port(193, 'out', 'SNAP_1', 'Parallel_OR.group_16_core/mass-edit21->SNAP_1', 260, 185).
+port(194, 'param', 'expression:sub_ops_17', 'Parallel_OR.group_17_core/mass-edit22<-expression:sub_ops_17', 264, 186).
+port(195, 'in', 'Bakedgoods', 'Parallel_OR.group_17_core/mass-edit22<-Bakedgoods', 265, 187).
+port(196, 'out', 'Bakedgoods_1', 'Parallel_OR.group_17_core/mass-edit22->Bakedgoods_1', 266, 188).
+port(197, 'param', 'expression:sub_ops_18', 'Parallel_OR.group_18_core/mass-edit23<-expression:sub_ops_18', 270, 189).
+port(198, 'in', 'Cheese', 'Parallel_OR.group_18_core/mass-edit23<-Cheese', 271, 190).
+port(199, 'out', 'Cheese_1', 'Parallel_OR.group_18_core/mass-edit23->Cheese_1', 272, 191).
+port(200, 'param', 'expression:sub_ops_19', 'Parallel_OR.group_19_core/mass-edit24<-expression:sub_ops_19', 276, 192).
+port(201, 'in', 'Crafts', 'Parallel_OR.group_19_core/mass-edit24<-Crafts', 277, 193).
+port(202, 'out', 'Crafts_1', 'Parallel_OR.group_19_core/mass-edit24->Crafts_1', 278, 194).
+port(203, 'param', 'expression:sub_ops_20', 'Parallel_OR.group_20_core/mass-edit25<-expression:sub_ops_20', 282, 195).
+port(204, 'in', 'Flowers', 'Parallel_OR.group_20_core/mass-edit25<-Flowers', 283, 196).
+port(205, 'out', 'Flowers_1', 'Parallel_OR.group_20_core/mass-edit25->Flowers_1', 284, 197).
+port(206, 'param', 'expression:sub_ops_21', 'Parallel_OR.group_21_core/mass-edit26<-expression:sub_ops_21', 288, 198).
+port(207, 'in', 'Eggs', 'Parallel_OR.group_21_core/mass-edit26<-Eggs', 289, 199).
+port(208, 'out', 'Eggs_1', 'Parallel_OR.group_21_core/mass-edit26->Eggs_1', 290, 200).
+port(209, 'param', 'expression:sub_ops_22', 'Parallel_OR.group_22_core/mass-edit27<-expression:sub_ops_22', 294, 201).
+port(210, 'in', 'Seafood', 'Parallel_OR.group_22_core/mass-edit27<-Seafood', 295, 202).
+port(211, 'out', 'Seafood_1', 'Parallel_OR.group_22_core/mass-edit27->Seafood_1', 296, 203).
+port(212, 'param', 'expression:sub_ops_23', 'Parallel_OR.group_23_core/mass-edit28<-expression:sub_ops_23', 300, 204).
+port(213, 'in', 'Herbs', 'Parallel_OR.group_23_core/mass-edit28<-Herbs', 301, 205).
+port(214, 'out', 'Herbs_1', 'Parallel_OR.group_23_core/mass-edit28->Herbs_1', 302, 206).
+port(215, 'param', 'expression:sub_ops_24', 'Parallel_OR.group_24_core/mass-edit29<-expression:sub_ops_24', 306, 207).
+port(216, 'in', 'Vegetables', 'Parallel_OR.group_24_core/mass-edit29<-Vegetables', 307, 208).
+port(217, 'out', 'Vegetables_1', 'Parallel_OR.group_24_core/mass-edit29->Vegetables_1', 308, 209).
+port(218, 'param', 'expression:sub_ops_25', 'Parallel_OR.group_25_core/mass-edit30<-expression:sub_ops_25', 312, 210).
+port(219, 'in', 'Honey', 'Parallel_OR.group_25_core/mass-edit30<-Honey', 313, 211).
+port(220, 'out', 'Honey_1', 'Parallel_OR.group_25_core/mass-edit30->Honey_1', 314, 212).
+port(221, 'param', 'expression:sub_ops_26', 'Parallel_OR.group_26_core/mass-edit31<-expression:sub_ops_26', 318, 213).
+port(222, 'in', 'Jams', 'Parallel_OR.group_26_core/mass-edit31<-Jams', 319, 214).
+port(223, 'out', 'Jams_1', 'Parallel_OR.group_26_core/mass-edit31->Jams_1', 320, 215).
+port(224, 'param', 'expression:sub_ops_27', 'Parallel_OR.group_27_core/mass-edit32<-expression:sub_ops_27', 324, 216).
+port(225, 'in', 'Maple', 'Parallel_OR.group_27_core/mass-edit32<-Maple', 325, 217).
+port(226, 'out', 'Maple_1', 'Parallel_OR.group_27_core/mass-edit32->Maple_1', 326, 218).
+port(227, 'param', 'expression:sub_ops_28', 'Parallel_OR.group_28_core/mass-edit33<-expression:sub_ops_28', 330, 219).
+port(228, 'in', 'Meat', 'Parallel_OR.group_28_core/mass-edit33<-Meat', 331, 220).
+port(229, 'out', 'Meat_1', 'Parallel_OR.group_28_core/mass-edit33->Meat_1', 332, 221).
+port(230, 'param', 'expression:sub_ops_29', 'Parallel_OR.group_29_core/mass-edit34<-expression:sub_ops_29', 336, 222).
+port(231, 'in', 'Nursery', 'Parallel_OR.group_29_core/mass-edit34<-Nursery', 337, 223).
+port(232, 'out', 'Nursery_1', 'Parallel_OR.group_29_core/mass-edit34->Nursery_1', 338, 224).
+port(233, 'param', 'expression:sub_ops_30', 'Parallel_OR.group_30_core/mass-edit35<-expression:sub_ops_30', 342, 225).
+port(234, 'in', 'Nuts', 'Parallel_OR.group_30_core/mass-edit35<-Nuts', 343, 226).
+port(235, 'out', 'Nuts_1', 'Parallel_OR.group_30_core/mass-edit35->Nuts_1', 344, 227).
+port(236, 'param', 'expression:sub_ops_31', 'Parallel_OR.group_31_core/mass-edit36<-expression:sub_ops_31', 348, 228).
+port(237, 'in', 'Plants', 'Parallel_OR.group_31_core/mass-edit36<-Plants', 349, 229).
+port(238, 'out', 'Plants_1', 'Parallel_OR.group_31_core/mass-edit36->Plants_1', 350, 230).
+port(239, 'param', 'expression:sub_ops_32', 'Parallel_OR.group_32_core/mass-edit37<-expression:sub_ops_32', 354, 231).
+port(240, 'in', 'Poultry', 'Parallel_OR.group_32_core/mass-edit37<-Poultry', 355, 232).
+port(241, 'out', 'Poultry_1', 'Parallel_OR.group_32_core/mass-edit37->Poultry_1', 356, 233).
+port(242, 'param', 'expression:sub_ops_33', 'Parallel_OR.group_33_core/mass-edit38<-expression:sub_ops_33', 360, 234).
+port(243, 'in', 'Prepared', 'Parallel_OR.group_33_core/mass-edit38<-Prepared', 361, 235).
+port(244, 'out', 'Prepared_1', 'Parallel_OR.group_33_core/mass-edit38->Prepared_1', 362, 236).
+port(245, 'param', 'expression:sub_ops_34', 'Parallel_OR.group_34_core/mass-edit39<-expression:sub_ops_34', 366, 237).
+port(246, 'in', 'Soap', 'Parallel_OR.group_34_core/mass-edit39<-Soap', 367, 238).
+port(247, 'out', 'Soap_1', 'Parallel_OR.group_34_core/mass-edit39->Soap_1', 368, 239).
+port(248, 'param', 'expression:sub_ops_35', 'Parallel_OR.group_35_core/mass-edit40<-expression:sub_ops_35', 372, 240).
+port(249, 'in', 'Trees', 'Parallel_OR.group_35_core/mass-edit40<-Trees', 373, 241).
+port(250, 'out', 'Trees_1', 'Parallel_OR.group_35_core/mass-edit40->Trees_1', 374, 242).
+port(251, 'param', 'expression:sub_ops_36', 'Parallel_OR.group_36_core/mass-edit41<-expression:sub_ops_36', 378, 243).
+port(252, 'in', 'Wine', 'Parallel_OR.group_36_core/mass-edit41<-Wine', 379, 244).
+port(253, 'out', 'Wine_1', 'Parallel_OR.group_36_core/mass-edit41->Wine_1', 380, 245).
+port(254, 'param', 'expression:sub_ops_37', 'Parallel_OR.group_37_core/mass-edit42<-expression:sub_ops_37', 384, 246).
+port(255, 'in', 'Coffee', 'Parallel_OR.group_37_core/mass-edit42<-Coffee', 385, 247).
+port(256, 'out', 'Coffee_1', 'Parallel_OR.group_37_core/mass-edit42->Coffee_1', 386, 248).
+port(257, 'param', 'expression:sub_ops_38', 'Parallel_OR.group_38_core/mass-edit43<-expression:sub_ops_38', 390, 249).
+port(258, 'in', 'Beans', 'Parallel_OR.group_38_core/mass-edit43<-Beans', 391, 250).
+port(259, 'out', 'Beans_1', 'Parallel_OR.group_38_core/mass-edit43->Beans_1', 392, 251).
+port(260, 'param', 'expression:sub_ops_39', 'Parallel_OR.group_39_core/mass-edit44<-expression:sub_ops_39', 396, 252).
+port(261, 'in', 'Fruits', 'Parallel_OR.group_39_core/mass-edit44<-Fruits', 397, 253).
+port(262, 'out', 'Fruits_1', 'Parallel_OR.group_39_core/mass-edit44->Fruits_1', 398, 254).
+port(263, 'param', 'expression:sub_ops_40', 'Parallel_OR.group_40_core/mass-edit45<-expression:sub_ops_40', 402, 255).
+port(264, 'in', 'Grains', 'Parallel_OR.group_40_core/mass-edit45<-Grains', 403, 256).
+port(265, 'out', 'Grains_1', 'Parallel_OR.group_40_core/mass-edit45->Grains_1', 404, 257).
+port(266, 'param', 'expression:sub_ops_41', 'Parallel_OR.group_41_core/mass-edit46<-expression:sub_ops_41', 408, 258).
+port(267, 'in', 'Juices', 'Parallel_OR.group_41_core/mass-edit46<-Juices', 409, 259).
+port(268, 'out', 'Juices_1', 'Parallel_OR.group_41_core/mass-edit46->Juices_1', 410, 260).
+port(269, 'param', 'expression:sub_ops_42', 'Parallel_OR.group_42_core/mass-edit47<-expression:sub_ops_42', 414, 261).
+port(270, 'in', 'Mushrooms', 'Parallel_OR.group_42_core/mass-edit47<-Mushrooms', 415, 262).
+port(271, 'out', 'Mushrooms_1', 'Parallel_OR.group_42_core/mass-edit47->Mushrooms_1', 416, 263).
+port(272, 'param', 'expression:sub_ops_43', 'Parallel_OR.group_43_core/mass-edit48<-expression:sub_ops_43', 420, 264).
+port(273, 'in', 'PetFood', 'Parallel_OR.group_43_core/mass-edit48<-PetFood', 421, 265).
+port(274, 'out', 'PetFood_1', 'Parallel_OR.group_43_core/mass-edit48->PetFood_1', 422, 266).
+port(275, 'param', 'expression:sub_ops_44', 'Parallel_OR.group_44_core/mass-edit49<-expression:sub_ops_44', 426, 267).
+port(276, 'in', 'Tofu', 'Parallel_OR.group_44_core/mass-edit49<-Tofu', 427, 268).
+port(277, 'out', 'Tofu_1', 'Parallel_OR.group_44_core/mass-edit49->Tofu_1', 428, 269).
+port(278, 'param', 'expression:sub_ops_45', 'Parallel_OR.group_45_core/mass-edit50<-expression:sub_ops_45', 432, 270).
+port(279, 'in', 'WildHarvested', 'Parallel_OR.group_45_core/mass-edit50<-WildHarvested', 433, 271).
+port(280, 'out', 'WildHarvested_1', 'Parallel_OR.group_45_core/mass-edit50->WildHarvested_1', 434, 272).
+port(281, 'param', 'expression:sub_ops_46', 'Parallel_OR.group_46_core/text-transform51<-expression:sub_ops_46', 438, 273).
+port(282, 'in', 'Website', 'Parallel_OR.group_46_core/text-transform51<-Website', 439, 274).
+port(283, 'out', 'Website_1', 'Parallel_OR.group_46_core/text-transform51->Website_1', 440, 275).
+port(284, 'param', 'expression:sub_ops_47', 'Parallel_OR.group_47_core/text-transform52<-expression:sub_ops_47', 444, 276).
+port(285, 'in', 'Facebook', 'Parallel_OR.group_47_core/text-transform52<-Facebook', 445, 277).
+port(286, 'out', 'Facebook_1', 'Parallel_OR.group_47_core/text-transform52->Facebook_1', 446, 278).
+port(287, 'param', 'expression:sub_ops_48', 'Parallel_OR.group_48_core/text-transform53<-expression:sub_ops_48', 450, 279).
+port(288, 'in', 'Twitter', 'Parallel_OR.group_48_core/text-transform53<-Twitter', 451, 280).
+port(289, 'out', 'Twitter_1', 'Parallel_OR.group_48_core/text-transform53->Twitter_1', 452, 281).
+port(290, 'param', 'expression:sub_ops_49', 'Parallel_OR.group_49_core/text-transform54<-expression:sub_ops_49', 456, 282).
+port(291, 'in', 'Youtube', 'Parallel_OR.group_49_core/text-transform54<-Youtube', 457, 283).
+port(292, 'out', 'Youtube_1', 'Parallel_OR.group_49_core/text-transform54->Youtube_1', 458, 284).
+port(293, 'param', 'expression:sub_ops_50', 'Parallel_OR.group_50_core/text-transform55<-expression:sub_ops_50', 462, 285).
+port(294, 'in', 'OtherMedia', 'Parallel_OR.group_50_core/text-transform55<-OtherMedia', 463, 286).
+port(295, 'out', 'OtherMedia_1', 'Parallel_OR.group_50_core/text-transform55->OtherMedia_1', 464, 287).
+port(296, 'param', 'expression:sub_ops_51', 'Parallel_OR.group_51_core/text-transform56<-expression:sub_ops_51', 468, 288).
+port(297, 'in', 'Street', 'Parallel_OR.group_51_core/text-transform56<-Street', 469, 289).
+port(298, 'out', 'Street_1', 'Parallel_OR.group_51_core/text-transform56->Street_1', 470, 290).
+port(299, 'param', 'expression:sub_ops_52', 'Parallel_OR.group_52_core/text-transform57<-expression:sub_ops_52', 474, 291).
+port(300, 'in', 'City', 'Parallel_OR.group_52_core/text-transform57<-City', 475, 292).
+port(301, 'out', 'City_1', 'Parallel_OR.group_52_core/text-transform57->City_1', 476, 293).
+port(302, 'param', 'expression:sub_ops_53', 'Parallel_OR.group_53_core/text-transform58<-expression:sub_ops_53', 480, 294).
+port(303, 'in', 'State', 'Parallel_OR.group_53_core/text-transform58<-State', 481, 295).
+port(304, 'out', 'State_1', 'Parallel_OR.group_53_core/text-transform58->State_1', 482, 296).
+port(305, 'param', 'expression:sub_ops_54', 'Parallel_OR.group_54_core/text-transform59<-expression:sub_ops_54', 486, 297).
+port(306, 'in', 'Zip', 'Parallel_OR.group_54_core/text-transform59<-Zip', 487, 298).
+port(307, 'out', 'Zip_1', 'Parallel_OR.group_54_core/text-transform59->Zip_1', 488, 299).
+port(308, 'param', 'expression:sub_ops_55', 'Parallel_OR.group_55_core/text-transform60<-expression:sub_ops_55', 492, 300).
+port(309, 'in', 'Season1Time', 'Parallel_OR.group_55_core/text-transform60<-Season1Time', 493, 301).
+port(310, 'out', 'Season1Time_1', 'Parallel_OR.group_55_core/text-transform60->Season1Time_1', 494, 302).
+port(311, 'param', 'expression:sub_ops_56', 'Parallel_OR.group_56_core/text-transform61<-expression:sub_ops_56', 498, 303).
+port(312, 'in', 'Season2Time', 'Parallel_OR.group_56_core/text-transform61<-Season2Time', 499, 304).
+port(313, 'out', 'Season2Time_1', 'Parallel_OR.group_56_core/text-transform61->Season2Time_1', 500, 305).
+port(314, 'param', 'expression:sub_ops_57', 'Parallel_OR.group_57_core/text-transform62<-expression:sub_ops_57', 504, 306).
+port(315, 'in', 'Season4Date', 'Parallel_OR.group_57_core/text-transform62<-Season4Date', 505, 307).
+port(316, 'out', 'Season4Date_1', 'Parallel_OR.group_57_core/text-transform62->Season4Date_1', 506, 308).
+port(317, 'param', 'expression:sub_ops_58', 'Parallel_OR.group_58_core/text-transform63<-expression:sub_ops_58', 510, 309).
+port(318, 'in', 'Location', 'Parallel_OR.group_58_core/text-transform63<-Location', 511, 310).
+port(319, 'out', 'Location_1', 'Parallel_OR.group_58_core/text-transform63->Location_1', 512, 311).
+port(320, 'in', 'MarketName_3', 'Parallel_OR.CombineDataCleaningChanges<-MarketName_3', 515, 134).
+port(321, 'in', 'FMID_1', 'Parallel_OR.CombineDataCleaningChanges<-FMID_1', 516, 137).
+port(322, 'in', 'updateTime_1', 'Parallel_OR.CombineDataCleaningChanges<-updateTime_1', 517, 140).
+port(323, 'in', 'Latitude_1', 'Parallel_OR.CombineDataCleaningChanges<-Latitude_1', 518, 142).
+port(324, 'in', 'Longitude_1', 'Parallel_OR.CombineDataCleaningChanges<-Longitude_1', 519, 144).
+port(325, 'in', 'County_2', 'Parallel_OR.CombineDataCleaningChanges<-County_2', 520, 149).
+port(326, 'in', 'city_1', 'Parallel_OR.CombineDataCleaningChanges<-city_1', 521, 152).
+port(327, 'in', 'Season1Date_2', 'Parallel_OR.CombineDataCleaningChanges<-Season1Date_2', 522, 157).
+port(328, 'in', 'Season2Date_2', 'Parallel_OR.CombineDataCleaningChanges<-Season2Date_2', 523, 162).
+port(329, 'in', 'Season3Date_2', 'Parallel_OR.CombineDataCleaningChanges<-Season3Date_2', 524, 167).
+port(330, 'in', 'Organic_1', 'Parallel_OR.CombineDataCleaningChanges<-Organic_1', 525, 170).
+port(331, 'in', 'Credit_1', 'Parallel_OR.CombineDataCleaningChanges<-Credit_1', 526, 173).
+port(332, 'in', 'WIC_1', 'Parallel_OR.CombineDataCleaningChanges<-WIC_1', 527, 176).
+port(333, 'in', 'WICcash_1', 'Parallel_OR.CombineDataCleaningChanges<-WICcash_1', 528, 179).
+port(334, 'in', 'SFMNP_1', 'Parallel_OR.CombineDataCleaningChanges<-SFMNP_1', 529, 182).
+port(335, 'in', 'SNAP_1', 'Parallel_OR.CombineDataCleaningChanges<-SNAP_1', 530, 185).
+port(336, 'in', 'Bakedgoods_1', 'Parallel_OR.CombineDataCleaningChanges<-Bakedgoods_1', 531, 188).
+port(337, 'in', 'Cheese_1', 'Parallel_OR.CombineDataCleaningChanges<-Cheese_1', 532, 191).
+port(338, 'in', 'Crafts_1', 'Parallel_OR.CombineDataCleaningChanges<-Crafts_1', 533, 194).
+port(339, 'in', 'Flowers_1', 'Parallel_OR.CombineDataCleaningChanges<-Flowers_1', 534, 197).
+port(340, 'in', 'Eggs_1', 'Parallel_OR.CombineDataCleaningChanges<-Eggs_1', 535, 200).
+port(341, 'in', 'Seafood_1', 'Parallel_OR.CombineDataCleaningChanges<-Seafood_1', 536, 203).
+port(342, 'in', 'Herbs_1', 'Parallel_OR.CombineDataCleaningChanges<-Herbs_1', 537, 206).
+port(343, 'in', 'Vegetables_1', 'Parallel_OR.CombineDataCleaningChanges<-Vegetables_1', 538, 209).
+port(344, 'in', 'Honey_1', 'Parallel_OR.CombineDataCleaningChanges<-Honey_1', 539, 212).
+port(345, 'in', 'Jams_1', 'Parallel_OR.CombineDataCleaningChanges<-Jams_1', 540, 215).
+port(346, 'in', 'Maple_1', 'Parallel_OR.CombineDataCleaningChanges<-Maple_1', 541, 218).
+port(347, 'in', 'Meat_1', 'Parallel_OR.CombineDataCleaningChanges<-Meat_1', 542, 221).
+port(348, 'in', 'Nursery_1', 'Parallel_OR.CombineDataCleaningChanges<-Nursery_1', 543, 224).
+port(349, 'in', 'Nuts_1', 'Parallel_OR.CombineDataCleaningChanges<-Nuts_1', 544, 227).
+port(350, 'in', 'Plants_1', 'Parallel_OR.CombineDataCleaningChanges<-Plants_1', 545, 230).
+port(351, 'in', 'Poultry_1', 'Parallel_OR.CombineDataCleaningChanges<-Poultry_1', 546, 233).
+port(352, 'in', 'Prepared_1', 'Parallel_OR.CombineDataCleaningChanges<-Prepared_1', 547, 236).
+port(353, 'in', 'Soap_1', 'Parallel_OR.CombineDataCleaningChanges<-Soap_1', 548, 239).
+port(354, 'in', 'Trees_1', 'Parallel_OR.CombineDataCleaningChanges<-Trees_1', 549, 242).
+port(355, 'in', 'Wine_1', 'Parallel_OR.CombineDataCleaningChanges<-Wine_1', 550, 245).
+port(356, 'in', 'Coffee_1', 'Parallel_OR.CombineDataCleaningChanges<-Coffee_1', 551, 248).
+port(357, 'in', 'Beans_1', 'Parallel_OR.CombineDataCleaningChanges<-Beans_1', 552, 251).
+port(358, 'in', 'Fruits_1', 'Parallel_OR.CombineDataCleaningChanges<-Fruits_1', 553, 254).
+port(359, 'in', 'Grains_1', 'Parallel_OR.CombineDataCleaningChanges<-Grains_1', 554, 257).
+port(360, 'in', 'Juices_1', 'Parallel_OR.CombineDataCleaningChanges<-Juices_1', 555, 260).
+port(361, 'in', 'Mushrooms_1', 'Parallel_OR.CombineDataCleaningChanges<-Mushrooms_1', 556, 263).
+port(362, 'in', 'PetFood_1', 'Parallel_OR.CombineDataCleaningChanges<-PetFood_1', 557, 266).
+port(363, 'in', 'Tofu_1', 'Parallel_OR.CombineDataCleaningChanges<-Tofu_1', 558, 269).
+port(364, 'in', 'WildHarvested_1', 'Parallel_OR.CombineDataCleaningChanges<-WildHarvested_1', 559, 272).
+port(365, 'in', 'Website_1', 'Parallel_OR.CombineDataCleaningChanges<-Website_1', 560, 275).
+port(366, 'in', 'Facebook_1', 'Parallel_OR.CombineDataCleaningChanges<-Facebook_1', 561, 278).
+port(367, 'in', 'Twitter_1', 'Parallel_OR.CombineDataCleaningChanges<-Twitter_1', 562, 281).
+port(368, 'in', 'Youtube_1', 'Parallel_OR.CombineDataCleaningChanges<-Youtube_1', 563, 284).
+port(369, 'in', 'OtherMedia_1', 'Parallel_OR.CombineDataCleaningChanges<-OtherMedia_1', 564, 287).
+port(370, 'in', 'Street_1', 'Parallel_OR.CombineDataCleaningChanges<-Street_1', 565, 290).
+port(371, 'in', 'City_1', 'Parallel_OR.CombineDataCleaningChanges<-City_1', 566, 293).
+port(372, 'in', 'State_1', 'Parallel_OR.CombineDataCleaningChanges<-State_1', 567, 296).
+port(373, 'in', 'Zip_1', 'Parallel_OR.CombineDataCleaningChanges<-Zip_1', 568, 299).
+port(374, 'in', 'Season1Time_1', 'Parallel_OR.CombineDataCleaningChanges<-Season1Time_1', 569, 302).
+port(375, 'in', 'Season2Time_1', 'Parallel_OR.CombineDataCleaningChanges<-Season2Time_1', 570, 305).
+port(376, 'in', 'Season4Date_1', 'Parallel_OR.CombineDataCleaningChanges<-Season4Date_1', 571, 308).
+port(377, 'in', 'Location_1', 'Parallel_OR.CombineDataCleaningChanges<-Location_1', 572, 311).
+port(378, 'out', 'CleanData', 'Parallel_OR.CombineDataCleaningChanges->CleanData', 573, 312).
+
+% FACT: port_alias(port_id, alias).
+
+% FACT: port_uri_template(port_id, uri).
+
+% FACT: has_in_port(block_id, port_id).
+has_in_port(1, 1).
+has_in_port(1, 2).
+has_in_port(1, 3).
+has_in_port(1, 4).
+has_in_port(1, 5).
+has_in_port(1, 6).
+has_in_port(1, 7).
+has_in_port(1, 8).
+has_in_port(1, 9).
+has_in_port(1, 10).
+has_in_port(1, 11).
+has_in_port(1, 12).
+has_in_port(1, 13).
+has_in_port(1, 14).
+has_in_port(1, 15).
+has_in_port(1, 16).
+has_in_port(1, 17).
+has_in_port(1, 18).
+has_in_port(1, 19).
+has_in_port(1, 20).
+has_in_port(1, 21).
+has_in_port(1, 22).
+has_in_port(1, 23).
+has_in_port(1, 24).
+has_in_port(1, 25).
+has_in_port(1, 26).
+has_in_port(1, 27).
+has_in_port(1, 28).
+has_in_port(1, 29).
+has_in_port(1, 30).
+has_in_port(1, 31).
+has_in_port(1, 32).
+has_in_port(1, 33).
+has_in_port(1, 34).
+has_in_port(1, 35).
+has_in_port(1, 36).
+has_in_port(1, 37).
+has_in_port(1, 38).
+has_in_port(1, 39).
+has_in_port(1, 40).
+has_in_port(1, 41).
+has_in_port(1, 42).
+has_in_port(1, 43).
+has_in_port(1, 44).
+has_in_port(1, 45).
+has_in_port(1, 46).
+has_in_port(1, 47).
+has_in_port(1, 48).
+has_in_port(1, 49).
+has_in_port(1, 50).
+has_in_port(1, 51).
+has_in_port(1, 52).
+has_in_port(1, 53).
+has_in_port(1, 54).
+has_in_port(1, 55).
+has_in_port(1, 56).
+has_in_port(1, 57).
+has_in_port(1, 58).
+has_in_port(1, 59).
+has_in_port(1, 60).
+has_in_port(1, 61).
+has_in_port(1, 62).
+has_in_port(1, 63).
+has_in_port(1, 64).
+has_in_port(1, 65).
+has_in_port(1, 66).
+has_in_port(1, 67).
+has_in_port(1, 68).
+has_in_port(1, 69).
+has_in_port(1, 70).
+has_in_port(1, 71).
+has_in_port(1, 72).
+has_in_port(1, 73).
+has_in_port(1, 74).
+has_in_port(1, 75).
+has_in_port(1, 76).
+has_in_port(1, 77).
+has_in_port(1, 78).
+has_in_port(1, 79).
+has_in_port(1, 80).
+has_in_port(1, 81).
+has_in_port(1, 82).
+has_in_port(1, 83).
+has_in_port(1, 84).
+has_in_port(1, 85).
+has_in_port(1, 86).
+has_in_port(1, 87).
+has_in_port(1, 88).
+has_in_port(1, 89).
+has_in_port(1, 90).
+has_in_port(1, 91).
+has_in_port(1, 92).
+has_in_port(1, 93).
+has_in_port(1, 94).
+has_in_port(1, 95).
+has_in_port(1, 96).
+has_in_port(1, 97).
+has_in_port(1, 98).
+has_in_port(1, 99).
+has_in_port(1, 100).
+has_in_port(1, 101).
+has_in_port(1, 102).
+has_in_port(1, 103).
+has_in_port(1, 104).
+has_in_port(1, 105).
+has_in_port(1, 106).
+has_in_port(1, 107).
+has_in_port(1, 108).
+has_in_port(1, 109).
+has_in_port(1, 110).
+has_in_port(1, 111).
+has_in_port(1, 112).
+has_in_port(1, 113).
+has_in_port(1, 114).
+has_in_port(1, 115).
+has_in_port(1, 116).
+has_in_port(1, 117).
+has_in_port(1, 118).
+has_in_port(1, 119).
+has_in_port(1, 120).
+has_in_port(1, 121).
+has_in_port(1, 122).
+has_in_port(1, 123).
+has_in_port(1, 124).
+has_in_port(1, 125).
+has_in_port(1, 126).
+has_in_port(2, 128).
+has_in_port(2, 129).
+has_in_port(3, 131).
+has_in_port(3, 132).
+has_in_port(4, 134).
+has_in_port(4, 135).
+has_in_port(5, 137).
+has_in_port(5, 138).
+has_in_port(6, 140).
+has_in_port(6, 141).
+has_in_port(7, 143).
+has_in_port(7, 144).
+has_in_port(8, 146).
+has_in_port(8, 147).
+has_in_port(9, 149).
+has_in_port(9, 150).
+has_in_port(10, 152).
+has_in_port(10, 153).
+has_in_port(11, 155).
+has_in_port(11, 156).
+has_in_port(12, 158).
+has_in_port(12, 159).
+has_in_port(13, 161).
+has_in_port(13, 162).
+has_in_port(14, 164).
+has_in_port(14, 165).
+has_in_port(15, 167).
+has_in_port(15, 168).
+has_in_port(16, 170).
+has_in_port(16, 171).
+has_in_port(17, 173).
+has_in_port(17, 174).
+has_in_port(18, 176).
+has_in_port(18, 177).
+has_in_port(19, 179).
+has_in_port(19, 180).
+has_in_port(20, 182).
+has_in_port(20, 183).
+has_in_port(21, 185).
+has_in_port(21, 186).
+has_in_port(22, 188).
+has_in_port(22, 189).
+has_in_port(23, 191).
+has_in_port(23, 192).
+has_in_port(24, 194).
+has_in_port(24, 195).
+has_in_port(25, 197).
+has_in_port(25, 198).
+has_in_port(26, 200).
+has_in_port(26, 201).
+has_in_port(27, 203).
+has_in_port(27, 204).
+has_in_port(28, 206).
+has_in_port(28, 207).
+has_in_port(29, 209).
+has_in_port(29, 210).
+has_in_port(30, 212).
+has_in_port(30, 213).
+has_in_port(31, 215).
+has_in_port(31, 216).
+has_in_port(32, 218).
+has_in_port(32, 219).
+has_in_port(33, 221).
+has_in_port(33, 222).
+has_in_port(34, 224).
+has_in_port(34, 225).
+has_in_port(35, 227).
+has_in_port(35, 228).
+has_in_port(36, 230).
+has_in_port(36, 231).
+has_in_port(37, 233).
+has_in_port(37, 234).
+has_in_port(38, 236).
+has_in_port(38, 237).
+has_in_port(39, 239).
+has_in_port(39, 240).
+has_in_port(40, 242).
+has_in_port(40, 243).
+has_in_port(41, 245).
+has_in_port(41, 246).
+has_in_port(42, 248).
+has_in_port(42, 249).
+has_in_port(43, 251).
+has_in_port(43, 252).
+has_in_port(44, 254).
+has_in_port(44, 255).
+has_in_port(45, 257).
+has_in_port(45, 258).
+has_in_port(46, 260).
+has_in_port(46, 261).
+has_in_port(47, 263).
+has_in_port(47, 264).
+has_in_port(48, 266).
+has_in_port(48, 267).
+has_in_port(49, 269).
+has_in_port(49, 270).
+has_in_port(50, 272).
+has_in_port(50, 273).
+has_in_port(51, 275).
+has_in_port(51, 276).
+has_in_port(52, 278).
+has_in_port(52, 279).
+has_in_port(53, 281).
+has_in_port(53, 282).
+has_in_port(54, 284).
+has_in_port(54, 285).
+has_in_port(55, 287).
+has_in_port(55, 288).
+has_in_port(56, 290).
+has_in_port(56, 291).
+has_in_port(57, 293).
+has_in_port(57, 294).
+has_in_port(58, 296).
+has_in_port(58, 297).
+has_in_port(59, 299).
+has_in_port(59, 300).
+has_in_port(60, 302).
+has_in_port(60, 303).
+has_in_port(61, 305).
+has_in_port(61, 306).
+has_in_port(62, 308).
+has_in_port(62, 309).
+has_in_port(63, 311).
+has_in_port(63, 312).
+has_in_port(64, 314).
+has_in_port(64, 315).
+has_in_port(65, 317).
+has_in_port(65, 318).
+has_in_port(66, 320).
+has_in_port(66, 321).
+has_in_port(66, 322).
+has_in_port(66, 323).
+has_in_port(66, 324).
+has_in_port(66, 325).
+has_in_port(66, 326).
+has_in_port(66, 327).
+has_in_port(66, 328).
+has_in_port(66, 329).
+has_in_port(66, 330).
+has_in_port(66, 331).
+has_in_port(66, 332).
+has_in_port(66, 333).
+has_in_port(66, 334).
+has_in_port(66, 335).
+has_in_port(66, 336).
+has_in_port(66, 337).
+has_in_port(66, 338).
+has_in_port(66, 339).
+has_in_port(66, 340).
+has_in_port(66, 341).
+has_in_port(66, 342).
+has_in_port(66, 343).
+has_in_port(66, 344).
+has_in_port(66, 345).
+has_in_port(66, 346).
+has_in_port(66, 347).
+has_in_port(66, 348).
+has_in_port(66, 349).
+has_in_port(66, 350).
+has_in_port(66, 351).
+has_in_port(66, 352).
+has_in_port(66, 353).
+has_in_port(66, 354).
+has_in_port(66, 355).
+has_in_port(66, 356).
+has_in_port(66, 357).
+has_in_port(66, 358).
+has_in_port(66, 359).
+has_in_port(66, 360).
+has_in_port(66, 361).
+has_in_port(66, 362).
+has_in_port(66, 363).
+has_in_port(66, 364).
+has_in_port(66, 365).
+has_in_port(66, 366).
+has_in_port(66, 367).
+has_in_port(66, 368).
+has_in_port(66, 369).
+has_in_port(66, 370).
+has_in_port(66, 371).
+has_in_port(66, 372).
+has_in_port(66, 373).
+has_in_port(66, 374).
+has_in_port(66, 375).
+has_in_port(66, 376).
+has_in_port(66, 377).
+
+% FACT: has_out_port(block_id, port_id).
+has_out_port(1, 127).
+has_out_port(2, 130).
+has_out_port(3, 133).
+has_out_port(4, 136).
+has_out_port(5, 139).
+has_out_port(6, 142).
+has_out_port(7, 145).
+has_out_port(8, 148).
+has_out_port(9, 151).
+has_out_port(10, 154).
+has_out_port(11, 157).
+has_out_port(12, 160).
+has_out_port(13, 163).
+has_out_port(14, 166).
+has_out_port(15, 169).
+has_out_port(16, 172).
+has_out_port(17, 175).
+has_out_port(18, 178).
+has_out_port(19, 181).
+has_out_port(20, 184).
+has_out_port(21, 187).
+has_out_port(22, 190).
+has_out_port(23, 193).
+has_out_port(24, 196).
+has_out_port(25, 199).
+has_out_port(26, 202).
+has_out_port(27, 205).
+has_out_port(28, 208).
+has_out_port(29, 211).
+has_out_port(30, 214).
+has_out_port(31, 217).
+has_out_port(32, 220).
+has_out_port(33, 223).
+has_out_port(34, 226).
+has_out_port(35, 229).
+has_out_port(36, 232).
+has_out_port(37, 235).
+has_out_port(38, 238).
+has_out_port(39, 241).
+has_out_port(40, 244).
+has_out_port(41, 247).
+has_out_port(42, 250).
+has_out_port(43, 253).
+has_out_port(44, 256).
+has_out_port(45, 259).
+has_out_port(46, 262).
+has_out_port(47, 265).
+has_out_port(48, 268).
+has_out_port(49, 271).
+has_out_port(50, 274).
+has_out_port(51, 277).
+has_out_port(52, 280).
+has_out_port(53, 283).
+has_out_port(54, 286).
+has_out_port(55, 289).
+has_out_port(56, 292).
+has_out_port(57, 295).
+has_out_port(58, 298).
+has_out_port(59, 301).
+has_out_port(60, 304).
+has_out_port(61, 307).
+has_out_port(62, 310).
+has_out_port(63, 313).
+has_out_port(64, 316).
+has_out_port(65, 319).
+has_out_port(66, 378).
+
+% FACT: data(data_id, data_name, qualified_data_name).
+data(1, 'expression:sub_ops_17', '[expression:sub_ops_17]').
+data(2, 'expression:sub_ops_47', '[expression:sub_ops_47]').
+data(3, 'expression:sub_ops_16', '[expression:sub_ops_16]').
+data(4, 'expression:sub_ops_55', '[expression:sub_ops_55]').
+data(5, 'expression:value.trim()', '[expression:value.trim()]').
+data(6, 'expression:sub_ops_12', '[expression:sub_ops_12]').
+data(7, 'expression:sub_ops_3', '[expression:sub_ops_3]').
+data(8, 'expression:sub_ops_4', '[expression:sub_ops_4]').
+data(9, 'expression:sub_ops_20', '[expression:sub_ops_20]').
+data(10, 'expression:sub_ops_19', '[expression:sub_ops_19]').
+data(11, 'expression:sub_ops_36', '[expression:sub_ops_36]').
+data(12, 'expression:sub_ops_26', '[expression:sub_ops_26]').
+data(13, 'expression:sub_ops_52', '[expression:sub_ops_52]').
+data(14, 'expression:value.toNumber()', '[expression:value.toNumber()]').
+data(15, 'expression:sub_ops_2', '[expression:sub_ops_2]').
+data(16, 'expression:sub_ops_34', '[expression:sub_ops_34]').
+data(17, 'expression:sub_ops_50', '[expression:sub_ops_50]').
+data(18, 'expression:sub_ops_58', '[expression:sub_ops_58]').
+data(19, 'expression:sub_ops_7', '[expression:sub_ops_7]').
+data(20, 'expression:sub_ops_15', '[expression:sub_ops_15]').
+data(21, 'expression:sub_ops_24', '[expression:sub_ops_24]').
+data(22, 'expression:sub_ops_48', '[expression:sub_ops_48]').
+data(23, 'expression:sub_ops_32', '[expression:sub_ops_32]').
+data(24, 'expression:sub_ops_14', '[expression:sub_ops_14]').
+data(25, 'expression:sub_ops_25', '[expression:sub_ops_25]').
+data(26, 'expression:sub_ops_30', '[expression:sub_ops_30]').
+data(27, 'expression:sub_ops_13', '[expression:sub_ops_13]').
+data(28, 'expression:sub_ops_41', '[expression:sub_ops_41]').
+data(29, 'expression:sub_ops_11', '[expression:sub_ops_11]').
+data(30, 'expression:sub_ops_18', '[expression:sub_ops_18]').
+data(31, 'expression:sub_ops_28', '[expression:sub_ops_28]').
+data(32, 'expression:sub_ops_49', '[expression:sub_ops_49]').
+data(33, 'expression:value', '[expression:value]').
+data(34, 'expression:sub_ops_33', '[expression:sub_ops_33]').
+data(35, 'expression:sub_ops_37', '[expression:sub_ops_37]').
+data(36, 'expression:value.toDate()', '[expression:value.toDate()]').
+data(37, 'expression:sub_ops_10', '[expression:sub_ops_10]').
+data(38, 'expression:sub_ops_35', '[expression:sub_ops_35]').
+data(39, 'expression:sub_ops_40', '[expression:sub_ops_40]').
+data(40, 'expression:sub_ops_57', '[expression:sub_ops_57]').
+data(41, 'expression:sub_ops_27', '[expression:sub_ops_27]').
+data(42, 'expression:sub_ops_43', '[expression:sub_ops_43]').
+data(43, 'expression:sub_ops_54', '[expression:sub_ops_54]').
+data(44, 'expression:sub_ops_6', '[expression:sub_ops_6]').
+data(45, 'expression:sub_ops_31', '[expression:sub_ops_31]').
+data(46, 'expression:sub_ops_46', '[expression:sub_ops_46]').
+data(47, 'expression:sub_ops_39', '[expression:sub_ops_39]').
+data(48, 'expression:sub_ops_9', '[expression:sub_ops_9]').
+data(49, 'expression:sub_ops_5', '[expression:sub_ops_5]').
+data(50, 'expression:sub_ops_22', '[expression:sub_ops_22]').
+data(51, 'expression:sub_ops_23', '[expression:sub_ops_23]').
+data(52, 'expression:sub_ops_44', '[expression:sub_ops_44]').
+data(53, 'expression:sub_ops_45', '[expression:sub_ops_45]').
+data(54, 'expression:sub_ops_1', '[expression:sub_ops_1]').
+data(55, 'expression:sub_ops_51', '[expression:sub_ops_51]').
+data(56, 'expression:sub_ops_42', '[expression:sub_ops_42]').
+data(57, 'expression:sub_ops_53', '[expression:sub_ops_53]').
+data(58, 'expression:sub_ops_8', '[expression:sub_ops_8]').
+data(59, 'expression:sub_ops_29', '[expression:sub_ops_29]').
+data(60, 'expression:sub_ops_38', '[expression:sub_ops_38]').
+data(61, 'expression:sub_ops_21', '[expression:sub_ops_21]').
+data(62, 'expression:sub_ops_56', '[expression:sub_ops_56]').
+data(63, 'Crafts', '[Crafts]').
+data(64, 'Poultry', '[Poultry]').
+data(65, 'updateTime', '[updateTime]').
+data(66, 'Tofu', '[Tofu]').
+data(67, 'Season1Date_1', '[Season1Date_1]').
+data(68, 'Longitude', '[Longitude]').
+data(69, 'SFMNP', '[SFMNP]').
+data(70, 'Facebook', '[Facebook]').
+data(71, 'Herbs', '[Herbs]').
+data(72, 'Grains', '[Grains]').
+data(73, 'County_1', '[County_1]').
+data(74, 'Season1Time', '[Season1Time]').
+data(75, 'Jams', '[Jams]').
+data(76, 'city', '[city]').
+data(77, 'Street', '[Street]').
+data(78, 'Season1Date', '[Season1Date]').
+data(79, 'WICcash', '[WICcash]').
+data(80, 'Prepared', '[Prepared]').
+data(81, 'City', '[City]').
+data(82, 'State', '[State]').
+data(83, 'Credit', '[Credit]').
+data(84, 'MarketName_1', '[MarketName_1]').
+data(85, 'MarketName', '[MarketName]').
+data(86, 'Nursery', '[Nursery]').
+data(87, 'Soap', '[Soap]').
+data(88, 'Juices', '[Juices]').
+data(89, 'Season3Date_1', '[Season3Date_1]').
+data(90, 'County', '[County]').
+data(91, 'Organic', '[Organic]').
+data(92, 'Season2Date', '[Season2Date]').
+data(93, 'Maple', '[Maple]').
+data(94, 'Bakedgoods', '[Bakedgoods]').
+data(95, 'Season3Date', '[Season3Date]').
+data(96, 'Season2Date_1', '[Season2Date_1]').
+data(97, 'Youtube', '[Youtube]').
+data(98, 'WIC', '[WIC]').
+data(99, 'Seafood', '[Seafood]').
+data(100, 'Season2Time', '[Season2Time]').
+data(101, 'Cheese', '[Cheese]').
+data(102, 'Location', '[Location]').
+data(103, 'MarketName_2', '[MarketName_2]').
+data(104, 'SNAP', '[SNAP]').
+data(105, 'Fruits', '[Fruits]').
+data(106, 'Beans', '[Beans]').
+data(107, 'WildHarvested', '[WildHarvested]').
+data(108, 'FMID', '[FMID]').
+data(109, 'Latitude', '[Latitude]').
+data(110, 'Nuts', '[Nuts]').
+data(111, 'Season4Date', '[Season4Date]').
+data(112, 'Honey', '[Honey]').
+data(113, 'Eggs', '[Eggs]').
+data(114, 'Plants', '[Plants]').
+data(115, 'Meat', '[Meat]').
+data(116, 'Wine', '[Wine]').
+data(117, 'Twitter', '[Twitter]').
+data(118, 'OtherMedia', '[OtherMedia]').
+data(119, 'Trees', '[Trees]').
+data(120, 'Mushrooms', '[Mushrooms]').
+data(121, 'Website', '[Website]').
+data(122, 'PetFood', '[PetFood]').
+data(123, 'Coffee', '[Coffee]').
+data(124, 'Flowers', '[Flowers]').
+data(125, 'Vegetables', '[Vegetables]').
+data(126, 'Zip', '[Zip]').
+data(127, 'CleanData', '[CleanData]').
+data(128, 'expression:value.trim()', 'Parallel_OR[expression:value.trim()]').
+data(129, 'MarketName', 'Parallel_OR[MarketName]').
+data(130, 'MarketName_1', 'Parallel_OR[MarketName_1]').
+data(131, 'expression:sub_ops_1', 'Parallel_OR[expression:sub_ops_1]').
+data(132, 'MarketName_2', 'Parallel_OR[MarketName_2]').
+data(133, 'expression:sub_ops_2', 'Parallel_OR[expression:sub_ops_2]').
+data(134, 'MarketName_3', 'Parallel_OR[MarketName_3]').
+data(135, 'expression:value.toNumber()', 'Parallel_OR[expression:value.toNumber()]').
+data(136, 'FMID', 'Parallel_OR[FMID]').
+data(137, 'FMID_1', 'Parallel_OR[FMID_1]').
+data(138, 'expression:value.toDate()', 'Parallel_OR[expression:value.toDate()]').
+data(139, 'updateTime', 'Parallel_OR[updateTime]').
+data(140, 'updateTime_1', 'Parallel_OR[updateTime_1]').
+data(141, 'Latitude', 'Parallel_OR[Latitude]').
+data(142, 'Latitude_1', 'Parallel_OR[Latitude_1]').
+data(143, 'Longitude', 'Parallel_OR[Longitude]').
+data(144, 'Longitude_1', 'Parallel_OR[Longitude_1]').
+data(145, 'expression:value', 'Parallel_OR[expression:value]').
+data(146, 'County', 'Parallel_OR[County]').
+data(147, 'County_1', 'Parallel_OR[County_1]').
+data(148, 'expression:sub_ops_3', 'Parallel_OR[expression:sub_ops_3]').
+data(149, 'County_2', 'Parallel_OR[County_2]').
+data(150, 'expression:sub_ops_4', 'Parallel_OR[expression:sub_ops_4]').
+data(151, 'city', 'Parallel_OR[city]').
+data(152, 'city_1', 'Parallel_OR[city_1]').
+data(153, 'expression:sub_ops_5', 'Parallel_OR[expression:sub_ops_5]').
+data(154, 'Season1Date', 'Parallel_OR[Season1Date]').
+data(155, 'Season1Date_1', 'Parallel_OR[Season1Date_1]').
+data(156, 'expression:sub_ops_6', 'Parallel_OR[expression:sub_ops_6]').
+data(157, 'Season1Date_2', 'Parallel_OR[Season1Date_2]').
+data(158, 'expression:sub_ops_7', 'Parallel_OR[expression:sub_ops_7]').
+data(159, 'Season2Date', 'Parallel_OR[Season2Date]').
+data(160, 'Season2Date_1', 'Parallel_OR[Season2Date_1]').
+data(161, 'expression:sub_ops_8', 'Parallel_OR[expression:sub_ops_8]').
+data(162, 'Season2Date_2', 'Parallel_OR[Season2Date_2]').
+data(163, 'expression:sub_ops_9', 'Parallel_OR[expression:sub_ops_9]').
+data(164, 'Season3Date', 'Parallel_OR[Season3Date]').
+data(165, 'Season3Date_1', 'Parallel_OR[Season3Date_1]').
+data(166, 'expression:sub_ops_10', 'Parallel_OR[expression:sub_ops_10]').
+data(167, 'Season3Date_2', 'Parallel_OR[Season3Date_2]').
+data(168, 'expression:sub_ops_11', 'Parallel_OR[expression:sub_ops_11]').
+data(169, 'Organic', 'Parallel_OR[Organic]').
+data(170, 'Organic_1', 'Parallel_OR[Organic_1]').
+data(171, 'expression:sub_ops_12', 'Parallel_OR[expression:sub_ops_12]').
+data(172, 'Credit', 'Parallel_OR[Credit]').
+data(173, 'Credit_1', 'Parallel_OR[Credit_1]').
+data(174, 'expression:sub_ops_13', 'Parallel_OR[expression:sub_ops_13]').
+data(175, 'WIC', 'Parallel_OR[WIC]').
+data(176, 'WIC_1', 'Parallel_OR[WIC_1]').
+data(177, 'expression:sub_ops_14', 'Parallel_OR[expression:sub_ops_14]').
+data(178, 'WICcash', 'Parallel_OR[WICcash]').
+data(179, 'WICcash_1', 'Parallel_OR[WICcash_1]').
+data(180, 'expression:sub_ops_15', 'Parallel_OR[expression:sub_ops_15]').
+data(181, 'SFMNP', 'Parallel_OR[SFMNP]').
+data(182, 'SFMNP_1', 'Parallel_OR[SFMNP_1]').
+data(183, 'expression:sub_ops_16', 'Parallel_OR[expression:sub_ops_16]').
+data(184, 'SNAP', 'Parallel_OR[SNAP]').
+data(185, 'SNAP_1', 'Parallel_OR[SNAP_1]').
+data(186, 'expression:sub_ops_17', 'Parallel_OR[expression:sub_ops_17]').
+data(187, 'Bakedgoods', 'Parallel_OR[Bakedgoods]').
+data(188, 'Bakedgoods_1', 'Parallel_OR[Bakedgoods_1]').
+data(189, 'expression:sub_ops_18', 'Parallel_OR[expression:sub_ops_18]').
+data(190, 'Cheese', 'Parallel_OR[Cheese]').
+data(191, 'Cheese_1', 'Parallel_OR[Cheese_1]').
+data(192, 'expression:sub_ops_19', 'Parallel_OR[expression:sub_ops_19]').
+data(193, 'Crafts', 'Parallel_OR[Crafts]').
+data(194, 'Crafts_1', 'Parallel_OR[Crafts_1]').
+data(195, 'expression:sub_ops_20', 'Parallel_OR[expression:sub_ops_20]').
+data(196, 'Flowers', 'Parallel_OR[Flowers]').
+data(197, 'Flowers_1', 'Parallel_OR[Flowers_1]').
+data(198, 'expression:sub_ops_21', 'Parallel_OR[expression:sub_ops_21]').
+data(199, 'Eggs', 'Parallel_OR[Eggs]').
+data(200, 'Eggs_1', 'Parallel_OR[Eggs_1]').
+data(201, 'expression:sub_ops_22', 'Parallel_OR[expression:sub_ops_22]').
+data(202, 'Seafood', 'Parallel_OR[Seafood]').
+data(203, 'Seafood_1', 'Parallel_OR[Seafood_1]').
+data(204, 'expression:sub_ops_23', 'Parallel_OR[expression:sub_ops_23]').
+data(205, 'Herbs', 'Parallel_OR[Herbs]').
+data(206, 'Herbs_1', 'Parallel_OR[Herbs_1]').
+data(207, 'expression:sub_ops_24', 'Parallel_OR[expression:sub_ops_24]').
+data(208, 'Vegetables', 'Parallel_OR[Vegetables]').
+data(209, 'Vegetables_1', 'Parallel_OR[Vegetables_1]').
+data(210, 'expression:sub_ops_25', 'Parallel_OR[expression:sub_ops_25]').
+data(211, 'Honey', 'Parallel_OR[Honey]').
+data(212, 'Honey_1', 'Parallel_OR[Honey_1]').
+data(213, 'expression:sub_ops_26', 'Parallel_OR[expression:sub_ops_26]').
+data(214, 'Jams', 'Parallel_OR[Jams]').
+data(215, 'Jams_1', 'Parallel_OR[Jams_1]').
+data(216, 'expression:sub_ops_27', 'Parallel_OR[expression:sub_ops_27]').
+data(217, 'Maple', 'Parallel_OR[Maple]').
+data(218, 'Maple_1', 'Parallel_OR[Maple_1]').
+data(219, 'expression:sub_ops_28', 'Parallel_OR[expression:sub_ops_28]').
+data(220, 'Meat', 'Parallel_OR[Meat]').
+data(221, 'Meat_1', 'Parallel_OR[Meat_1]').
+data(222, 'expression:sub_ops_29', 'Parallel_OR[expression:sub_ops_29]').
+data(223, 'Nursery', 'Parallel_OR[Nursery]').
+data(224, 'Nursery_1', 'Parallel_OR[Nursery_1]').
+data(225, 'expression:sub_ops_30', 'Parallel_OR[expression:sub_ops_30]').
+data(226, 'Nuts', 'Parallel_OR[Nuts]').
+data(227, 'Nuts_1', 'Parallel_OR[Nuts_1]').
+data(228, 'expression:sub_ops_31', 'Parallel_OR[expression:sub_ops_31]').
+data(229, 'Plants', 'Parallel_OR[Plants]').
+data(230, 'Plants_1', 'Parallel_OR[Plants_1]').
+data(231, 'expression:sub_ops_32', 'Parallel_OR[expression:sub_ops_32]').
+data(232, 'Poultry', 'Parallel_OR[Poultry]').
+data(233, 'Poultry_1', 'Parallel_OR[Poultry_1]').
+data(234, 'expression:sub_ops_33', 'Parallel_OR[expression:sub_ops_33]').
+data(235, 'Prepared', 'Parallel_OR[Prepared]').
+data(236, 'Prepared_1', 'Parallel_OR[Prepared_1]').
+data(237, 'expression:sub_ops_34', 'Parallel_OR[expression:sub_ops_34]').
+data(238, 'Soap', 'Parallel_OR[Soap]').
+data(239, 'Soap_1', 'Parallel_OR[Soap_1]').
+data(240, 'expression:sub_ops_35', 'Parallel_OR[expression:sub_ops_35]').
+data(241, 'Trees', 'Parallel_OR[Trees]').
+data(242, 'Trees_1', 'Parallel_OR[Trees_1]').
+data(243, 'expression:sub_ops_36', 'Parallel_OR[expression:sub_ops_36]').
+data(244, 'Wine', 'Parallel_OR[Wine]').
+data(245, 'Wine_1', 'Parallel_OR[Wine_1]').
+data(246, 'expression:sub_ops_37', 'Parallel_OR[expression:sub_ops_37]').
+data(247, 'Coffee', 'Parallel_OR[Coffee]').
+data(248, 'Coffee_1', 'Parallel_OR[Coffee_1]').
+data(249, 'expression:sub_ops_38', 'Parallel_OR[expression:sub_ops_38]').
+data(250, 'Beans', 'Parallel_OR[Beans]').
+data(251, 'Beans_1', 'Parallel_OR[Beans_1]').
+data(252, 'expression:sub_ops_39', 'Parallel_OR[expression:sub_ops_39]').
+data(253, 'Fruits', 'Parallel_OR[Fruits]').
+data(254, 'Fruits_1', 'Parallel_OR[Fruits_1]').
+data(255, 'expression:sub_ops_40', 'Parallel_OR[expression:sub_ops_40]').
+data(256, 'Grains', 'Parallel_OR[Grains]').
+data(257, 'Grains_1', 'Parallel_OR[Grains_1]').
+data(258, 'expression:sub_ops_41', 'Parallel_OR[expression:sub_ops_41]').
+data(259, 'Juices', 'Parallel_OR[Juices]').
+data(260, 'Juices_1', 'Parallel_OR[Juices_1]').
+data(261, 'expression:sub_ops_42', 'Parallel_OR[expression:sub_ops_42]').
+data(262, 'Mushrooms', 'Parallel_OR[Mushrooms]').
+data(263, 'Mushrooms_1', 'Parallel_OR[Mushrooms_1]').
+data(264, 'expression:sub_ops_43', 'Parallel_OR[expression:sub_ops_43]').
+data(265, 'PetFood', 'Parallel_OR[PetFood]').
+data(266, 'PetFood_1', 'Parallel_OR[PetFood_1]').
+data(267, 'expression:sub_ops_44', 'Parallel_OR[expression:sub_ops_44]').
+data(268, 'Tofu', 'Parallel_OR[Tofu]').
+data(269, 'Tofu_1', 'Parallel_OR[Tofu_1]').
+data(270, 'expression:sub_ops_45', 'Parallel_OR[expression:sub_ops_45]').
+data(271, 'WildHarvested', 'Parallel_OR[WildHarvested]').
+data(272, 'WildHarvested_1', 'Parallel_OR[WildHarvested_1]').
+data(273, 'expression:sub_ops_46', 'Parallel_OR[expression:sub_ops_46]').
+data(274, 'Website', 'Parallel_OR[Website]').
+data(275, 'Website_1', 'Parallel_OR[Website_1]').
+data(276, 'expression:sub_ops_47', 'Parallel_OR[expression:sub_ops_47]').
+data(277, 'Facebook', 'Parallel_OR[Facebook]').
+data(278, 'Facebook_1', 'Parallel_OR[Facebook_1]').
+data(279, 'expression:sub_ops_48', 'Parallel_OR[expression:sub_ops_48]').
+data(280, 'Twitter', 'Parallel_OR[Twitter]').
+data(281, 'Twitter_1', 'Parallel_OR[Twitter_1]').
+data(282, 'expression:sub_ops_49', 'Parallel_OR[expression:sub_ops_49]').
+data(283, 'Youtube', 'Parallel_OR[Youtube]').
+data(284, 'Youtube_1', 'Parallel_OR[Youtube_1]').
+data(285, 'expression:sub_ops_50', 'Parallel_OR[expression:sub_ops_50]').
+data(286, 'OtherMedia', 'Parallel_OR[OtherMedia]').
+data(287, 'OtherMedia_1', 'Parallel_OR[OtherMedia_1]').
+data(288, 'expression:sub_ops_51', 'Parallel_OR[expression:sub_ops_51]').
+data(289, 'Street', 'Parallel_OR[Street]').
+data(290, 'Street_1', 'Parallel_OR[Street_1]').
+data(291, 'expression:sub_ops_52', 'Parallel_OR[expression:sub_ops_52]').
+data(292, 'City', 'Parallel_OR[City]').
+data(293, 'City_1', 'Parallel_OR[City_1]').
+data(294, 'expression:sub_ops_53', 'Parallel_OR[expression:sub_ops_53]').
+data(295, 'State', 'Parallel_OR[State]').
+data(296, 'State_1', 'Parallel_OR[State_1]').
+data(297, 'expression:sub_ops_54', 'Parallel_OR[expression:sub_ops_54]').
+data(298, 'Zip', 'Parallel_OR[Zip]').
+data(299, 'Zip_1', 'Parallel_OR[Zip_1]').
+data(300, 'expression:sub_ops_55', 'Parallel_OR[expression:sub_ops_55]').
+data(301, 'Season1Time', 'Parallel_OR[Season1Time]').
+data(302, 'Season1Time_1', 'Parallel_OR[Season1Time_1]').
+data(303, 'expression:sub_ops_56', 'Parallel_OR[expression:sub_ops_56]').
+data(304, 'Season2Time', 'Parallel_OR[Season2Time]').
+data(305, 'Season2Time_1', 'Parallel_OR[Season2Time_1]').
+data(306, 'expression:sub_ops_57', 'Parallel_OR[expression:sub_ops_57]').
+data(307, 'Season4Date', 'Parallel_OR[Season4Date]').
+data(308, 'Season4Date_1', 'Parallel_OR[Season4Date_1]').
+data(309, 'expression:sub_ops_58', 'Parallel_OR[expression:sub_ops_58]').
+data(310, 'Location', 'Parallel_OR[Location]').
+data(311, 'Location_1', 'Parallel_OR[Location_1]').
+data(312, 'CleanData', 'Parallel_OR[CleanData]').
+
+% FACT: channel(channel_id, data_id).
+channel(1, 127).
+channel(2, 128).
+channel(3, 129).
+channel(4, 131).
+channel(5, 130).
+channel(6, 133).
+channel(7, 132).
+channel(8, 135).
+channel(9, 135).
+channel(10, 135).
+channel(11, 136).
+channel(12, 138).
+channel(13, 139).
+channel(14, 141).
+channel(15, 143).
+channel(16, 145).
+channel(17, 146).
+channel(18, 148).
+channel(19, 147).
+channel(20, 150).
+channel(21, 151).
+channel(22, 153).
+channel(23, 154).
+channel(24, 156).
+channel(25, 155).
+channel(26, 158).
+channel(27, 159).
+channel(28, 161).
+channel(29, 160).
+channel(30, 163).
+channel(31, 164).
+channel(32, 166).
+channel(33, 165).
+channel(34, 168).
+channel(35, 169).
+channel(36, 171).
+channel(37, 172).
+channel(38, 174).
+channel(39, 175).
+channel(40, 177).
+channel(41, 178).
+channel(42, 180).
+channel(43, 181).
+channel(44, 183).
+channel(45, 184).
+channel(46, 186).
+channel(47, 187).
+channel(48, 189).
+channel(49, 190).
+channel(50, 192).
+channel(51, 193).
+channel(52, 195).
+channel(53, 196).
+channel(54, 198).
+channel(55, 199).
+channel(56, 201).
+channel(57, 202).
+channel(58, 204).
+channel(59, 205).
+channel(60, 207).
+channel(61, 208).
+channel(62, 210).
+channel(63, 211).
+channel(64, 213).
+channel(65, 214).
+channel(66, 216).
+channel(67, 217).
+channel(68, 219).
+channel(69, 220).
+channel(70, 222).
+channel(71, 223).
+channel(72, 225).
+channel(73, 226).
+channel(74, 228).
+channel(75, 229).
+channel(76, 231).
+channel(77, 232).
+channel(78, 234).
+channel(79, 235).
+channel(80, 237).
+channel(81, 238).
+channel(82, 240).
+channel(83, 241).
+channel(84, 243).
+channel(85, 244).
+channel(86, 246).
+channel(87, 247).
+channel(88, 249).
+channel(89, 250).
+channel(90, 252).
+channel(91, 253).
+channel(92, 255).
+channel(93, 256).
+channel(94, 258).
+channel(95, 259).
+channel(96, 261).
+channel(97, 262).
+channel(98, 264).
+channel(99, 265).
+channel(100, 267).
+channel(101, 268).
+channel(102, 270).
+channel(103, 271).
+channel(104, 273).
+channel(105, 274).
+channel(106, 276).
+channel(107, 277).
+channel(108, 279).
+channel(109, 280).
+channel(110, 282).
+channel(111, 283).
+channel(112, 285).
+channel(113, 286).
+channel(114, 288).
+channel(115, 289).
+channel(116, 291).
+channel(117, 292).
+channel(118, 294).
+channel(119, 295).
+channel(120, 297).
+channel(121, 298).
+channel(122, 300).
+channel(123, 301).
+channel(124, 303).
+channel(125, 304).
+channel(126, 306).
+channel(127, 307).
+channel(128, 309).
+channel(129, 310).
+channel(130, 134).
+channel(131, 137).
+channel(132, 140).
+channel(133, 142).
+channel(134, 144).
+channel(135, 149).
+channel(136, 152).
+channel(137, 157).
+channel(138, 162).
+channel(139, 167).
+channel(140, 170).
+channel(141, 173).
+channel(142, 176).
+channel(143, 179).
+channel(144, 182).
+channel(145, 185).
+channel(146, 188).
+channel(147, 191).
+channel(148, 194).
+channel(149, 197).
+channel(150, 200).
+channel(151, 203).
+channel(152, 206).
+channel(153, 209).
+channel(154, 212).
+channel(155, 215).
+channel(156, 218).
+channel(157, 221).
+channel(158, 224).
+channel(159, 227).
+channel(160, 230).
+channel(161, 233).
+channel(162, 236).
+channel(163, 239).
+channel(164, 242).
+channel(165, 245).
+channel(166, 248).
+channel(167, 251).
+channel(168, 254).
+channel(169, 257).
+channel(170, 260).
+channel(171, 263).
+channel(172, 266).
+channel(173, 269).
+channel(174, 272).
+channel(175, 275).
+channel(176, 278).
+channel(177, 281).
+channel(178, 284).
+channel(179, 287).
+channel(180, 290).
+channel(181, 293).
+channel(182, 296).
+channel(183, 299).
+channel(184, 302).
+channel(185, 305).
+channel(186, 308).
+channel(187, 311).
+channel(188, 1).
+channel(189, 2).
+channel(190, 3).
+channel(191, 4).
+channel(192, 5).
+channel(193, 6).
+channel(194, 7).
+channel(195, 8).
+channel(196, 9).
+channel(197, 10).
+channel(198, 11).
+channel(199, 12).
+channel(200, 13).
+channel(201, 14).
+channel(202, 14).
+channel(203, 14).
+channel(204, 15).
+channel(205, 16).
+channel(206, 17).
+channel(207, 18).
+channel(208, 19).
+channel(209, 20).
+channel(210, 21).
+channel(211, 22).
+channel(212, 23).
+channel(213, 24).
+channel(214, 25).
+channel(215, 26).
+channel(216, 27).
+channel(217, 28).
+channel(218, 29).
+channel(219, 30).
+channel(220, 31).
+channel(221, 32).
+channel(222, 33).
+channel(223, 34).
+channel(224, 35).
+channel(225, 36).
+channel(226, 37).
+channel(227, 38).
+channel(228, 39).
+channel(229, 40).
+channel(230, 41).
+channel(231, 42).
+channel(232, 43).
+channel(233, 44).
+channel(234, 45).
+channel(235, 46).
+channel(236, 47).
+channel(237, 48).
+channel(238, 49).
+channel(239, 50).
+channel(240, 51).
+channel(241, 52).
+channel(242, 53).
+channel(243, 54).
+channel(244, 55).
+channel(245, 56).
+channel(246, 57).
+channel(247, 58).
+channel(248, 59).
+channel(249, 60).
+channel(250, 61).
+channel(251, 62).
+channel(252, 63).
+channel(253, 64).
+channel(254, 65).
+channel(255, 66).
+channel(256, 67).
+channel(257, 68).
+channel(258, 69).
+channel(259, 70).
+channel(260, 71).
+channel(261, 72).
+channel(262, 73).
+channel(263, 74).
+channel(264, 75).
+channel(265, 76).
+channel(266, 77).
+channel(267, 78).
+channel(268, 79).
+channel(269, 80).
+channel(270, 81).
+channel(271, 82).
+channel(272, 83).
+channel(273, 84).
+channel(274, 85).
+channel(275, 86).
+channel(276, 87).
+channel(277, 88).
+channel(278, 89).
+channel(279, 90).
+channel(280, 91).
+channel(281, 92).
+channel(282, 93).
+channel(283, 94).
+channel(284, 95).
+channel(285, 96).
+channel(286, 97).
+channel(287, 98).
+channel(288, 99).
+channel(289, 100).
+channel(290, 101).
+channel(291, 102).
+channel(292, 103).
+channel(293, 104).
+channel(294, 105).
+channel(295, 106).
+channel(296, 107).
+channel(297, 108).
+channel(298, 109).
+channel(299, 110).
+channel(300, 111).
+channel(301, 112).
+channel(302, 113).
+channel(303, 114).
+channel(304, 115).
+channel(305, 116).
+channel(306, 117).
+channel(307, 118).
+channel(308, 119).
+channel(309, 120).
+channel(310, 121).
+channel(311, 122).
+channel(312, 123).
+channel(313, 124).
+channel(314, 125).
+channel(315, 126).
+channel(316, 312).
+
+% FACT: port_connects_to_channel(port_id, channel_id).
+port_connects_to_channel(378, 1).
+port_connects_to_channel(128, 2).
+port_connects_to_channel(129, 3).
+port_connects_to_channel(131, 4).
+port_connects_to_channel(130, 5).
+port_connects_to_channel(132, 5).
+port_connects_to_channel(134, 6).
+port_connects_to_channel(133, 7).
+port_connects_to_channel(135, 7).
+port_connects_to_channel(137, 8).
+port_connects_to_channel(143, 9).
+port_connects_to_channel(146, 10).
+port_connects_to_channel(138, 11).
+port_connects_to_channel(140, 12).
+port_connects_to_channel(141, 13).
+port_connects_to_channel(144, 14).
+port_connects_to_channel(147, 15).
+port_connects_to_channel(149, 16).
+port_connects_to_channel(150, 17).
+port_connects_to_channel(152, 18).
+port_connects_to_channel(151, 19).
+port_connects_to_channel(153, 19).
+port_connects_to_channel(155, 20).
+port_connects_to_channel(156, 21).
+port_connects_to_channel(158, 22).
+port_connects_to_channel(159, 23).
+port_connects_to_channel(161, 24).
+port_connects_to_channel(160, 25).
+port_connects_to_channel(162, 25).
+port_connects_to_channel(164, 26).
+port_connects_to_channel(165, 27).
+port_connects_to_channel(167, 28).
+port_connects_to_channel(166, 29).
+port_connects_to_channel(168, 29).
+port_connects_to_channel(170, 30).
+port_connects_to_channel(171, 31).
+port_connects_to_channel(173, 32).
+port_connects_to_channel(172, 33).
+port_connects_to_channel(174, 33).
+port_connects_to_channel(176, 34).
+port_connects_to_channel(177, 35).
+port_connects_to_channel(179, 36).
+port_connects_to_channel(180, 37).
+port_connects_to_channel(182, 38).
+port_connects_to_channel(183, 39).
+port_connects_to_channel(185, 40).
+port_connects_to_channel(186, 41).
+port_connects_to_channel(188, 42).
+port_connects_to_channel(189, 43).
+port_connects_to_channel(191, 44).
+port_connects_to_channel(192, 45).
+port_connects_to_channel(194, 46).
+port_connects_to_channel(195, 47).
+port_connects_to_channel(197, 48).
+port_connects_to_channel(198, 49).
+port_connects_to_channel(200, 50).
+port_connects_to_channel(201, 51).
+port_connects_to_channel(203, 52).
+port_connects_to_channel(204, 53).
+port_connects_to_channel(206, 54).
+port_connects_to_channel(207, 55).
+port_connects_to_channel(209, 56).
+port_connects_to_channel(210, 57).
+port_connects_to_channel(212, 58).
+port_connects_to_channel(213, 59).
+port_connects_to_channel(215, 60).
+port_connects_to_channel(216, 61).
+port_connects_to_channel(218, 62).
+port_connects_to_channel(219, 63).
+port_connects_to_channel(221, 64).
+port_connects_to_channel(222, 65).
+port_connects_to_channel(224, 66).
+port_connects_to_channel(225, 67).
+port_connects_to_channel(227, 68).
+port_connects_to_channel(228, 69).
+port_connects_to_channel(230, 70).
+port_connects_to_channel(231, 71).
+port_connects_to_channel(233, 72).
+port_connects_to_channel(234, 73).
+port_connects_to_channel(236, 74).
+port_connects_to_channel(237, 75).
+port_connects_to_channel(239, 76).
+port_connects_to_channel(240, 77).
+port_connects_to_channel(242, 78).
+port_connects_to_channel(243, 79).
+port_connects_to_channel(245, 80).
+port_connects_to_channel(246, 81).
+port_connects_to_channel(248, 82).
+port_connects_to_channel(249, 83).
+port_connects_to_channel(251, 84).
+port_connects_to_channel(252, 85).
+port_connects_to_channel(254, 86).
+port_connects_to_channel(255, 87).
+port_connects_to_channel(257, 88).
+port_connects_to_channel(258, 89).
+port_connects_to_channel(260, 90).
+port_connects_to_channel(261, 91).
+port_connects_to_channel(263, 92).
+port_connects_to_channel(264, 93).
+port_connects_to_channel(266, 94).
+port_connects_to_channel(267, 95).
+port_connects_to_channel(269, 96).
+port_connects_to_channel(270, 97).
+port_connects_to_channel(272, 98).
+port_connects_to_channel(273, 99).
+port_connects_to_channel(275, 100).
+port_connects_to_channel(276, 101).
+port_connects_to_channel(278, 102).
+port_connects_to_channel(279, 103).
+port_connects_to_channel(281, 104).
+port_connects_to_channel(282, 105).
+port_connects_to_channel(284, 106).
+port_connects_to_channel(285, 107).
+port_connects_to_channel(287, 108).
+port_connects_to_channel(288, 109).
+port_connects_to_channel(290, 110).
+port_connects_to_channel(291, 111).
+port_connects_to_channel(293, 112).
+port_connects_to_channel(294, 113).
+port_connects_to_channel(296, 114).
+port_connects_to_channel(297, 115).
+port_connects_to_channel(299, 116).
+port_connects_to_channel(300, 117).
+port_connects_to_channel(302, 118).
+port_connects_to_channel(303, 119).
+port_connects_to_channel(305, 120).
+port_connects_to_channel(306, 121).
+port_connects_to_channel(308, 122).
+port_connects_to_channel(309, 123).
+port_connects_to_channel(311, 124).
+port_connects_to_channel(312, 125).
+port_connects_to_channel(314, 126).
+port_connects_to_channel(315, 127).
+port_connects_to_channel(317, 128).
+port_connects_to_channel(318, 129).
+port_connects_to_channel(136, 130).
+port_connects_to_channel(320, 130).
+port_connects_to_channel(139, 131).
+port_connects_to_channel(321, 131).
+port_connects_to_channel(142, 132).
+port_connects_to_channel(322, 132).
+port_connects_to_channel(145, 133).
+port_connects_to_channel(323, 133).
+port_connects_to_channel(148, 134).
+port_connects_to_channel(324, 134).
+port_connects_to_channel(154, 135).
+port_connects_to_channel(325, 135).
+port_connects_to_channel(157, 136).
+port_connects_to_channel(326, 136).
+port_connects_to_channel(163, 137).
+port_connects_to_channel(327, 137).
+port_connects_to_channel(169, 138).
+port_connects_to_channel(328, 138).
+port_connects_to_channel(175, 139).
+port_connects_to_channel(329, 139).
+port_connects_to_channel(178, 140).
+port_connects_to_channel(330, 140).
+port_connects_to_channel(181, 141).
+port_connects_to_channel(331, 141).
+port_connects_to_channel(184, 142).
+port_connects_to_channel(332, 142).
+port_connects_to_channel(187, 143).
+port_connects_to_channel(333, 143).
+port_connects_to_channel(190, 144).
+port_connects_to_channel(334, 144).
+port_connects_to_channel(193, 145).
+port_connects_to_channel(335, 145).
+port_connects_to_channel(196, 146).
+port_connects_to_channel(336, 146).
+port_connects_to_channel(199, 147).
+port_connects_to_channel(337, 147).
+port_connects_to_channel(202, 148).
+port_connects_to_channel(338, 148).
+port_connects_to_channel(205, 149).
+port_connects_to_channel(339, 149).
+port_connects_to_channel(208, 150).
+port_connects_to_channel(340, 150).
+port_connects_to_channel(211, 151).
+port_connects_to_channel(341, 151).
+port_connects_to_channel(214, 152).
+port_connects_to_channel(342, 152).
+port_connects_to_channel(217, 153).
+port_connects_to_channel(343, 153).
+port_connects_to_channel(220, 154).
+port_connects_to_channel(344, 154).
+port_connects_to_channel(223, 155).
+port_connects_to_channel(345, 155).
+port_connects_to_channel(226, 156).
+port_connects_to_channel(346, 156).
+port_connects_to_channel(229, 157).
+port_connects_to_channel(347, 157).
+port_connects_to_channel(232, 158).
+port_connects_to_channel(348, 158).
+port_connects_to_channel(235, 159).
+port_connects_to_channel(349, 159).
+port_connects_to_channel(238, 160).
+port_connects_to_channel(350, 160).
+port_connects_to_channel(241, 161).
+port_connects_to_channel(351, 161).
+port_connects_to_channel(244, 162).
+port_connects_to_channel(352, 162).
+port_connects_to_channel(247, 163).
+port_connects_to_channel(353, 163).
+port_connects_to_channel(250, 164).
+port_connects_to_channel(354, 164).
+port_connects_to_channel(253, 165).
+port_connects_to_channel(355, 165).
+port_connects_to_channel(256, 166).
+port_connects_to_channel(356, 166).
+port_connects_to_channel(259, 167).
+port_connects_to_channel(357, 167).
+port_connects_to_channel(262, 168).
+port_connects_to_channel(358, 168).
+port_connects_to_channel(265, 169).
+port_connects_to_channel(359, 169).
+port_connects_to_channel(268, 170).
+port_connects_to_channel(360, 170).
+port_connects_to_channel(271, 171).
+port_connects_to_channel(361, 171).
+port_connects_to_channel(274, 172).
+port_connects_to_channel(362, 172).
+port_connects_to_channel(277, 173).
+port_connects_to_channel(363, 173).
+port_connects_to_channel(280, 174).
+port_connects_to_channel(364, 174).
+port_connects_to_channel(283, 175).
+port_connects_to_channel(365, 175).
+port_connects_to_channel(286, 176).
+port_connects_to_channel(366, 176).
+port_connects_to_channel(289, 177).
+port_connects_to_channel(367, 177).
+port_connects_to_channel(292, 178).
+port_connects_to_channel(368, 178).
+port_connects_to_channel(295, 179).
+port_connects_to_channel(369, 179).
+port_connects_to_channel(298, 180).
+port_connects_to_channel(370, 180).
+port_connects_to_channel(301, 181).
+port_connects_to_channel(371, 181).
+port_connects_to_channel(304, 182).
+port_connects_to_channel(372, 182).
+port_connects_to_channel(307, 183).
+port_connects_to_channel(373, 183).
+port_connects_to_channel(310, 184).
+port_connects_to_channel(374, 184).
+port_connects_to_channel(313, 185).
+port_connects_to_channel(375, 185).
+port_connects_to_channel(316, 186).
+port_connects_to_channel(376, 186).
+port_connects_to_channel(319, 187).
+port_connects_to_channel(377, 187).
+port_connects_to_channel(194, 188).
+port_connects_to_channel(284, 189).
+port_connects_to_channel(191, 190).
+port_connects_to_channel(308, 191).
+port_connects_to_channel(128, 192).
+port_connects_to_channel(179, 193).
+port_connects_to_channel(152, 194).
+port_connects_to_channel(155, 195).
+port_connects_to_channel(203, 196).
+port_connects_to_channel(200, 197).
+port_connects_to_channel(251, 198).
+port_connects_to_channel(221, 199).
+port_connects_to_channel(299, 200).
+port_connects_to_channel(137, 201).
+port_connects_to_channel(143, 202).
+port_connects_to_channel(146, 203).
+port_connects_to_channel(134, 204).
+port_connects_to_channel(245, 205).
+port_connects_to_channel(293, 206).
+port_connects_to_channel(317, 207).
+port_connects_to_channel(164, 208).
+port_connects_to_channel(188, 209).
+port_connects_to_channel(215, 210).
+port_connects_to_channel(287, 211).
+port_connects_to_channel(239, 212).
+port_connects_to_channel(185, 213).
+port_connects_to_channel(218, 214).
+port_connects_to_channel(233, 215).
+port_connects_to_channel(182, 216).
+port_connects_to_channel(266, 217).
+port_connects_to_channel(176, 218).
+port_connects_to_channel(197, 219).
+port_connects_to_channel(227, 220).
+port_connects_to_channel(290, 221).
+port_connects_to_channel(149, 222).
+port_connects_to_channel(242, 223).
+port_connects_to_channel(254, 224).
+port_connects_to_channel(140, 225).
+port_connects_to_channel(173, 226).
+port_connects_to_channel(248, 227).
+port_connects_to_channel(263, 228).
+port_connects_to_channel(314, 229).
+port_connects_to_channel(224, 230).
+port_connects_to_channel(272, 231).
+port_connects_to_channel(305, 232).
+port_connects_to_channel(161, 233).
+port_connects_to_channel(236, 234).
+port_connects_to_channel(281, 235).
+port_connects_to_channel(260, 236).
+port_connects_to_channel(170, 237).
+port_connects_to_channel(158, 238).
+port_connects_to_channel(209, 239).
+port_connects_to_channel(212, 240).
+port_connects_to_channel(275, 241).
+port_connects_to_channel(278, 242).
+port_connects_to_channel(131, 243).
+port_connects_to_channel(296, 244).
+port_connects_to_channel(269, 245).
+port_connects_to_channel(302, 246).
+port_connects_to_channel(167, 247).
+port_connects_to_channel(230, 248).
+port_connects_to_channel(257, 249).
+port_connects_to_channel(206, 250).
+port_connects_to_channel(311, 251).
+port_connects_to_channel(201, 252).
+port_connects_to_channel(240, 253).
+port_connects_to_channel(141, 254).
+port_connects_to_channel(276, 255).
+port_connects_to_channel(162, 256).
+port_connects_to_channel(147, 257).
+port_connects_to_channel(189, 258).
+port_connects_to_channel(285, 259).
+port_connects_to_channel(213, 260).
+port_connects_to_channel(264, 261).
+port_connects_to_channel(153, 262).
+port_connects_to_channel(309, 263).
+port_connects_to_channel(222, 264).
+port_connects_to_channel(156, 265).
+port_connects_to_channel(297, 266).
+port_connects_to_channel(159, 267).
+port_connects_to_channel(186, 268).
+port_connects_to_channel(243, 269).
+port_connects_to_channel(300, 270).
+port_connects_to_channel(303, 271).
+port_connects_to_channel(180, 272).
+port_connects_to_channel(132, 273).
+port_connects_to_channel(129, 274).
+port_connects_to_channel(231, 275).
+port_connects_to_channel(246, 276).
+port_connects_to_channel(267, 277).
+port_connects_to_channel(174, 278).
+port_connects_to_channel(150, 279).
+port_connects_to_channel(177, 280).
+port_connects_to_channel(165, 281).
+port_connects_to_channel(225, 282).
+port_connects_to_channel(195, 283).
+port_connects_to_channel(171, 284).
+port_connects_to_channel(168, 285).
+port_connects_to_channel(291, 286).
+port_connects_to_channel(183, 287).
+port_connects_to_channel(210, 288).
+port_connects_to_channel(312, 289).
+port_connects_to_channel(198, 290).
+port_connects_to_channel(318, 291).
+port_connects_to_channel(135, 292).
+port_connects_to_channel(192, 293).
+port_connects_to_channel(261, 294).
+port_connects_to_channel(258, 295).
+port_connects_to_channel(279, 296).
+port_connects_to_channel(138, 297).
+port_connects_to_channel(144, 298).
+port_connects_to_channel(234, 299).
+port_connects_to_channel(315, 300).
+port_connects_to_channel(219, 301).
+port_connects_to_channel(207, 302).
+port_connects_to_channel(237, 303).
+port_connects_to_channel(228, 304).
+port_connects_to_channel(252, 305).
+port_connects_to_channel(288, 306).
+port_connects_to_channel(294, 307).
+port_connects_to_channel(249, 308).
+port_connects_to_channel(270, 309).
+port_connects_to_channel(282, 310).
+port_connects_to_channel(273, 311).
+port_connects_to_channel(255, 312).
+port_connects_to_channel(204, 313).
+port_connects_to_channel(216, 314).
+port_connects_to_channel(306, 315).
+port_connects_to_channel(378, 316).
+
+% FACT: inflow_connects_to_channel(port_id, channel_id).
+inflow_connects_to_channel(5, 2).
+inflow_connects_to_channel(85, 3).
+inflow_connects_to_channel(54, 4).
+inflow_connects_to_channel(15, 6).
+inflow_connects_to_channel(14, 8).
+inflow_connects_to_channel(14, 9).
+inflow_connects_to_channel(14, 10).
+inflow_connects_to_channel(108, 11).
+inflow_connects_to_channel(36, 12).
+inflow_connects_to_channel(65, 13).
+inflow_connects_to_channel(109, 14).
+inflow_connects_to_channel(68, 15).
+inflow_connects_to_channel(33, 16).
+inflow_connects_to_channel(90, 17).
+inflow_connects_to_channel(7, 18).
+inflow_connects_to_channel(8, 20).
+inflow_connects_to_channel(76, 21).
+inflow_connects_to_channel(49, 22).
+inflow_connects_to_channel(78, 23).
+inflow_connects_to_channel(44, 24).
+inflow_connects_to_channel(19, 26).
+inflow_connects_to_channel(92, 27).
+inflow_connects_to_channel(58, 28).
+inflow_connects_to_channel(48, 30).
+inflow_connects_to_channel(95, 31).
+inflow_connects_to_channel(37, 32).
+inflow_connects_to_channel(29, 34).
+inflow_connects_to_channel(91, 35).
+inflow_connects_to_channel(6, 36).
+inflow_connects_to_channel(83, 37).
+inflow_connects_to_channel(27, 38).
+inflow_connects_to_channel(98, 39).
+inflow_connects_to_channel(24, 40).
+inflow_connects_to_channel(79, 41).
+inflow_connects_to_channel(20, 42).
+inflow_connects_to_channel(69, 43).
+inflow_connects_to_channel(3, 44).
+inflow_connects_to_channel(104, 45).
+inflow_connects_to_channel(1, 46).
+inflow_connects_to_channel(94, 47).
+inflow_connects_to_channel(30, 48).
+inflow_connects_to_channel(101, 49).
+inflow_connects_to_channel(10, 50).
+inflow_connects_to_channel(63, 51).
+inflow_connects_to_channel(9, 52).
+inflow_connects_to_channel(124, 53).
+inflow_connects_to_channel(61, 54).
+inflow_connects_to_channel(113, 55).
+inflow_connects_to_channel(50, 56).
+inflow_connects_to_channel(99, 57).
+inflow_connects_to_channel(51, 58).
+inflow_connects_to_channel(71, 59).
+inflow_connects_to_channel(21, 60).
+inflow_connects_to_channel(125, 61).
+inflow_connects_to_channel(25, 62).
+inflow_connects_to_channel(112, 63).
+inflow_connects_to_channel(12, 64).
+inflow_connects_to_channel(75, 65).
+inflow_connects_to_channel(41, 66).
+inflow_connects_to_channel(93, 67).
+inflow_connects_to_channel(31, 68).
+inflow_connects_to_channel(115, 69).
+inflow_connects_to_channel(59, 70).
+inflow_connects_to_channel(86, 71).
+inflow_connects_to_channel(26, 72).
+inflow_connects_to_channel(110, 73).
+inflow_connects_to_channel(45, 74).
+inflow_connects_to_channel(114, 75).
+inflow_connects_to_channel(23, 76).
+inflow_connects_to_channel(64, 77).
+inflow_connects_to_channel(34, 78).
+inflow_connects_to_channel(80, 79).
+inflow_connects_to_channel(16, 80).
+inflow_connects_to_channel(87, 81).
+inflow_connects_to_channel(38, 82).
+inflow_connects_to_channel(119, 83).
+inflow_connects_to_channel(11, 84).
+inflow_connects_to_channel(116, 85).
+inflow_connects_to_channel(35, 86).
+inflow_connects_to_channel(123, 87).
+inflow_connects_to_channel(60, 88).
+inflow_connects_to_channel(106, 89).
+inflow_connects_to_channel(47, 90).
+inflow_connects_to_channel(105, 91).
+inflow_connects_to_channel(39, 92).
+inflow_connects_to_channel(72, 93).
+inflow_connects_to_channel(28, 94).
+inflow_connects_to_channel(88, 95).
+inflow_connects_to_channel(56, 96).
+inflow_connects_to_channel(120, 97).
+inflow_connects_to_channel(42, 98).
+inflow_connects_to_channel(122, 99).
+inflow_connects_to_channel(52, 100).
+inflow_connects_to_channel(66, 101).
+inflow_connects_to_channel(53, 102).
+inflow_connects_to_channel(107, 103).
+inflow_connects_to_channel(46, 104).
+inflow_connects_to_channel(121, 105).
+inflow_connects_to_channel(2, 106).
+inflow_connects_to_channel(70, 107).
+inflow_connects_to_channel(22, 108).
+inflow_connects_to_channel(117, 109).
+inflow_connects_to_channel(32, 110).
+inflow_connects_to_channel(97, 111).
+inflow_connects_to_channel(17, 112).
+inflow_connects_to_channel(118, 113).
+inflow_connects_to_channel(55, 114).
+inflow_connects_to_channel(77, 115).
+inflow_connects_to_channel(13, 116).
+inflow_connects_to_channel(81, 117).
+inflow_connects_to_channel(57, 118).
+inflow_connects_to_channel(82, 119).
+inflow_connects_to_channel(43, 120).
+inflow_connects_to_channel(126, 121).
+inflow_connects_to_channel(4, 122).
+inflow_connects_to_channel(74, 123).
+inflow_connects_to_channel(62, 124).
+inflow_connects_to_channel(100, 125).
+inflow_connects_to_channel(40, 126).
+inflow_connects_to_channel(111, 127).
+inflow_connects_to_channel(18, 128).
+inflow_connects_to_channel(102, 129).
+inflow_connects_to_channel(1, 188).
+inflow_connects_to_channel(2, 189).
+inflow_connects_to_channel(3, 190).
+inflow_connects_to_channel(4, 191).
+inflow_connects_to_channel(5, 192).
+inflow_connects_to_channel(6, 193).
+inflow_connects_to_channel(7, 194).
+inflow_connects_to_channel(8, 195).
+inflow_connects_to_channel(9, 196).
+inflow_connects_to_channel(10, 197).
+inflow_connects_to_channel(11, 198).
+inflow_connects_to_channel(12, 199).
+inflow_connects_to_channel(13, 200).
+inflow_connects_to_channel(14, 201).
+inflow_connects_to_channel(14, 202).
+inflow_connects_to_channel(14, 203).
+inflow_connects_to_channel(15, 204).
+inflow_connects_to_channel(16, 205).
+inflow_connects_to_channel(17, 206).
+inflow_connects_to_channel(18, 207).
+inflow_connects_to_channel(19, 208).
+inflow_connects_to_channel(20, 209).
+inflow_connects_to_channel(21, 210).
+inflow_connects_to_channel(22, 211).
+inflow_connects_to_channel(23, 212).
+inflow_connects_to_channel(24, 213).
+inflow_connects_to_channel(25, 214).
+inflow_connects_to_channel(26, 215).
+inflow_connects_to_channel(27, 216).
+inflow_connects_to_channel(28, 217).
+inflow_connects_to_channel(29, 218).
+inflow_connects_to_channel(30, 219).
+inflow_connects_to_channel(31, 220).
+inflow_connects_to_channel(32, 221).
+inflow_connects_to_channel(33, 222).
+inflow_connects_to_channel(34, 223).
+inflow_connects_to_channel(35, 224).
+inflow_connects_to_channel(36, 225).
+inflow_connects_to_channel(37, 226).
+inflow_connects_to_channel(38, 227).
+inflow_connects_to_channel(39, 228).
+inflow_connects_to_channel(40, 229).
+inflow_connects_to_channel(41, 230).
+inflow_connects_to_channel(42, 231).
+inflow_connects_to_channel(43, 232).
+inflow_connects_to_channel(44, 233).
+inflow_connects_to_channel(45, 234).
+inflow_connects_to_channel(46, 235).
+inflow_connects_to_channel(47, 236).
+inflow_connects_to_channel(48, 237).
+inflow_connects_to_channel(49, 238).
+inflow_connects_to_channel(50, 239).
+inflow_connects_to_channel(51, 240).
+inflow_connects_to_channel(52, 241).
+inflow_connects_to_channel(53, 242).
+inflow_connects_to_channel(54, 243).
+inflow_connects_to_channel(55, 244).
+inflow_connects_to_channel(56, 245).
+inflow_connects_to_channel(57, 246).
+inflow_connects_to_channel(58, 247).
+inflow_connects_to_channel(59, 248).
+inflow_connects_to_channel(60, 249).
+inflow_connects_to_channel(61, 250).
+inflow_connects_to_channel(62, 251).
+inflow_connects_to_channel(63, 252).
+inflow_connects_to_channel(64, 253).
+inflow_connects_to_channel(65, 254).
+inflow_connects_to_channel(66, 255).
+inflow_connects_to_channel(67, 256).
+inflow_connects_to_channel(68, 257).
+inflow_connects_to_channel(69, 258).
+inflow_connects_to_channel(70, 259).
+inflow_connects_to_channel(71, 260).
+inflow_connects_to_channel(72, 261).
+inflow_connects_to_channel(73, 262).
+inflow_connects_to_channel(74, 263).
+inflow_connects_to_channel(75, 264).
+inflow_connects_to_channel(76, 265).
+inflow_connects_to_channel(77, 266).
+inflow_connects_to_channel(78, 267).
+inflow_connects_to_channel(79, 268).
+inflow_connects_to_channel(80, 269).
+inflow_connects_to_channel(81, 270).
+inflow_connects_to_channel(82, 271).
+inflow_connects_to_channel(83, 272).
+inflow_connects_to_channel(84, 273).
+inflow_connects_to_channel(85, 274).
+inflow_connects_to_channel(86, 275).
+inflow_connects_to_channel(87, 276).
+inflow_connects_to_channel(88, 277).
+inflow_connects_to_channel(89, 278).
+inflow_connects_to_channel(90, 279).
+inflow_connects_to_channel(91, 280).
+inflow_connects_to_channel(92, 281).
+inflow_connects_to_channel(93, 282).
+inflow_connects_to_channel(94, 283).
+inflow_connects_to_channel(95, 284).
+inflow_connects_to_channel(96, 285).
+inflow_connects_to_channel(97, 286).
+inflow_connects_to_channel(98, 287).
+inflow_connects_to_channel(99, 288).
+inflow_connects_to_channel(100, 289).
+inflow_connects_to_channel(101, 290).
+inflow_connects_to_channel(102, 291).
+inflow_connects_to_channel(103, 292).
+inflow_connects_to_channel(104, 293).
+inflow_connects_to_channel(105, 294).
+inflow_connects_to_channel(106, 295).
+inflow_connects_to_channel(107, 296).
+inflow_connects_to_channel(108, 297).
+inflow_connects_to_channel(109, 298).
+inflow_connects_to_channel(110, 299).
+inflow_connects_to_channel(111, 300).
+inflow_connects_to_channel(112, 301).
+inflow_connects_to_channel(113, 302).
+inflow_connects_to_channel(114, 303).
+inflow_connects_to_channel(115, 304).
+inflow_connects_to_channel(116, 305).
+inflow_connects_to_channel(117, 306).
+inflow_connects_to_channel(118, 307).
+inflow_connects_to_channel(119, 308).
+inflow_connects_to_channel(120, 309).
+inflow_connects_to_channel(121, 310).
+inflow_connects_to_channel(122, 311).
+inflow_connects_to_channel(123, 312).
+inflow_connects_to_channel(124, 313).
+inflow_connects_to_channel(125, 314).
+inflow_connects_to_channel(126, 315).
+
+% FACT: outflow_connects_to_channel(port_id, channel_id).
+outflow_connects_to_channel(127, 1).
+outflow_connects_to_channel(127, 316).
+
+% FACT: uri_variable(uri_variable_id, variable_name, port_id).
+
+% FACT: log_template(log_template_id, port_id, entry_template, log_annotation_id).
+
+% FACT: log_template_variable(log_variable_id, variable_name, log_template_id).

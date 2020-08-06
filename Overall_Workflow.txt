@@ -1,0 +1,28 @@
+# @begin OverallWorkflow  @desc Overall workflow for our project.
+# @in csv  @desc Raw CSV input
+# @in raw_csv_file  @desc Raw CSV input
+# @out enhanced_csv_file  @file file:PostOpenRefineNew.csv
+# @out database  @file file:FarmersMarkets.db
+
+#     @begin open_refine  @desc Clean the data at scale
+#     @in raw_csv_file  @desc Raw CSV input
+#     @out cleaned_csv_file  @file file:PostOpenRefine.csv
+#     @out schema_and_data_file  @file file:PostOpenRefine.sql
+#     @end OpenRefine
+
+#     @begin python  @desc Address URIs and normalize time stamps
+#     @in cleaned_csv_file  @desc Cleaned csv input
+#     @out enhanced_csv_file  @file file:PostOpenRefineNew.csv
+#     @end python
+
+#     @begin schema_processing  @desc Manually update schema for data set
+#     @in schema_and_data_file
+#     @out final_schema_and_data_file  @file file:FarmersMarkets.sql
+#     @end schema_processing
+
+#     @begin sqllite_load  @desc Load data into SQLlite
+#     @in final_schema_and_data_file
+#     @out database  @file file:FarmersMarkets.db
+#     @end sqllite_load
+
+# @end OverallWorkflow

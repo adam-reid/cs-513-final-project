@@ -1,0 +1,83 @@
+
+/* Start of top-level graph */
+digraph Workflow {
+rankdir=TB
+
+/* Title for graph */
+fontname=Helvetica; fontsize=18; labelloc=t
+label=OverallWorkflow
+
+/* Start of double cluster for drawing box around nodes in workflow */
+subgraph cluster_workflow_box_outer { label=""; color=black; penwidth=2
+subgraph cluster_workflow_box_inner { label=""; penwidth=0
+
+/* Style for nodes representing atomic programs in workflow */
+node[shape=box style=filled fillcolor="#CCFFCC" peripheries=1 fontname=Helvetica]
+
+/* Nodes representing atomic programs in workflow */
+open_refine [shape=record rankdir=LR label="{<f0> open_refine |<f1> Clean the data at scale}"];
+url_cleaning [shape=record rankdir=LR label="{<f0> url_cleaning |<f1> Clean URLs via python script}"];
+timestamp_cleaning [shape=record rankdir=LR label="{<f0> timestamp_cleaning |<f1> Normalize time stamps via python}"];
+schema_processing [shape=record rankdir=LR label="{<f0> schema_processing |<f1> Manually update schema for data set}"];
+merge [shape=record rankdir=LR label="{<f0> merge |<f1> Merge the cleaned data with the schema}"];
+sqllite_load [shape=record rankdir=LR label="{<f0> sqllite_load |<f1> Load data into SQLlite}"];
+
+/* Style for nodes representing non-parameter data channels in workflow */
+node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
+
+/* Nodes for non-parameter data channels in workflow */
+final_csv_file [shape=record rankdir=LR label="{<f0> final_csv_file |<f1> file\:PostOpenRefineFinal.csv}"];
+database [shape=record rankdir=LR label="{<f0> database |<f1> file\:FarmersMarkets.db}"];
+raw_csv_file
+cleaned_csv_file [shape=record rankdir=LR label="{<f0> cleaned_csv_file |<f1> file\:PostOpenRefine.csv}"];
+enhanced_csv_file [shape=record rankdir=LR label="{<f0> enhanced_csv_file |<f1> file\:PostOpenRefineNew.csv}"];
+schema_and_data_file [shape=record rankdir=LR label="{<f0> schema_and_data_file |<f1> file\:PostOpenRefine.sql}"];
+final_schema [shape=record rankdir=LR label="{<f0> final_schema |<f1> file\:PostOpenRefine.sql}"];
+final_schema_and_data_file [shape=record rankdir=LR label="{<f0> final_schema_and_data_file |<f1> file\:FarmersMarkets.sql}"];
+
+/* Style for nodes representing parameter channels in workflow */
+node[shape=box style="rounded,filled" fillcolor="#FCFCFC" peripheries=1 fontname=Helvetica]
+
+/* Nodes representing parameter channels in workflow */
+
+/* Edges representing connections between programs and channels */
+open_refine -> cleaned_csv_file
+open_refine -> schema_and_data_file
+raw_csv_file -> open_refine
+url_cleaning -> enhanced_csv_file
+cleaned_csv_file -> url_cleaning
+timestamp_cleaning -> final_csv_file
+enhanced_csv_file -> timestamp_cleaning
+schema_processing -> final_schema
+schema_and_data_file -> schema_processing
+merge -> final_schema_and_data_file
+final_schema -> merge
+final_csv_file -> merge
+sqllite_load -> database
+final_schema_and_data_file -> sqllite_load
+
+/* End of double cluster for drawing box around nodes in workflow */
+}}
+
+/* Style for nodes representing workflow input ports */
+node[shape=circle style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica width=0.2]
+
+/* Nodes representing workflow input ports */
+raw_csv_file_input_port [label=""]
+
+/* Style for nodes representing workflow output ports */
+node[shape=circle style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica width=0.2]
+
+/* Nodes representing workflow output ports */
+final_csv_file_output_port [label=""]
+database_output_port [label=""]
+
+/* Edges from input ports to channels */
+raw_csv_file_input_port -> raw_csv_file
+
+/* Edges from channels to output ports */
+final_csv_file -> final_csv_file_output_port
+database -> database_output_port
+
+/* End of top-level graph */
+}

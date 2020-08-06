@@ -1,0 +1,2268 @@
+/* Start of top-level graph */
+digraph Workflow {
+rankdir=TB
+
+/* Title for graph */
+fontname=Helvetica; fontsize=18; labelloc=t
+label=Parallel_OR
+
+/* Start of double cluster for drawing box around nodes in workflow */
+subgraph cluster_workflow_box_outer { label=""; color=black; penwidth=2
+subgraph cluster_workflow_box_inner { label=""; penwidth=0
+
+/* Style for nodes representing atomic programs in workflow */
+node[shape=box style=filled fillcolor="#CCFFCC" peripheries=1 fontname=Helvetica]
+
+/* Nodes representing atomic programs in workflow */
+"core/text-transform0" [shape=record rankdir=LR label="{<f0> core/text-transform0 |<f1> Text transform on cells in column MarketName using expression value.trim()}"];
+"core/text-transform1" [shape=record rankdir=LR label="{<f0> core/text-transform1 |<f1> Text transform on cells in column FMID using expression value.toNumber()}"];
+"core/text-transform2" [shape=record rankdir=LR label="{<f0> core/text-transform2 |<f1> Text transform on cells in column updateTime using expression value.toDate()}"];
+"core/column-rename3" [shape=record rankdir=LR label="{<f0> core/column-rename3 |<f1> Rename column x to Longitude}"];
+"core/column-rename4" [shape=record rankdir=LR label="{<f0> core/column-rename4 |<f1> Rename column y to Latitude}"];
+"core/text-transform5" [shape=record rankdir=LR label="{<f0> core/text-transform5 |<f1> Text transform on cells in column Latitude using expression value.toNumber()}"];
+"core/text-transform6" [shape=record rankdir=LR label="{<f0> core/text-transform6 |<f1> Text transform on cells in column Longitude using expression value.toNumber()}"];
+"core/mass-edit7" [shape=record rankdir=LR label="{<f0> core/mass-edit7 |<f1> Mass edit cells in column County}"];
+"core/mass-edit8" [shape=record rankdir=LR label="{<f0> core/mass-edit8 |<f1> Mass edit cells in column city}"];
+"core/mass-edit9" [shape=record rankdir=LR label="{<f0> core/mass-edit9 |<f1> Mass edit cells in column city}"];
+"core/mass-edit10" [shape=record rankdir=LR label="{<f0> core/mass-edit10 |<f1> Mass edit cells in column city}"];
+"core/mass-edit11" [shape=record rankdir=LR label="{<f0> core/mass-edit11 |<f1> Mass edit cells in column MarketName}"];
+"core/mass-edit12" [shape=record rankdir=LR label="{<f0> core/mass-edit12 |<f1> Mass edit cells in column MarketName}"];
+"core/mass-edit13" [shape=record rankdir=LR label="{<f0> core/mass-edit13 |<f1> Mass edit cells in column MarketName}"];
+"core/mass-edit14" [shape=record rankdir=LR label="{<f0> core/mass-edit14 |<f1> Mass edit cells in column MarketName}"];
+"core/mass-edit15" [shape=record rankdir=LR label="{<f0> core/mass-edit15 |<f1> Mass edit cells in column MarketName}"];
+"core/mass-edit16" [shape=record rankdir=LR label="{<f0> core/mass-edit16 |<f1> Mass edit cells in column MarketName}"];
+"core/column-rename17" [shape=record rankdir=LR label="{<f0> core/column-rename17 |<f1> Rename column street to Street}"];
+"core/column-rename18" [shape=record rankdir=LR label="{<f0> core/column-rename18 |<f1> Rename column city to City}"];
+"core/column-rename19" [shape=record rankdir=LR label="{<f0> core/column-rename19 |<f1> Rename column zip to Zip}"];
+"core/column-rename20" [shape=record rankdir=LR label="{<f0> core/column-rename20 |<f1> Rename column updateTime to UpdateTime}"];
+"core/mass-edit21" [shape=record rankdir=LR label="{<f0> core/mass-edit21 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit22" [shape=record rankdir=LR label="{<f0> core/mass-edit22 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit23" [shape=record rankdir=LR label="{<f0> core/mass-edit23 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit24" [shape=record rankdir=LR label="{<f0> core/mass-edit24 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit25" [shape=record rankdir=LR label="{<f0> core/mass-edit25 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit26" [shape=record rankdir=LR label="{<f0> core/mass-edit26 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit27" [shape=record rankdir=LR label="{<f0> core/mass-edit27 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit28" [shape=record rankdir=LR label="{<f0> core/mass-edit28 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit29" [shape=record rankdir=LR label="{<f0> core/mass-edit29 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit30" [shape=record rankdir=LR label="{<f0> core/mass-edit30 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit31" [shape=record rankdir=LR label="{<f0> core/mass-edit31 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit32" [shape=record rankdir=LR label="{<f0> core/mass-edit32 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit33" [shape=record rankdir=LR label="{<f0> core/mass-edit33 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit34" [shape=record rankdir=LR label="{<f0> core/mass-edit34 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit35" [shape=record rankdir=LR label="{<f0> core/mass-edit35 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit36" [shape=record rankdir=LR label="{<f0> core/mass-edit36 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit37" [shape=record rankdir=LR label="{<f0> core/mass-edit37 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit38" [shape=record rankdir=LR label="{<f0> core/mass-edit38 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit39" [shape=record rankdir=LR label="{<f0> core/mass-edit39 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit40" [shape=record rankdir=LR label="{<f0> core/mass-edit40 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit41" [shape=record rankdir=LR label="{<f0> core/mass-edit41 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit42" [shape=record rankdir=LR label="{<f0> core/mass-edit42 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit43" [shape=record rankdir=LR label="{<f0> core/mass-edit43 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit44" [shape=record rankdir=LR label="{<f0> core/mass-edit44 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit45" [shape=record rankdir=LR label="{<f0> core/mass-edit45 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit46" [shape=record rankdir=LR label="{<f0> core/mass-edit46 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit47" [shape=record rankdir=LR label="{<f0> core/mass-edit47 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit48" [shape=record rankdir=LR label="{<f0> core/mass-edit48 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit49" [shape=record rankdir=LR label="{<f0> core/mass-edit49 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit50" [shape=record rankdir=LR label="{<f0> core/mass-edit50 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit51" [shape=record rankdir=LR label="{<f0> core/mass-edit51 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit52" [shape=record rankdir=LR label="{<f0> core/mass-edit52 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit53" [shape=record rankdir=LR label="{<f0> core/mass-edit53 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit54" [shape=record rankdir=LR label="{<f0> core/mass-edit54 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit55" [shape=record rankdir=LR label="{<f0> core/mass-edit55 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit56" [shape=record rankdir=LR label="{<f0> core/mass-edit56 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit57" [shape=record rankdir=LR label="{<f0> core/mass-edit57 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit58" [shape=record rankdir=LR label="{<f0> core/mass-edit58 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit59" [shape=record rankdir=LR label="{<f0> core/mass-edit59 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit60" [shape=record rankdir=LR label="{<f0> core/mass-edit60 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit61" [shape=record rankdir=LR label="{<f0> core/mass-edit61 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit62" [shape=record rankdir=LR label="{<f0> core/mass-edit62 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit63" [shape=record rankdir=LR label="{<f0> core/mass-edit63 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit64" [shape=record rankdir=LR label="{<f0> core/mass-edit64 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit65" [shape=record rankdir=LR label="{<f0> core/mass-edit65 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit66" [shape=record rankdir=LR label="{<f0> core/mass-edit66 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit67" [shape=record rankdir=LR label="{<f0> core/mass-edit67 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit68" [shape=record rankdir=LR label="{<f0> core/mass-edit68 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit69" [shape=record rankdir=LR label="{<f0> core/mass-edit69 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit70" [shape=record rankdir=LR label="{<f0> core/mass-edit70 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit71" [shape=record rankdir=LR label="{<f0> core/mass-edit71 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit72" [shape=record rankdir=LR label="{<f0> core/mass-edit72 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit73" [shape=record rankdir=LR label="{<f0> core/mass-edit73 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit74" [shape=record rankdir=LR label="{<f0> core/mass-edit74 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit75" [shape=record rankdir=LR label="{<f0> core/mass-edit75 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit76" [shape=record rankdir=LR label="{<f0> core/mass-edit76 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit77" [shape=record rankdir=LR label="{<f0> core/mass-edit77 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit78" [shape=record rankdir=LR label="{<f0> core/mass-edit78 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit79" [shape=record rankdir=LR label="{<f0> core/mass-edit79 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit80" [shape=record rankdir=LR label="{<f0> core/mass-edit80 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit81" [shape=record rankdir=LR label="{<f0> core/mass-edit81 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit82" [shape=record rankdir=LR label="{<f0> core/mass-edit82 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit83" [shape=record rankdir=LR label="{<f0> core/mass-edit83 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit84" [shape=record rankdir=LR label="{<f0> core/mass-edit84 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit85" [shape=record rankdir=LR label="{<f0> core/mass-edit85 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit86" [shape=record rankdir=LR label="{<f0> core/mass-edit86 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit87" [shape=record rankdir=LR label="{<f0> core/mass-edit87 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit88" [shape=record rankdir=LR label="{<f0> core/mass-edit88 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit89" [shape=record rankdir=LR label="{<f0> core/mass-edit89 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit90" [shape=record rankdir=LR label="{<f0> core/mass-edit90 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit91" [shape=record rankdir=LR label="{<f0> core/mass-edit91 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit92" [shape=record rankdir=LR label="{<f0> core/mass-edit92 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit93" [shape=record rankdir=LR label="{<f0> core/mass-edit93 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit94" [shape=record rankdir=LR label="{<f0> core/mass-edit94 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit95" [shape=record rankdir=LR label="{<f0> core/mass-edit95 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit96" [shape=record rankdir=LR label="{<f0> core/mass-edit96 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit97" [shape=record rankdir=LR label="{<f0> core/mass-edit97 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit98" [shape=record rankdir=LR label="{<f0> core/mass-edit98 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit99" [shape=record rankdir=LR label="{<f0> core/mass-edit99 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit100" [shape=record rankdir=LR label="{<f0> core/mass-edit100 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit101" [shape=record rankdir=LR label="{<f0> core/mass-edit101 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit102" [shape=record rankdir=LR label="{<f0> core/mass-edit102 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit103" [shape=record rankdir=LR label="{<f0> core/mass-edit103 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit104" [shape=record rankdir=LR label="{<f0> core/mass-edit104 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit105" [shape=record rankdir=LR label="{<f0> core/mass-edit105 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit106" [shape=record rankdir=LR label="{<f0> core/mass-edit106 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit107" [shape=record rankdir=LR label="{<f0> core/mass-edit107 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit108" [shape=record rankdir=LR label="{<f0> core/mass-edit108 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit109" [shape=record rankdir=LR label="{<f0> core/mass-edit109 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit110" [shape=record rankdir=LR label="{<f0> core/mass-edit110 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit111" [shape=record rankdir=LR label="{<f0> core/mass-edit111 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit112" [shape=record rankdir=LR label="{<f0> core/mass-edit112 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit113" [shape=record rankdir=LR label="{<f0> core/mass-edit113 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit114" [shape=record rankdir=LR label="{<f0> core/mass-edit114 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit115" [shape=record rankdir=LR label="{<f0> core/mass-edit115 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit116" [shape=record rankdir=LR label="{<f0> core/mass-edit116 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit117" [shape=record rankdir=LR label="{<f0> core/mass-edit117 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit118" [shape=record rankdir=LR label="{<f0> core/mass-edit118 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit119" [shape=record rankdir=LR label="{<f0> core/mass-edit119 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit120" [shape=record rankdir=LR label="{<f0> core/mass-edit120 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit121" [shape=record rankdir=LR label="{<f0> core/mass-edit121 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit122" [shape=record rankdir=LR label="{<f0> core/mass-edit122 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit123" [shape=record rankdir=LR label="{<f0> core/mass-edit123 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit124" [shape=record rankdir=LR label="{<f0> core/mass-edit124 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit125" [shape=record rankdir=LR label="{<f0> core/mass-edit125 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit126" [shape=record rankdir=LR label="{<f0> core/mass-edit126 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit127" [shape=record rankdir=LR label="{<f0> core/mass-edit127 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit128" [shape=record rankdir=LR label="{<f0> core/mass-edit128 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit129" [shape=record rankdir=LR label="{<f0> core/mass-edit129 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit130" [shape=record rankdir=LR label="{<f0> core/mass-edit130 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit131" [shape=record rankdir=LR label="{<f0> core/mass-edit131 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit132" [shape=record rankdir=LR label="{<f0> core/mass-edit132 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit133" [shape=record rankdir=LR label="{<f0> core/mass-edit133 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit134" [shape=record rankdir=LR label="{<f0> core/mass-edit134 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit135" [shape=record rankdir=LR label="{<f0> core/mass-edit135 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit136" [shape=record rankdir=LR label="{<f0> core/mass-edit136 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit137" [shape=record rankdir=LR label="{<f0> core/mass-edit137 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit138" [shape=record rankdir=LR label="{<f0> core/mass-edit138 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit139" [shape=record rankdir=LR label="{<f0> core/mass-edit139 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit140" [shape=record rankdir=LR label="{<f0> core/mass-edit140 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit141" [shape=record rankdir=LR label="{<f0> core/mass-edit141 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit142" [shape=record rankdir=LR label="{<f0> core/mass-edit142 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit143" [shape=record rankdir=LR label="{<f0> core/mass-edit143 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit144" [shape=record rankdir=LR label="{<f0> core/mass-edit144 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit145" [shape=record rankdir=LR label="{<f0> core/mass-edit145 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit146" [shape=record rankdir=LR label="{<f0> core/mass-edit146 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit147" [shape=record rankdir=LR label="{<f0> core/mass-edit147 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit148" [shape=record rankdir=LR label="{<f0> core/mass-edit148 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit149" [shape=record rankdir=LR label="{<f0> core/mass-edit149 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit150" [shape=record rankdir=LR label="{<f0> core/mass-edit150 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit151" [shape=record rankdir=LR label="{<f0> core/mass-edit151 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit152" [shape=record rankdir=LR label="{<f0> core/mass-edit152 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit153" [shape=record rankdir=LR label="{<f0> core/mass-edit153 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit154" [shape=record rankdir=LR label="{<f0> core/mass-edit154 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit155" [shape=record rankdir=LR label="{<f0> core/mass-edit155 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit156" [shape=record rankdir=LR label="{<f0> core/mass-edit156 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit157" [shape=record rankdir=LR label="{<f0> core/mass-edit157 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit158" [shape=record rankdir=LR label="{<f0> core/mass-edit158 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit159" [shape=record rankdir=LR label="{<f0> core/mass-edit159 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit160" [shape=record rankdir=LR label="{<f0> core/mass-edit160 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit161" [shape=record rankdir=LR label="{<f0> core/mass-edit161 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit162" [shape=record rankdir=LR label="{<f0> core/mass-edit162 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit163" [shape=record rankdir=LR label="{<f0> core/mass-edit163 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit164" [shape=record rankdir=LR label="{<f0> core/mass-edit164 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit165" [shape=record rankdir=LR label="{<f0> core/mass-edit165 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit166" [shape=record rankdir=LR label="{<f0> core/mass-edit166 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit167" [shape=record rankdir=LR label="{<f0> core/mass-edit167 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit168" [shape=record rankdir=LR label="{<f0> core/mass-edit168 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit169" [shape=record rankdir=LR label="{<f0> core/mass-edit169 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit170" [shape=record rankdir=LR label="{<f0> core/mass-edit170 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit171" [shape=record rankdir=LR label="{<f0> core/mass-edit171 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit172" [shape=record rankdir=LR label="{<f0> core/mass-edit172 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit173" [shape=record rankdir=LR label="{<f0> core/mass-edit173 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit174" [shape=record rankdir=LR label="{<f0> core/mass-edit174 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit175" [shape=record rankdir=LR label="{<f0> core/mass-edit175 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit176" [shape=record rankdir=LR label="{<f0> core/mass-edit176 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit177" [shape=record rankdir=LR label="{<f0> core/mass-edit177 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit178" [shape=record rankdir=LR label="{<f0> core/mass-edit178 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit179" [shape=record rankdir=LR label="{<f0> core/mass-edit179 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit180" [shape=record rankdir=LR label="{<f0> core/mass-edit180 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit181" [shape=record rankdir=LR label="{<f0> core/mass-edit181 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit182" [shape=record rankdir=LR label="{<f0> core/mass-edit182 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit183" [shape=record rankdir=LR label="{<f0> core/mass-edit183 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit184" [shape=record rankdir=LR label="{<f0> core/mass-edit184 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit185" [shape=record rankdir=LR label="{<f0> core/mass-edit185 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit186" [shape=record rankdir=LR label="{<f0> core/mass-edit186 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit187" [shape=record rankdir=LR label="{<f0> core/mass-edit187 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit188" [shape=record rankdir=LR label="{<f0> core/mass-edit188 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit189" [shape=record rankdir=LR label="{<f0> core/mass-edit189 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit190" [shape=record rankdir=LR label="{<f0> core/mass-edit190 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit191" [shape=record rankdir=LR label="{<f0> core/mass-edit191 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit192" [shape=record rankdir=LR label="{<f0> core/mass-edit192 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit193" [shape=record rankdir=LR label="{<f0> core/mass-edit193 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit194" [shape=record rankdir=LR label="{<f0> core/mass-edit194 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit195" [shape=record rankdir=LR label="{<f0> core/mass-edit195 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit196" [shape=record rankdir=LR label="{<f0> core/mass-edit196 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit197" [shape=record rankdir=LR label="{<f0> core/mass-edit197 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit198" [shape=record rankdir=LR label="{<f0> core/mass-edit198 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit199" [shape=record rankdir=LR label="{<f0> core/mass-edit199 |<f1> Mass edit cells in column Season1Date}"];
+"core/mass-edit200" [shape=record rankdir=LR label="{<f0> core/mass-edit200 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit201" [shape=record rankdir=LR label="{<f0> core/mass-edit201 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit202" [shape=record rankdir=LR label="{<f0> core/mass-edit202 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit203" [shape=record rankdir=LR label="{<f0> core/mass-edit203 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit204" [shape=record rankdir=LR label="{<f0> core/mass-edit204 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit205" [shape=record rankdir=LR label="{<f0> core/mass-edit205 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit206" [shape=record rankdir=LR label="{<f0> core/mass-edit206 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit207" [shape=record rankdir=LR label="{<f0> core/mass-edit207 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit208" [shape=record rankdir=LR label="{<f0> core/mass-edit208 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit209" [shape=record rankdir=LR label="{<f0> core/mass-edit209 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit210" [shape=record rankdir=LR label="{<f0> core/mass-edit210 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit211" [shape=record rankdir=LR label="{<f0> core/mass-edit211 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit212" [shape=record rankdir=LR label="{<f0> core/mass-edit212 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit213" [shape=record rankdir=LR label="{<f0> core/mass-edit213 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit214" [shape=record rankdir=LR label="{<f0> core/mass-edit214 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit215" [shape=record rankdir=LR label="{<f0> core/mass-edit215 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit216" [shape=record rankdir=LR label="{<f0> core/mass-edit216 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit217" [shape=record rankdir=LR label="{<f0> core/mass-edit217 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit218" [shape=record rankdir=LR label="{<f0> core/mass-edit218 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit219" [shape=record rankdir=LR label="{<f0> core/mass-edit219 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit220" [shape=record rankdir=LR label="{<f0> core/mass-edit220 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit221" [shape=record rankdir=LR label="{<f0> core/mass-edit221 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit222" [shape=record rankdir=LR label="{<f0> core/mass-edit222 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit223" [shape=record rankdir=LR label="{<f0> core/mass-edit223 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit224" [shape=record rankdir=LR label="{<f0> core/mass-edit224 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit225" [shape=record rankdir=LR label="{<f0> core/mass-edit225 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit226" [shape=record rankdir=LR label="{<f0> core/mass-edit226 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit227" [shape=record rankdir=LR label="{<f0> core/mass-edit227 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit228" [shape=record rankdir=LR label="{<f0> core/mass-edit228 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit229" [shape=record rankdir=LR label="{<f0> core/mass-edit229 |<f1> Mass edit cells in column Season2Date}"];
+"core/mass-edit230" [shape=record rankdir=LR label="{<f0> core/mass-edit230 |<f1> Mass edit cells in column Season3Date}"];
+"core/mass-edit231" [shape=record rankdir=LR label="{<f0> core/mass-edit231 |<f1> Mass edit cells in column Season3Date}"];
+"core/mass-edit232" [shape=record rankdir=LR label="{<f0> core/mass-edit232 |<f1> Mass edit cells in column Season3Date}"];
+"core/mass-edit233" [shape=record rankdir=LR label="{<f0> core/mass-edit233 |<f1> Mass edit cells in column Season3Date}"];
+"core/mass-edit234" [shape=record rankdir=LR label="{<f0> core/mass-edit234 |<f1> Mass edit cells in column Season3Date}"];
+"core/mass-edit235" [shape=record rankdir=LR label="{<f0> core/mass-edit235 |<f1> Mass edit cells in column Season3Date}"];
+"core/mass-edit236" [shape=record rankdir=LR label="{<f0> core/mass-edit236 |<f1> Mass edit cells in column Season3Date}"];
+"core/mass-edit237" [shape=record rankdir=LR label="{<f0> core/mass-edit237 |<f1> Mass edit cells in column Organic}"];
+"core/mass-edit238" [shape=record rankdir=LR label="{<f0> core/mass-edit238 |<f1> Mass edit cells in column Credit}"];
+"core/mass-edit239" [shape=record rankdir=LR label="{<f0> core/mass-edit239 |<f1> Mass edit cells in column Credit}"];
+"core/mass-edit240" [shape=record rankdir=LR label="{<f0> core/mass-edit240 |<f1> Mass edit cells in column WIC}"];
+"core/mass-edit241" [shape=record rankdir=LR label="{<f0> core/mass-edit241 |<f1> Mass edit cells in column WIC}"];
+"core/mass-edit242" [shape=record rankdir=LR label="{<f0> core/mass-edit242 |<f1> Mass edit cells in column WICcash}"];
+"core/mass-edit243" [shape=record rankdir=LR label="{<f0> core/mass-edit243 |<f1> Mass edit cells in column WICcash}"];
+"core/mass-edit244" [shape=record rankdir=LR label="{<f0> core/mass-edit244 |<f1> Mass edit cells in column SFMNP}"];
+"core/mass-edit245" [shape=record rankdir=LR label="{<f0> core/mass-edit245 |<f1> Mass edit cells in column SFMNP}"];
+"core/mass-edit246" [shape=record rankdir=LR label="{<f0> core/mass-edit246 |<f1> Mass edit cells in column SNAP}"];
+"core/mass-edit247" [shape=record rankdir=LR label="{<f0> core/mass-edit247 |<f1> Mass edit cells in column SNAP}"];
+"core/mass-edit248" [shape=record rankdir=LR label="{<f0> core/mass-edit248 |<f1> Mass edit cells in column Organic}"];
+"core/mass-edit249" [shape=record rankdir=LR label="{<f0> core/mass-edit249 |<f1> Mass edit cells in column Organic}"];
+"core/mass-edit250" [shape=record rankdir=LR label="{<f0> core/mass-edit250 |<f1> Mass edit cells in column Bakedgoods}"];
+"core/mass-edit251" [shape=record rankdir=LR label="{<f0> core/mass-edit251 |<f1> Mass edit cells in column Bakedgoods}"];
+"core/mass-edit252" [shape=record rankdir=LR label="{<f0> core/mass-edit252 |<f1> Mass edit cells in column Cheese}"];
+"core/mass-edit253" [shape=record rankdir=LR label="{<f0> core/mass-edit253 |<f1> Mass edit cells in column Cheese}"];
+"core/mass-edit254" [shape=record rankdir=LR label="{<f0> core/mass-edit254 |<f1> Mass edit cells in column Crafts}"];
+"core/mass-edit255" [shape=record rankdir=LR label="{<f0> core/mass-edit255 |<f1> Mass edit cells in column Crafts}"];
+"core/mass-edit256" [shape=record rankdir=LR label="{<f0> core/mass-edit256 |<f1> Mass edit cells in column Flowers}"];
+"core/mass-edit257" [shape=record rankdir=LR label="{<f0> core/mass-edit257 |<f1> Mass edit cells in column Flowers}"];
+"core/mass-edit258" [shape=record rankdir=LR label="{<f0> core/mass-edit258 |<f1> Mass edit cells in column Eggs}"];
+"core/mass-edit259" [shape=record rankdir=LR label="{<f0> core/mass-edit259 |<f1> Mass edit cells in column Eggs}"];
+"core/mass-edit260" [shape=record rankdir=LR label="{<f0> core/mass-edit260 |<f1> Mass edit cells in column Seafood}"];
+"core/mass-edit261" [shape=record rankdir=LR label="{<f0> core/mass-edit261 |<f1> Mass edit cells in column Seafood}"];
+"core/mass-edit262" [shape=record rankdir=LR label="{<f0> core/mass-edit262 |<f1> Mass edit cells in column Herbs}"];
+"core/mass-edit263" [shape=record rankdir=LR label="{<f0> core/mass-edit263 |<f1> Mass edit cells in column Herbs}"];
+"core/mass-edit264" [shape=record rankdir=LR label="{<f0> core/mass-edit264 |<f1> Mass edit cells in column Vegetables}"];
+"core/mass-edit265" [shape=record rankdir=LR label="{<f0> core/mass-edit265 |<f1> Mass edit cells in column Vegetables}"];
+"core/mass-edit266" [shape=record rankdir=LR label="{<f0> core/mass-edit266 |<f1> Mass edit cells in column Honey}"];
+"core/mass-edit267" [shape=record rankdir=LR label="{<f0> core/mass-edit267 |<f1> Mass edit cells in column Honey}"];
+"core/mass-edit268" [shape=record rankdir=LR label="{<f0> core/mass-edit268 |<f1> Mass edit cells in column Jams}"];
+"core/mass-edit269" [shape=record rankdir=LR label="{<f0> core/mass-edit269 |<f1> Mass edit cells in column Jams}"];
+"core/mass-edit270" [shape=record rankdir=LR label="{<f0> core/mass-edit270 |<f1> Mass edit cells in column Maple}"];
+"core/mass-edit271" [shape=record rankdir=LR label="{<f0> core/mass-edit271 |<f1> Mass edit cells in column Maple}"];
+"core/mass-edit272" [shape=record rankdir=LR label="{<f0> core/mass-edit272 |<f1> Mass edit cells in column Meat}"];
+"core/mass-edit273" [shape=record rankdir=LR label="{<f0> core/mass-edit273 |<f1> Mass edit cells in column Meat}"];
+"core/mass-edit274" [shape=record rankdir=LR label="{<f0> core/mass-edit274 |<f1> Mass edit cells in column Nursery}"];
+"core/mass-edit275" [shape=record rankdir=LR label="{<f0> core/mass-edit275 |<f1> Mass edit cells in column Nursery}"];
+"core/mass-edit276" [shape=record rankdir=LR label="{<f0> core/mass-edit276 |<f1> Mass edit cells in column Nuts}"];
+"core/mass-edit277" [shape=record rankdir=LR label="{<f0> core/mass-edit277 |<f1> Mass edit cells in column Nuts}"];
+"core/mass-edit278" [shape=record rankdir=LR label="{<f0> core/mass-edit278 |<f1> Mass edit cells in column Plants}"];
+"core/mass-edit279" [shape=record rankdir=LR label="{<f0> core/mass-edit279 |<f1> Mass edit cells in column Plants}"];
+"core/mass-edit280" [shape=record rankdir=LR label="{<f0> core/mass-edit280 |<f1> Mass edit cells in column Poultry}"];
+"core/mass-edit281" [shape=record rankdir=LR label="{<f0> core/mass-edit281 |<f1> Mass edit cells in column Poultry}"];
+"core/mass-edit282" [shape=record rankdir=LR label="{<f0> core/mass-edit282 |<f1> Mass edit cells in column Prepared}"];
+"core/mass-edit283" [shape=record rankdir=LR label="{<f0> core/mass-edit283 |<f1> Mass edit cells in column Prepared}"];
+"core/mass-edit284" [shape=record rankdir=LR label="{<f0> core/mass-edit284 |<f1> Mass edit cells in column Soap}"];
+"core/mass-edit285" [shape=record rankdir=LR label="{<f0> core/mass-edit285 |<f1> Mass edit cells in column Soap}"];
+"core/mass-edit286" [shape=record rankdir=LR label="{<f0> core/mass-edit286 |<f1> Mass edit cells in column Trees}"];
+"core/mass-edit287" [shape=record rankdir=LR label="{<f0> core/mass-edit287 |<f1> Mass edit cells in column Trees}"];
+"core/mass-edit288" [shape=record rankdir=LR label="{<f0> core/mass-edit288 |<f1> Mass edit cells in column Wine}"];
+"core/mass-edit289" [shape=record rankdir=LR label="{<f0> core/mass-edit289 |<f1> Mass edit cells in column Wine}"];
+"core/mass-edit290" [shape=record rankdir=LR label="{<f0> core/mass-edit290 |<f1> Mass edit cells in column Coffee}"];
+"core/mass-edit291" [shape=record rankdir=LR label="{<f0> core/mass-edit291 |<f1> Mass edit cells in column Coffee}"];
+"core/mass-edit292" [shape=record rankdir=LR label="{<f0> core/mass-edit292 |<f1> Mass edit cells in column Beans}"];
+"core/mass-edit293" [shape=record rankdir=LR label="{<f0> core/mass-edit293 |<f1> Mass edit cells in column Beans}"];
+"core/mass-edit294" [shape=record rankdir=LR label="{<f0> core/mass-edit294 |<f1> Mass edit cells in column Fruits}"];
+"core/mass-edit295" [shape=record rankdir=LR label="{<f0> core/mass-edit295 |<f1> Mass edit cells in column Fruits}"];
+"core/mass-edit296" [shape=record rankdir=LR label="{<f0> core/mass-edit296 |<f1> Mass edit cells in column Grains}"];
+"core/mass-edit297" [shape=record rankdir=LR label="{<f0> core/mass-edit297 |<f1> Mass edit cells in column Grains}"];
+"core/mass-edit298" [shape=record rankdir=LR label="{<f0> core/mass-edit298 |<f1> Mass edit cells in column Juices}"];
+"core/mass-edit299" [shape=record rankdir=LR label="{<f0> core/mass-edit299 |<f1> Mass edit cells in column Juices}"];
+"core/mass-edit300" [shape=record rankdir=LR label="{<f0> core/mass-edit300 |<f1> Mass edit cells in column Mushrooms}"];
+"core/mass-edit301" [shape=record rankdir=LR label="{<f0> core/mass-edit301 |<f1> Mass edit cells in column Mushrooms}"];
+"core/mass-edit302" [shape=record rankdir=LR label="{<f0> core/mass-edit302 |<f1> Mass edit cells in column PetFood}"];
+"core/mass-edit303" [shape=record rankdir=LR label="{<f0> core/mass-edit303 |<f1> Mass edit cells in column PetFood}"];
+"core/mass-edit304" [shape=record rankdir=LR label="{<f0> core/mass-edit304 |<f1> Mass edit cells in column Tofu}"];
+"core/mass-edit305" [shape=record rankdir=LR label="{<f0> core/mass-edit305 |<f1> Mass edit cells in column Tofu}"];
+"core/mass-edit306" [shape=record rankdir=LR label="{<f0> core/mass-edit306 |<f1> Mass edit cells in column WildHarvested}"];
+"core/mass-edit307" [shape=record rankdir=LR label="{<f0> core/mass-edit307 |<f1> Mass edit cells in column WildHarvested}"];
+"core/text-transform308" [shape=record rankdir=LR label="{<f0> core/text-transform308 |<f1> Text transform on cells in column MarketName using expression value.trim()}"];
+"core/text-transform309" [shape=record rankdir=LR label="{<f0> core/text-transform309 |<f1> Text transform on cells in column MarketName using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform310" [shape=record rankdir=LR label="{<f0> core/text-transform310 |<f1> Text transform on cells in column Website using expression value.trim()}"];
+"core/text-transform311" [shape=record rankdir=LR label="{<f0> core/text-transform311 |<f1> Text transform on cells in column Website using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform312" [shape=record rankdir=LR label="{<f0> core/text-transform312 |<f1> Text transform on cells in column Facebook using expression value.trim()}"];
+"core/text-transform313" [shape=record rankdir=LR label="{<f0> core/text-transform313 |<f1> Text transform on cells in column Facebook using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform314" [shape=record rankdir=LR label="{<f0> core/text-transform314 |<f1> Text transform on cells in column Twitter using expression value.trim()}"];
+"core/text-transform315" [shape=record rankdir=LR label="{<f0> core/text-transform315 |<f1> Text transform on cells in column Twitter using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform316" [shape=record rankdir=LR label="{<f0> core/text-transform316 |<f1> Text transform on cells in column Youtube using expression value.trim()}"];
+"core/text-transform317" [shape=record rankdir=LR label="{<f0> core/text-transform317 |<f1> Text transform on cells in column Youtube using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform318" [shape=record rankdir=LR label="{<f0> core/text-transform318 |<f1> Text transform on cells in column OtherMedia using expression value.trim()}"];
+"core/text-transform319" [shape=record rankdir=LR label="{<f0> core/text-transform319 |<f1> Text transform on cells in column OtherMedia using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform320" [shape=record rankdir=LR label="{<f0> core/text-transform320 |<f1> Text transform on cells in column Street using expression value.trim()}"];
+"core/text-transform321" [shape=record rankdir=LR label="{<f0> core/text-transform321 |<f1> Text transform on cells in column Street using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform322" [shape=record rankdir=LR label="{<f0> core/text-transform322 |<f1> Text transform on cells in column City using expression value.trim()}"];
+"core/text-transform323" [shape=record rankdir=LR label="{<f0> core/text-transform323 |<f1> Text transform on cells in column City using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform324" [shape=record rankdir=LR label="{<f0> core/text-transform324 |<f1> Text transform on cells in column County using expression value.trim()}"];
+"core/text-transform325" [shape=record rankdir=LR label="{<f0> core/text-transform325 |<f1> Text transform on cells in column County using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform326" [shape=record rankdir=LR label="{<f0> core/text-transform326 |<f1> Text transform on cells in column State using expression value.trim()}"];
+"core/text-transform327" [shape=record rankdir=LR label="{<f0> core/text-transform327 |<f1> Text transform on cells in column State using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform328" [shape=record rankdir=LR label="{<f0> core/text-transform328 |<f1> Text transform on cells in column Zip using expression value.trim()}"];
+"core/text-transform329" [shape=record rankdir=LR label="{<f0> core/text-transform329 |<f1> Text transform on cells in column Zip using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform330" [shape=record rankdir=LR label="{<f0> core/text-transform330 |<f1> Text transform on cells in column Season1Date using expression value.trim()}"];
+"core/text-transform331" [shape=record rankdir=LR label="{<f0> core/text-transform331 |<f1> Text transform on cells in column Season1Date using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform332" [shape=record rankdir=LR label="{<f0> core/text-transform332 |<f1> Text transform on cells in column Season1Time using expression value.trim()}"];
+"core/text-transform333" [shape=record rankdir=LR label="{<f0> core/text-transform333 |<f1> Text transform on cells in column Season1Time using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform334" [shape=record rankdir=LR label="{<f0> core/text-transform334 |<f1> Text transform on cells in column Season2Date using expression value.trim()}"];
+"core/text-transform335" [shape=record rankdir=LR label="{<f0> core/text-transform335 |<f1> Text transform on cells in column Season2Date using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform336" [shape=record rankdir=LR label="{<f0> core/text-transform336 |<f1> Text transform on cells in column Season2Time using expression value.trim()}"];
+"core/text-transform337" [shape=record rankdir=LR label="{<f0> core/text-transform337 |<f1> Text transform on cells in column Season2Time using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform338" [shape=record rankdir=LR label="{<f0> core/text-transform338 |<f1> Text transform on cells in column Season3Date using expression value.trim()}"];
+"core/text-transform339" [shape=record rankdir=LR label="{<f0> core/text-transform339 |<f1> Text transform on cells in column Season3Date using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform340" [shape=record rankdir=LR label="{<f0> core/text-transform340 |<f1> Text transform on cells in column Season4Date using expression value.trim()}"];
+"core/text-transform341" [shape=record rankdir=LR label="{<f0> core/text-transform341 |<f1> Text transform on cells in column Season4Date using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform342" [shape=record rankdir=LR label="{<f0> core/text-transform342 |<f1> Text transform on cells in column Location using expression value.trim()}"];
+"core/text-transform343" [shape=record rankdir=LR label="{<f0> core/text-transform343 |<f1> Text transform on cells in column Location using expression value.replace(/\\s+/,' ')}"];
+"core/text-transform344" [shape=record rankdir=LR label="{<f0> core/text-transform344 |<f1> Text transform on cells in column Season1Date using expression value.replace(/(\\d\{2\})\\/(\\d\{2\})\\/(\\d\{4\})/,\"$1/$2\")}"];
+"core/text-transform345" [shape=record rankdir=LR label="{<f0> core/text-transform345 |<f1> Text transform on cells in column Season1Date using expression value.replace(/(\\d\{2\})\\/(\\d\{2\})\\/(\\d\{2\})/,\"$1/$2\")}"];
+"core/text-transform346" [shape=record rankdir=LR label="{<f0> core/text-transform346 |<f1> Text transform on cells in column Season2Date using expression value.replace(/(\\d\{2\})\\/(\\d\{2\})\\/(\\d\{4\})/,\"$1/$2\")}"];
+"core/text-transform347" [shape=record rankdir=LR label="{<f0> core/text-transform347 |<f1> Text transform on cells in column Season3Date using expression value.replace(/(\\d\{2\})\\/(\\d\{2\})\\/(\\d\{4\})/,\"$1/$2\")}"];
+"core/text-transform348" [shape=record rankdir=LR label="{<f0> core/text-transform348 |<f1> Text transform on cells in column Season4Date using expression value.replace(/(\\d\{2\})\\/(\\d\{2\})\\/(\\d\{4\})/,\"$1/$2\")}"];
+"core/text-transform349" [shape=record rankdir=LR label="{<f0> core/text-transform349 |<f1> Text transform on cells in column Season2Date using expression value.replace(/(\\d\{2\})\\/(\\d\{2\})\\/(\\d\{2\})/,\"$1/$2\")}"];
+CombineDataCleaningChanges
+
+/* Style for nodes representing non-parameter data channels in workflow */
+node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
+
+/* Nodes representing non-parameter data channels in workflow */
+CleanData
+MarketName
+FMID
+updateTime
+x
+y
+Latitude
+Longitude
+County
+city
+city_1
+city_2
+MarketName_1
+MarketName_2
+MarketName_3
+MarketName_4
+MarketName_5
+MarketName_6
+street
+city_3
+zip
+updateTime_1
+Season1Date
+Season1Date_1
+Season1Date_2
+Season1Date_3
+Season1Date_4
+Season1Date_5
+Season1Date_6
+Season1Date_7
+Season1Date_8
+Season1Date_9
+Season1Date_10
+Season1Date_11
+Season1Date_12
+Season1Date_13
+Season1Date_14
+Season1Date_15
+Season1Date_16
+Season1Date_17
+Season1Date_18
+Season1Date_19
+Season1Date_20
+Season1Date_21
+Season1Date_22
+Season1Date_23
+Season1Date_24
+Season1Date_25
+Season1Date_26
+Season1Date_27
+Season1Date_28
+Season1Date_29
+Season1Date_30
+Season1Date_31
+Season1Date_32
+Season1Date_33
+Season1Date_34
+Season1Date_35
+Season1Date_36
+Season1Date_37
+Season1Date_38
+Season1Date_39
+Season1Date_40
+Season1Date_41
+Season1Date_42
+Season1Date_43
+Season1Date_44
+Season1Date_45
+Season1Date_46
+Season1Date_47
+Season1Date_48
+Season1Date_49
+Season1Date_50
+Season1Date_51
+Season1Date_52
+Season1Date_53
+Season1Date_54
+Season1Date_55
+Season1Date_56
+Season1Date_57
+Season1Date_58
+Season1Date_59
+Season1Date_60
+Season1Date_61
+Season1Date_62
+Season1Date_63
+Season1Date_64
+Season1Date_65
+Season1Date_66
+Season1Date_67
+Season1Date_68
+Season1Date_69
+Season1Date_70
+Season1Date_71
+Season1Date_72
+Season1Date_73
+Season1Date_74
+Season1Date_75
+Season1Date_76
+Season1Date_77
+Season1Date_78
+Season1Date_79
+Season1Date_80
+Season1Date_81
+Season1Date_82
+Season1Date_83
+Season1Date_84
+Season1Date_85
+Season1Date_86
+Season1Date_87
+Season1Date_88
+Season1Date_89
+Season1Date_90
+Season1Date_91
+Season1Date_92
+Season1Date_93
+Season1Date_94
+Season1Date_95
+Season1Date_96
+Season1Date_97
+Season1Date_98
+Season1Date_99
+Season1Date_100
+Season1Date_101
+Season1Date_102
+Season1Date_103
+Season1Date_104
+Season1Date_105
+Season1Date_106
+Season1Date_107
+Season1Date_108
+Season1Date_109
+Season1Date_110
+Season1Date_111
+Season1Date_112
+Season1Date_113
+Season1Date_114
+Season1Date_115
+Season1Date_116
+Season1Date_117
+Season1Date_118
+Season1Date_119
+Season1Date_120
+Season1Date_121
+Season1Date_122
+Season1Date_123
+Season1Date_124
+Season1Date_125
+Season1Date_126
+Season1Date_127
+Season1Date_128
+Season1Date_129
+Season1Date_130
+Season1Date_131
+Season1Date_132
+Season1Date_133
+Season1Date_134
+Season1Date_135
+Season1Date_136
+Season1Date_137
+Season1Date_138
+Season1Date_139
+Season1Date_140
+Season1Date_141
+Season1Date_142
+Season1Date_143
+Season1Date_144
+Season1Date_145
+Season1Date_146
+Season1Date_147
+Season1Date_148
+Season1Date_149
+Season1Date_150
+Season1Date_151
+Season1Date_152
+Season1Date_153
+Season1Date_154
+Season1Date_155
+Season1Date_156
+Season1Date_157
+Season1Date_158
+Season1Date_159
+Season1Date_160
+Season1Date_161
+Season1Date_162
+Season1Date_163
+Season1Date_164
+Season1Date_165
+Season1Date_166
+Season1Date_167
+Season1Date_168
+Season1Date_169
+Season1Date_170
+Season1Date_171
+Season1Date_172
+Season1Date_173
+Season1Date_174
+Season1Date_175
+Season1Date_176
+Season1Date_177
+Season1Date_178
+Season2Date
+Season2Date_1
+Season2Date_2
+Season2Date_3
+Season2Date_4
+Season2Date_5
+Season2Date_6
+Season2Date_7
+Season2Date_8
+Season2Date_9
+Season2Date_10
+Season2Date_11
+Season2Date_12
+Season2Date_13
+Season2Date_14
+Season2Date_15
+Season2Date_16
+Season2Date_17
+Season2Date_18
+Season2Date_19
+Season2Date_20
+Season2Date_21
+Season2Date_22
+Season2Date_23
+Season2Date_24
+Season2Date_25
+Season2Date_26
+Season2Date_27
+Season2Date_28
+Season2Date_29
+Season3Date
+Season3Date_1
+Season3Date_2
+Season3Date_3
+Season3Date_4
+Season3Date_5
+Season3Date_6
+Organic
+Credit
+Credit_1
+WIC
+WIC_1
+WICcash
+WICcash_1
+SFMNP
+SFMNP_1
+SNAP
+SNAP_1
+Organic_1
+Organic_2
+Bakedgoods
+Bakedgoods_1
+Cheese
+Cheese_1
+Crafts
+Crafts_1
+Flowers
+Flowers_1
+Eggs
+Eggs_1
+Seafood
+Seafood_1
+Herbs
+Herbs_1
+Vegetables
+Vegetables_1
+Honey
+Honey_1
+Jams
+Jams_1
+Maple
+Maple_1
+Meat
+Meat_1
+Nursery
+Nursery_1
+Nuts
+Nuts_1
+Plants
+Plants_1
+Poultry
+Poultry_1
+Prepared
+Prepared_1
+Soap
+Soap_1
+Trees
+Trees_1
+Wine
+Wine_1
+Coffee
+Coffee_1
+Beans
+Beans_1
+Fruits
+Fruits_1
+Grains
+Grains_1
+Juices
+Juices_1
+Mushrooms
+Mushrooms_1
+PetFood
+PetFood_1
+Tofu
+Tofu_1
+WildHarvested
+WildHarvested_1
+MarketName_7
+MarketName_8
+Website
+Website_1
+Facebook
+Facebook_1
+Twitter
+Twitter_1
+Youtube
+Youtube_1
+OtherMedia
+OtherMedia_1
+Street
+Street_1
+City
+City_1
+County_1
+County_2
+State
+State_1
+Zip
+Zip_1
+Season1Date_179
+Season1Date_180
+Season1Time
+Season1Time_1
+Season2Date_30
+Season2Date_31
+Season2Time
+Season2Time_1
+Season3Date_7
+Season3Date_8
+Season4Date
+Season4Date_1
+Location
+Location_1
+Season1Date_181
+Season1Date_182
+Season2Date_32
+Season3Date_9
+Season4Date_2
+Season2Date_33
+MarketName_9
+FMID_1
+Longitude_1
+Latitude_1
+County_3
+Street_2
+City_2
+Zip_2
+UpdateTime
+Season1Date_183
+Season2Date_34
+Season3Date_10
+Organic_3
+Credit_2
+WIC_2
+WICcash_2
+SFMNP_2
+SNAP_2
+Bakedgoods_2
+Cheese_2
+Crafts_2
+Flowers_2
+Eggs_2
+Seafood_2
+Herbs_2
+Vegetables_2
+Honey_2
+Jams_2
+Maple_2
+Meat_2
+Nursery_2
+Nuts_2
+Plants_2
+Poultry_2
+Prepared_2
+Soap_2
+Trees_2
+Wine_2
+Coffee_2
+Beans_2
+Fruits_2
+Grains_2
+Juices_2
+Mushrooms_2
+PetFood_2
+Tofu_2
+WildHarvested_2
+Website_2
+Facebook_2
+Twitter_2
+Youtube_2
+OtherMedia_2
+State_2
+Season1Time_2
+Season2Time_2
+Season4Date_3
+Location_2
+
+/* Edges representing connections between programs and channels */
+"core/text-transform0" -> MarketName_1
+MarketName -> "core/text-transform0"
+"core/text-transform1" -> FMID_1
+FMID -> "core/text-transform1"
+"core/text-transform2" -> updateTime_1
+updateTime -> "core/text-transform2"
+"core/column-rename3" -> Longitude
+x -> "core/column-rename3"
+"core/column-rename4" -> Latitude
+y -> "core/column-rename4"
+"core/text-transform5" -> Latitude_1
+Latitude -> "core/text-transform5"
+"core/text-transform6" -> Longitude_1
+Longitude -> "core/text-transform6"
+"core/mass-edit7" -> County_1
+County -> "core/mass-edit7"
+"core/mass-edit8" -> city_1
+city -> "core/mass-edit8"
+"core/mass-edit9" -> city_2
+city_1 -> "core/mass-edit9"
+"core/mass-edit10" -> city_3
+city_2 -> "core/mass-edit10"
+"core/mass-edit11" -> MarketName_2
+MarketName_1 -> "core/mass-edit11"
+"core/mass-edit12" -> MarketName_3
+MarketName_2 -> "core/mass-edit12"
+"core/mass-edit13" -> MarketName_4
+MarketName_3 -> "core/mass-edit13"
+"core/mass-edit14" -> MarketName_5
+MarketName_4 -> "core/mass-edit14"
+"core/mass-edit15" -> MarketName_6
+MarketName_5 -> "core/mass-edit15"
+"core/mass-edit16" -> MarketName_7
+MarketName_6 -> "core/mass-edit16"
+"core/column-rename17" -> Street
+street -> "core/column-rename17"
+"core/column-rename18" -> City
+city_3 -> "core/column-rename18"
+"core/column-rename19" -> Zip
+zip -> "core/column-rename19"
+"core/column-rename20" -> UpdateTime
+updateTime_1 -> "core/column-rename20"
+"core/mass-edit21" -> Season1Date_1
+Season1Date -> "core/mass-edit21"
+"core/mass-edit22" -> Season1Date_2
+Season1Date_1 -> "core/mass-edit22"
+"core/mass-edit23" -> Season1Date_3
+Season1Date_2 -> "core/mass-edit23"
+"core/mass-edit24" -> Season1Date_4
+Season1Date_3 -> "core/mass-edit24"
+"core/mass-edit25" -> Season1Date_5
+Season1Date_4 -> "core/mass-edit25"
+"core/mass-edit26" -> Season1Date_6
+Season1Date_5 -> "core/mass-edit26"
+"core/mass-edit27" -> Season1Date_7
+Season1Date_6 -> "core/mass-edit27"
+"core/mass-edit28" -> Season1Date_8
+Season1Date_7 -> "core/mass-edit28"
+"core/mass-edit29" -> Season1Date_9
+Season1Date_8 -> "core/mass-edit29"
+"core/mass-edit30" -> Season1Date_10
+Season1Date_9 -> "core/mass-edit30"
+"core/mass-edit31" -> Season1Date_11
+Season1Date_10 -> "core/mass-edit31"
+"core/mass-edit32" -> Season1Date_12
+Season1Date_11 -> "core/mass-edit32"
+"core/mass-edit33" -> Season1Date_13
+Season1Date_12 -> "core/mass-edit33"
+"core/mass-edit34" -> Season1Date_14
+Season1Date_13 -> "core/mass-edit34"
+"core/mass-edit35" -> Season1Date_15
+Season1Date_14 -> "core/mass-edit35"
+"core/mass-edit36" -> Season1Date_16
+Season1Date_15 -> "core/mass-edit36"
+"core/mass-edit37" -> Season1Date_17
+Season1Date_16 -> "core/mass-edit37"
+"core/mass-edit38" -> Season1Date_18
+Season1Date_17 -> "core/mass-edit38"
+"core/mass-edit39" -> Season1Date_19
+Season1Date_18 -> "core/mass-edit39"
+"core/mass-edit40" -> Season1Date_20
+Season1Date_19 -> "core/mass-edit40"
+"core/mass-edit41" -> Season1Date_21
+Season1Date_20 -> "core/mass-edit41"
+"core/mass-edit42" -> Season1Date_22
+Season1Date_21 -> "core/mass-edit42"
+"core/mass-edit43" -> Season1Date_23
+Season1Date_22 -> "core/mass-edit43"
+"core/mass-edit44" -> Season1Date_24
+Season1Date_23 -> "core/mass-edit44"
+"core/mass-edit45" -> Season1Date_25
+Season1Date_24 -> "core/mass-edit45"
+"core/mass-edit46" -> Season1Date_26
+Season1Date_25 -> "core/mass-edit46"
+"core/mass-edit47" -> Season1Date_27
+Season1Date_26 -> "core/mass-edit47"
+"core/mass-edit48" -> Season1Date_28
+Season1Date_27 -> "core/mass-edit48"
+"core/mass-edit49" -> Season1Date_29
+Season1Date_28 -> "core/mass-edit49"
+"core/mass-edit50" -> Season1Date_30
+Season1Date_29 -> "core/mass-edit50"
+"core/mass-edit51" -> Season1Date_31
+Season1Date_30 -> "core/mass-edit51"
+"core/mass-edit52" -> Season1Date_32
+Season1Date_31 -> "core/mass-edit52"
+"core/mass-edit53" -> Season1Date_33
+Season1Date_32 -> "core/mass-edit53"
+"core/mass-edit54" -> Season1Date_34
+Season1Date_33 -> "core/mass-edit54"
+"core/mass-edit55" -> Season1Date_35
+Season1Date_34 -> "core/mass-edit55"
+"core/mass-edit56" -> Season1Date_36
+Season1Date_35 -> "core/mass-edit56"
+"core/mass-edit57" -> Season1Date_37
+Season1Date_36 -> "core/mass-edit57"
+"core/mass-edit58" -> Season1Date_38
+Season1Date_37 -> "core/mass-edit58"
+"core/mass-edit59" -> Season1Date_39
+Season1Date_38 -> "core/mass-edit59"
+"core/mass-edit60" -> Season1Date_40
+Season1Date_39 -> "core/mass-edit60"
+"core/mass-edit61" -> Season1Date_41
+Season1Date_40 -> "core/mass-edit61"
+"core/mass-edit62" -> Season1Date_42
+Season1Date_41 -> "core/mass-edit62"
+"core/mass-edit63" -> Season1Date_43
+Season1Date_42 -> "core/mass-edit63"
+"core/mass-edit64" -> Season1Date_44
+Season1Date_43 -> "core/mass-edit64"
+"core/mass-edit65" -> Season1Date_45
+Season1Date_44 -> "core/mass-edit65"
+"core/mass-edit66" -> Season1Date_46
+Season1Date_45 -> "core/mass-edit66"
+"core/mass-edit67" -> Season1Date_47
+Season1Date_46 -> "core/mass-edit67"
+"core/mass-edit68" -> Season1Date_48
+Season1Date_47 -> "core/mass-edit68"
+"core/mass-edit69" -> Season1Date_49
+Season1Date_48 -> "core/mass-edit69"
+"core/mass-edit70" -> Season1Date_50
+Season1Date_49 -> "core/mass-edit70"
+"core/mass-edit71" -> Season1Date_51
+Season1Date_50 -> "core/mass-edit71"
+"core/mass-edit72" -> Season1Date_52
+Season1Date_51 -> "core/mass-edit72"
+"core/mass-edit73" -> Season1Date_53
+Season1Date_52 -> "core/mass-edit73"
+"core/mass-edit74" -> Season1Date_54
+Season1Date_53 -> "core/mass-edit74"
+"core/mass-edit75" -> Season1Date_55
+Season1Date_54 -> "core/mass-edit75"
+"core/mass-edit76" -> Season1Date_56
+Season1Date_55 -> "core/mass-edit76"
+"core/mass-edit77" -> Season1Date_57
+Season1Date_56 -> "core/mass-edit77"
+"core/mass-edit78" -> Season1Date_58
+Season1Date_57 -> "core/mass-edit78"
+"core/mass-edit79" -> Season1Date_59
+Season1Date_58 -> "core/mass-edit79"
+"core/mass-edit80" -> Season1Date_60
+Season1Date_59 -> "core/mass-edit80"
+"core/mass-edit81" -> Season1Date_61
+Season1Date_60 -> "core/mass-edit81"
+"core/mass-edit82" -> Season1Date_62
+Season1Date_61 -> "core/mass-edit82"
+"core/mass-edit83" -> Season1Date_63
+Season1Date_62 -> "core/mass-edit83"
+"core/mass-edit84" -> Season1Date_64
+Season1Date_63 -> "core/mass-edit84"
+"core/mass-edit85" -> Season1Date_65
+Season1Date_64 -> "core/mass-edit85"
+"core/mass-edit86" -> Season1Date_66
+Season1Date_65 -> "core/mass-edit86"
+"core/mass-edit87" -> Season1Date_67
+Season1Date_66 -> "core/mass-edit87"
+"core/mass-edit88" -> Season1Date_68
+Season1Date_67 -> "core/mass-edit88"
+"core/mass-edit89" -> Season1Date_69
+Season1Date_68 -> "core/mass-edit89"
+"core/mass-edit90" -> Season1Date_70
+Season1Date_69 -> "core/mass-edit90"
+"core/mass-edit91" -> Season1Date_71
+Season1Date_70 -> "core/mass-edit91"
+"core/mass-edit92" -> Season1Date_72
+Season1Date_71 -> "core/mass-edit92"
+"core/mass-edit93" -> Season1Date_73
+Season1Date_72 -> "core/mass-edit93"
+"core/mass-edit94" -> Season1Date_74
+Season1Date_73 -> "core/mass-edit94"
+"core/mass-edit95" -> Season1Date_75
+Season1Date_74 -> "core/mass-edit95"
+"core/mass-edit96" -> Season1Date_76
+Season1Date_75 -> "core/mass-edit96"
+"core/mass-edit97" -> Season1Date_77
+Season1Date_76 -> "core/mass-edit97"
+"core/mass-edit98" -> Season1Date_78
+Season1Date_77 -> "core/mass-edit98"
+"core/mass-edit99" -> Season1Date_79
+Season1Date_78 -> "core/mass-edit99"
+"core/mass-edit100" -> Season1Date_80
+Season1Date_79 -> "core/mass-edit100"
+"core/mass-edit101" -> Season1Date_81
+Season1Date_80 -> "core/mass-edit101"
+"core/mass-edit102" -> Season1Date_82
+Season1Date_81 -> "core/mass-edit102"
+"core/mass-edit103" -> Season1Date_83
+Season1Date_82 -> "core/mass-edit103"
+"core/mass-edit104" -> Season1Date_84
+Season1Date_83 -> "core/mass-edit104"
+"core/mass-edit105" -> Season1Date_85
+Season1Date_84 -> "core/mass-edit105"
+"core/mass-edit106" -> Season1Date_86
+Season1Date_85 -> "core/mass-edit106"
+"core/mass-edit107" -> Season1Date_87
+Season1Date_86 -> "core/mass-edit107"
+"core/mass-edit108" -> Season1Date_88
+Season1Date_87 -> "core/mass-edit108"
+"core/mass-edit109" -> Season1Date_89
+Season1Date_88 -> "core/mass-edit109"
+"core/mass-edit110" -> Season1Date_90
+Season1Date_89 -> "core/mass-edit110"
+"core/mass-edit111" -> Season1Date_91
+Season1Date_90 -> "core/mass-edit111"
+"core/mass-edit112" -> Season1Date_92
+Season1Date_91 -> "core/mass-edit112"
+"core/mass-edit113" -> Season1Date_93
+Season1Date_92 -> "core/mass-edit113"
+"core/mass-edit114" -> Season1Date_94
+Season1Date_93 -> "core/mass-edit114"
+"core/mass-edit115" -> Season1Date_95
+Season1Date_94 -> "core/mass-edit115"
+"core/mass-edit116" -> Season1Date_96
+Season1Date_95 -> "core/mass-edit116"
+"core/mass-edit117" -> Season1Date_97
+Season1Date_96 -> "core/mass-edit117"
+"core/mass-edit118" -> Season1Date_98
+Season1Date_97 -> "core/mass-edit118"
+"core/mass-edit119" -> Season1Date_99
+Season1Date_98 -> "core/mass-edit119"
+"core/mass-edit120" -> Season1Date_100
+Season1Date_99 -> "core/mass-edit120"
+"core/mass-edit121" -> Season1Date_101
+Season1Date_100 -> "core/mass-edit121"
+"core/mass-edit122" -> Season1Date_102
+Season1Date_101 -> "core/mass-edit122"
+"core/mass-edit123" -> Season1Date_103
+Season1Date_102 -> "core/mass-edit123"
+"core/mass-edit124" -> Season1Date_104
+Season1Date_103 -> "core/mass-edit124"
+"core/mass-edit125" -> Season1Date_105
+Season1Date_104 -> "core/mass-edit125"
+"core/mass-edit126" -> Season1Date_106
+Season1Date_105 -> "core/mass-edit126"
+"core/mass-edit127" -> Season1Date_107
+Season1Date_106 -> "core/mass-edit127"
+"core/mass-edit128" -> Season1Date_108
+Season1Date_107 -> "core/mass-edit128"
+"core/mass-edit129" -> Season1Date_109
+Season1Date_108 -> "core/mass-edit129"
+"core/mass-edit130" -> Season1Date_110
+Season1Date_109 -> "core/mass-edit130"
+"core/mass-edit131" -> Season1Date_111
+Season1Date_110 -> "core/mass-edit131"
+"core/mass-edit132" -> Season1Date_112
+Season1Date_111 -> "core/mass-edit132"
+"core/mass-edit133" -> Season1Date_113
+Season1Date_112 -> "core/mass-edit133"
+"core/mass-edit134" -> Season1Date_114
+Season1Date_113 -> "core/mass-edit134"
+"core/mass-edit135" -> Season1Date_115
+Season1Date_114 -> "core/mass-edit135"
+"core/mass-edit136" -> Season1Date_116
+Season1Date_115 -> "core/mass-edit136"
+"core/mass-edit137" -> Season1Date_117
+Season1Date_116 -> "core/mass-edit137"
+"core/mass-edit138" -> Season1Date_118
+Season1Date_117 -> "core/mass-edit138"
+"core/mass-edit139" -> Season1Date_119
+Season1Date_118 -> "core/mass-edit139"
+"core/mass-edit140" -> Season1Date_120
+Season1Date_119 -> "core/mass-edit140"
+"core/mass-edit141" -> Season1Date_121
+Season1Date_120 -> "core/mass-edit141"
+"core/mass-edit142" -> Season1Date_122
+Season1Date_121 -> "core/mass-edit142"
+"core/mass-edit143" -> Season1Date_123
+Season1Date_122 -> "core/mass-edit143"
+"core/mass-edit144" -> Season1Date_124
+Season1Date_123 -> "core/mass-edit144"
+"core/mass-edit145" -> Season1Date_125
+Season1Date_124 -> "core/mass-edit145"
+"core/mass-edit146" -> Season1Date_126
+Season1Date_125 -> "core/mass-edit146"
+"core/mass-edit147" -> Season1Date_127
+Season1Date_126 -> "core/mass-edit147"
+"core/mass-edit148" -> Season1Date_128
+Season1Date_127 -> "core/mass-edit148"
+"core/mass-edit149" -> Season1Date_129
+Season1Date_128 -> "core/mass-edit149"
+"core/mass-edit150" -> Season1Date_130
+Season1Date_129 -> "core/mass-edit150"
+"core/mass-edit151" -> Season1Date_131
+Season1Date_130 -> "core/mass-edit151"
+"core/mass-edit152" -> Season1Date_132
+Season1Date_131 -> "core/mass-edit152"
+"core/mass-edit153" -> Season1Date_133
+Season1Date_132 -> "core/mass-edit153"
+"core/mass-edit154" -> Season1Date_134
+Season1Date_133 -> "core/mass-edit154"
+"core/mass-edit155" -> Season1Date_135
+Season1Date_134 -> "core/mass-edit155"
+"core/mass-edit156" -> Season1Date_136
+Season1Date_135 -> "core/mass-edit156"
+"core/mass-edit157" -> Season1Date_137
+Season1Date_136 -> "core/mass-edit157"
+"core/mass-edit158" -> Season1Date_138
+Season1Date_137 -> "core/mass-edit158"
+"core/mass-edit159" -> Season1Date_139
+Season1Date_138 -> "core/mass-edit159"
+"core/mass-edit160" -> Season1Date_140
+Season1Date_139 -> "core/mass-edit160"
+"core/mass-edit161" -> Season1Date_141
+Season1Date_140 -> "core/mass-edit161"
+"core/mass-edit162" -> Season1Date_142
+Season1Date_141 -> "core/mass-edit162"
+"core/mass-edit163" -> Season1Date_143
+Season1Date_142 -> "core/mass-edit163"
+"core/mass-edit164" -> Season1Date_144
+Season1Date_143 -> "core/mass-edit164"
+"core/mass-edit165" -> Season1Date_145
+Season1Date_144 -> "core/mass-edit165"
+"core/mass-edit166" -> Season1Date_146
+Season1Date_145 -> "core/mass-edit166"
+"core/mass-edit167" -> Season1Date_147
+Season1Date_146 -> "core/mass-edit167"
+"core/mass-edit168" -> Season1Date_148
+Season1Date_147 -> "core/mass-edit168"
+"core/mass-edit169" -> Season1Date_149
+Season1Date_148 -> "core/mass-edit169"
+"core/mass-edit170" -> Season1Date_150
+Season1Date_149 -> "core/mass-edit170"
+"core/mass-edit171" -> Season1Date_151
+Season1Date_150 -> "core/mass-edit171"
+"core/mass-edit172" -> Season1Date_152
+Season1Date_151 -> "core/mass-edit172"
+"core/mass-edit173" -> Season1Date_153
+Season1Date_152 -> "core/mass-edit173"
+"core/mass-edit174" -> Season1Date_154
+Season1Date_153 -> "core/mass-edit174"
+"core/mass-edit175" -> Season1Date_155
+Season1Date_154 -> "core/mass-edit175"
+"core/mass-edit176" -> Season1Date_156
+Season1Date_155 -> "core/mass-edit176"
+"core/mass-edit177" -> Season1Date_157
+Season1Date_156 -> "core/mass-edit177"
+"core/mass-edit178" -> Season1Date_158
+Season1Date_157 -> "core/mass-edit178"
+"core/mass-edit179" -> Season1Date_159
+Season1Date_158 -> "core/mass-edit179"
+"core/mass-edit180" -> Season1Date_160
+Season1Date_159 -> "core/mass-edit180"
+"core/mass-edit181" -> Season1Date_161
+Season1Date_160 -> "core/mass-edit181"
+"core/mass-edit182" -> Season1Date_162
+Season1Date_161 -> "core/mass-edit182"
+"core/mass-edit183" -> Season1Date_163
+Season1Date_162 -> "core/mass-edit183"
+"core/mass-edit184" -> Season1Date_164
+Season1Date_163 -> "core/mass-edit184"
+"core/mass-edit185" -> Season1Date_165
+Season1Date_164 -> "core/mass-edit185"
+"core/mass-edit186" -> Season1Date_166
+Season1Date_165 -> "core/mass-edit186"
+"core/mass-edit187" -> Season1Date_167
+Season1Date_166 -> "core/mass-edit187"
+"core/mass-edit188" -> Season1Date_168
+Season1Date_167 -> "core/mass-edit188"
+"core/mass-edit189" -> Season1Date_169
+Season1Date_168 -> "core/mass-edit189"
+"core/mass-edit190" -> Season1Date_170
+Season1Date_169 -> "core/mass-edit190"
+"core/mass-edit191" -> Season1Date_171
+Season1Date_170 -> "core/mass-edit191"
+"core/mass-edit192" -> Season1Date_172
+Season1Date_171 -> "core/mass-edit192"
+"core/mass-edit193" -> Season1Date_173
+Season1Date_172 -> "core/mass-edit193"
+"core/mass-edit194" -> Season1Date_174
+Season1Date_173 -> "core/mass-edit194"
+"core/mass-edit195" -> Season1Date_175
+Season1Date_174 -> "core/mass-edit195"
+"core/mass-edit196" -> Season1Date_176
+Season1Date_175 -> "core/mass-edit196"
+"core/mass-edit197" -> Season1Date_177
+Season1Date_176 -> "core/mass-edit197"
+"core/mass-edit198" -> Season1Date_178
+Season1Date_177 -> "core/mass-edit198"
+"core/mass-edit199" -> Season1Date_179
+Season1Date_178 -> "core/mass-edit199"
+"core/mass-edit200" -> Season2Date_1
+Season2Date -> "core/mass-edit200"
+"core/mass-edit201" -> Season2Date_2
+Season2Date_1 -> "core/mass-edit201"
+"core/mass-edit202" -> Season2Date_3
+Season2Date_2 -> "core/mass-edit202"
+"core/mass-edit203" -> Season2Date_4
+Season2Date_3 -> "core/mass-edit203"
+"core/mass-edit204" -> Season2Date_5
+Season2Date_4 -> "core/mass-edit204"
+"core/mass-edit205" -> Season2Date_6
+Season2Date_5 -> "core/mass-edit205"
+"core/mass-edit206" -> Season2Date_7
+Season2Date_6 -> "core/mass-edit206"
+"core/mass-edit207" -> Season2Date_8
+Season2Date_7 -> "core/mass-edit207"
+"core/mass-edit208" -> Season2Date_9
+Season2Date_8 -> "core/mass-edit208"
+"core/mass-edit209" -> Season2Date_10
+Season2Date_9 -> "core/mass-edit209"
+"core/mass-edit210" -> Season2Date_11
+Season2Date_10 -> "core/mass-edit210"
+"core/mass-edit211" -> Season2Date_12
+Season2Date_11 -> "core/mass-edit211"
+"core/mass-edit212" -> Season2Date_13
+Season2Date_12 -> "core/mass-edit212"
+"core/mass-edit213" -> Season2Date_14
+Season2Date_13 -> "core/mass-edit213"
+"core/mass-edit214" -> Season2Date_15
+Season2Date_14 -> "core/mass-edit214"
+"core/mass-edit215" -> Season2Date_16
+Season2Date_15 -> "core/mass-edit215"
+"core/mass-edit216" -> Season2Date_17
+Season2Date_16 -> "core/mass-edit216"
+"core/mass-edit217" -> Season2Date_18
+Season2Date_17 -> "core/mass-edit217"
+"core/mass-edit218" -> Season2Date_19
+Season2Date_18 -> "core/mass-edit218"
+"core/mass-edit219" -> Season2Date_20
+Season2Date_19 -> "core/mass-edit219"
+"core/mass-edit220" -> Season2Date_21
+Season2Date_20 -> "core/mass-edit220"
+"core/mass-edit221" -> Season2Date_22
+Season2Date_21 -> "core/mass-edit221"
+"core/mass-edit222" -> Season2Date_23
+Season2Date_22 -> "core/mass-edit222"
+"core/mass-edit223" -> Season2Date_24
+Season2Date_23 -> "core/mass-edit223"
+"core/mass-edit224" -> Season2Date_25
+Season2Date_24 -> "core/mass-edit224"
+"core/mass-edit225" -> Season2Date_26
+Season2Date_25 -> "core/mass-edit225"
+"core/mass-edit226" -> Season2Date_27
+Season2Date_26 -> "core/mass-edit226"
+"core/mass-edit227" -> Season2Date_28
+Season2Date_27 -> "core/mass-edit227"
+"core/mass-edit228" -> Season2Date_29
+Season2Date_28 -> "core/mass-edit228"
+"core/mass-edit229" -> Season2Date_30
+Season2Date_29 -> "core/mass-edit229"
+"core/mass-edit230" -> Season3Date_1
+Season3Date -> "core/mass-edit230"
+"core/mass-edit231" -> Season3Date_2
+Season3Date_1 -> "core/mass-edit231"
+"core/mass-edit232" -> Season3Date_3
+Season3Date_2 -> "core/mass-edit232"
+"core/mass-edit233" -> Season3Date_4
+Season3Date_3 -> "core/mass-edit233"
+"core/mass-edit234" -> Season3Date_5
+Season3Date_4 -> "core/mass-edit234"
+"core/mass-edit235" -> Season3Date_6
+Season3Date_5 -> "core/mass-edit235"
+"core/mass-edit236" -> Season3Date_7
+Season3Date_6 -> "core/mass-edit236"
+"core/mass-edit237" -> Organic_1
+Organic -> "core/mass-edit237"
+"core/mass-edit238" -> Credit_1
+Credit -> "core/mass-edit238"
+"core/mass-edit239" -> Credit_2
+Credit_1 -> "core/mass-edit239"
+"core/mass-edit240" -> WIC_1
+WIC -> "core/mass-edit240"
+"core/mass-edit241" -> WIC_2
+WIC_1 -> "core/mass-edit241"
+"core/mass-edit242" -> WICcash_1
+WICcash -> "core/mass-edit242"
+"core/mass-edit243" -> WICcash_2
+WICcash_1 -> "core/mass-edit243"
+"core/mass-edit244" -> SFMNP_1
+SFMNP -> "core/mass-edit244"
+"core/mass-edit245" -> SFMNP_2
+SFMNP_1 -> "core/mass-edit245"
+"core/mass-edit246" -> SNAP_1
+SNAP -> "core/mass-edit246"
+"core/mass-edit247" -> SNAP_2
+SNAP_1 -> "core/mass-edit247"
+"core/mass-edit248" -> Organic_2
+Organic_1 -> "core/mass-edit248"
+"core/mass-edit249" -> Organic_3
+Organic_2 -> "core/mass-edit249"
+"core/mass-edit250" -> Bakedgoods_1
+Bakedgoods -> "core/mass-edit250"
+"core/mass-edit251" -> Bakedgoods_2
+Bakedgoods_1 -> "core/mass-edit251"
+"core/mass-edit252" -> Cheese_1
+Cheese -> "core/mass-edit252"
+"core/mass-edit253" -> Cheese_2
+Cheese_1 -> "core/mass-edit253"
+"core/mass-edit254" -> Crafts_1
+Crafts -> "core/mass-edit254"
+"core/mass-edit255" -> Crafts_2
+Crafts_1 -> "core/mass-edit255"
+"core/mass-edit256" -> Flowers_1
+Flowers -> "core/mass-edit256"
+"core/mass-edit257" -> Flowers_2
+Flowers_1 -> "core/mass-edit257"
+"core/mass-edit258" -> Eggs_1
+Eggs -> "core/mass-edit258"
+"core/mass-edit259" -> Eggs_2
+Eggs_1 -> "core/mass-edit259"
+"core/mass-edit260" -> Seafood_1
+Seafood -> "core/mass-edit260"
+"core/mass-edit261" -> Seafood_2
+Seafood_1 -> "core/mass-edit261"
+"core/mass-edit262" -> Herbs_1
+Herbs -> "core/mass-edit262"
+"core/mass-edit263" -> Herbs_2
+Herbs_1 -> "core/mass-edit263"
+"core/mass-edit264" -> Vegetables_1
+Vegetables -> "core/mass-edit264"
+"core/mass-edit265" -> Vegetables_2
+Vegetables_1 -> "core/mass-edit265"
+"core/mass-edit266" -> Honey_1
+Honey -> "core/mass-edit266"
+"core/mass-edit267" -> Honey_2
+Honey_1 -> "core/mass-edit267"
+"core/mass-edit268" -> Jams_1
+Jams -> "core/mass-edit268"
+"core/mass-edit269" -> Jams_2
+Jams_1 -> "core/mass-edit269"
+"core/mass-edit270" -> Maple_1
+Maple -> "core/mass-edit270"
+"core/mass-edit271" -> Maple_2
+Maple_1 -> "core/mass-edit271"
+"core/mass-edit272" -> Meat_1
+Meat -> "core/mass-edit272"
+"core/mass-edit273" -> Meat_2
+Meat_1 -> "core/mass-edit273"
+"core/mass-edit274" -> Nursery_1
+Nursery -> "core/mass-edit274"
+"core/mass-edit275" -> Nursery_2
+Nursery_1 -> "core/mass-edit275"
+"core/mass-edit276" -> Nuts_1
+Nuts -> "core/mass-edit276"
+"core/mass-edit277" -> Nuts_2
+Nuts_1 -> "core/mass-edit277"
+"core/mass-edit278" -> Plants_1
+Plants -> "core/mass-edit278"
+"core/mass-edit279" -> Plants_2
+Plants_1 -> "core/mass-edit279"
+"core/mass-edit280" -> Poultry_1
+Poultry -> "core/mass-edit280"
+"core/mass-edit281" -> Poultry_2
+Poultry_1 -> "core/mass-edit281"
+"core/mass-edit282" -> Prepared_1
+Prepared -> "core/mass-edit282"
+"core/mass-edit283" -> Prepared_2
+Prepared_1 -> "core/mass-edit283"
+"core/mass-edit284" -> Soap_1
+Soap -> "core/mass-edit284"
+"core/mass-edit285" -> Soap_2
+Soap_1 -> "core/mass-edit285"
+"core/mass-edit286" -> Trees_1
+Trees -> "core/mass-edit286"
+"core/mass-edit287" -> Trees_2
+Trees_1 -> "core/mass-edit287"
+"core/mass-edit288" -> Wine_1
+Wine -> "core/mass-edit288"
+"core/mass-edit289" -> Wine_2
+Wine_1 -> "core/mass-edit289"
+"core/mass-edit290" -> Coffee_1
+Coffee -> "core/mass-edit290"
+"core/mass-edit291" -> Coffee_2
+Coffee_1 -> "core/mass-edit291"
+"core/mass-edit292" -> Beans_1
+Beans -> "core/mass-edit292"
+"core/mass-edit293" -> Beans_2
+Beans_1 -> "core/mass-edit293"
+"core/mass-edit294" -> Fruits_1
+Fruits -> "core/mass-edit294"
+"core/mass-edit295" -> Fruits_2
+Fruits_1 -> "core/mass-edit295"
+"core/mass-edit296" -> Grains_1
+Grains -> "core/mass-edit296"
+"core/mass-edit297" -> Grains_2
+Grains_1 -> "core/mass-edit297"
+"core/mass-edit298" -> Juices_1
+Juices -> "core/mass-edit298"
+"core/mass-edit299" -> Juices_2
+Juices_1 -> "core/mass-edit299"
+"core/mass-edit300" -> Mushrooms_1
+Mushrooms -> "core/mass-edit300"
+"core/mass-edit301" -> Mushrooms_2
+Mushrooms_1 -> "core/mass-edit301"
+"core/mass-edit302" -> PetFood_1
+PetFood -> "core/mass-edit302"
+"core/mass-edit303" -> PetFood_2
+PetFood_1 -> "core/mass-edit303"
+"core/mass-edit304" -> Tofu_1
+Tofu -> "core/mass-edit304"
+"core/mass-edit305" -> Tofu_2
+Tofu_1 -> "core/mass-edit305"
+"core/mass-edit306" -> WildHarvested_1
+WildHarvested -> "core/mass-edit306"
+"core/mass-edit307" -> WildHarvested_2
+WildHarvested_1 -> "core/mass-edit307"
+"core/text-transform308" -> MarketName_8
+MarketName_7 -> "core/text-transform308"
+"core/text-transform309" -> MarketName_9
+MarketName_8 -> "core/text-transform309"
+"core/text-transform310" -> Website_1
+Website -> "core/text-transform310"
+"core/text-transform311" -> Website_2
+Website_1 -> "core/text-transform311"
+"core/text-transform312" -> Facebook_1
+Facebook -> "core/text-transform312"
+"core/text-transform313" -> Facebook_2
+Facebook_1 -> "core/text-transform313"
+"core/text-transform314" -> Twitter_1
+Twitter -> "core/text-transform314"
+"core/text-transform315" -> Twitter_2
+Twitter_1 -> "core/text-transform315"
+"core/text-transform316" -> Youtube_1
+Youtube -> "core/text-transform316"
+"core/text-transform317" -> Youtube_2
+Youtube_1 -> "core/text-transform317"
+"core/text-transform318" -> OtherMedia_1
+OtherMedia -> "core/text-transform318"
+"core/text-transform319" -> OtherMedia_2
+OtherMedia_1 -> "core/text-transform319"
+"core/text-transform320" -> Street_1
+Street -> "core/text-transform320"
+"core/text-transform321" -> Street_2
+Street_1 -> "core/text-transform321"
+"core/text-transform322" -> City_1
+City -> "core/text-transform322"
+"core/text-transform323" -> City_2
+City_1 -> "core/text-transform323"
+"core/text-transform324" -> County_2
+County_1 -> "core/text-transform324"
+"core/text-transform325" -> County_3
+County_2 -> "core/text-transform325"
+"core/text-transform326" -> State_1
+State -> "core/text-transform326"
+"core/text-transform327" -> State_2
+State_1 -> "core/text-transform327"
+"core/text-transform328" -> Zip_1
+Zip -> "core/text-transform328"
+"core/text-transform329" -> Zip_2
+Zip_1 -> "core/text-transform329"
+"core/text-transform330" -> Season1Date_180
+Season1Date_179 -> "core/text-transform330"
+"core/text-transform331" -> Season1Date_181
+Season1Date_180 -> "core/text-transform331"
+"core/text-transform332" -> Season1Time_1
+Season1Time -> "core/text-transform332"
+"core/text-transform333" -> Season1Time_2
+Season1Time_1 -> "core/text-transform333"
+"core/text-transform334" -> Season2Date_31
+Season2Date_30 -> "core/text-transform334"
+"core/text-transform335" -> Season2Date_32
+Season2Date_31 -> "core/text-transform335"
+"core/text-transform336" -> Season2Time_1
+Season2Time -> "core/text-transform336"
+"core/text-transform337" -> Season2Time_2
+Season2Time_1 -> "core/text-transform337"
+"core/text-transform338" -> Season3Date_8
+Season3Date_7 -> "core/text-transform338"
+"core/text-transform339" -> Season3Date_9
+Season3Date_8 -> "core/text-transform339"
+"core/text-transform340" -> Season4Date_1
+Season4Date -> "core/text-transform340"
+"core/text-transform341" -> Season4Date_2
+Season4Date_1 -> "core/text-transform341"
+"core/text-transform342" -> Location_1
+Location -> "core/text-transform342"
+"core/text-transform343" -> Location_2
+Location_1 -> "core/text-transform343"
+"core/text-transform344" -> Season1Date_182
+Season1Date_181 -> "core/text-transform344"
+"core/text-transform345" -> Season1Date_183
+Season1Date_182 -> "core/text-transform345"
+"core/text-transform346" -> Season2Date_33
+Season2Date_32 -> "core/text-transform346"
+"core/text-transform347" -> Season3Date_10
+Season3Date_9 -> "core/text-transform347"
+"core/text-transform348" -> Season4Date_3
+Season4Date_2 -> "core/text-transform348"
+"core/text-transform349" -> Season2Date_34
+Season2Date_33 -> "core/text-transform349"
+CombineDataCleaningChanges -> CleanData
+MarketName_9 -> CombineDataCleaningChanges
+FMID_1 -> CombineDataCleaningChanges
+updateTime_1 -> CombineDataCleaningChanges
+x -> CombineDataCleaningChanges
+Longitude_1 -> CombineDataCleaningChanges
+y -> CombineDataCleaningChanges
+Latitude_1 -> CombineDataCleaningChanges
+County_3 -> CombineDataCleaningChanges
+city_3 -> CombineDataCleaningChanges
+street -> CombineDataCleaningChanges
+Street_2 -> CombineDataCleaningChanges
+City_2 -> CombineDataCleaningChanges
+zip -> CombineDataCleaningChanges
+Zip_2 -> CombineDataCleaningChanges
+UpdateTime -> CombineDataCleaningChanges
+Season1Date_183 -> CombineDataCleaningChanges
+Season2Date_34 -> CombineDataCleaningChanges
+Season3Date_10 -> CombineDataCleaningChanges
+Organic_3 -> CombineDataCleaningChanges
+Credit_2 -> CombineDataCleaningChanges
+WIC_2 -> CombineDataCleaningChanges
+WICcash_2 -> CombineDataCleaningChanges
+SFMNP_2 -> CombineDataCleaningChanges
+SNAP_2 -> CombineDataCleaningChanges
+Bakedgoods_2 -> CombineDataCleaningChanges
+Cheese_2 -> CombineDataCleaningChanges
+Crafts_2 -> CombineDataCleaningChanges
+Flowers_2 -> CombineDataCleaningChanges
+Eggs_2 -> CombineDataCleaningChanges
+Seafood_2 -> CombineDataCleaningChanges
+Herbs_2 -> CombineDataCleaningChanges
+Vegetables_2 -> CombineDataCleaningChanges
+Honey_2 -> CombineDataCleaningChanges
+Jams_2 -> CombineDataCleaningChanges
+Maple_2 -> CombineDataCleaningChanges
+Meat_2 -> CombineDataCleaningChanges
+Nursery_2 -> CombineDataCleaningChanges
+Nuts_2 -> CombineDataCleaningChanges
+Plants_2 -> CombineDataCleaningChanges
+Poultry_2 -> CombineDataCleaningChanges
+Prepared_2 -> CombineDataCleaningChanges
+Soap_2 -> CombineDataCleaningChanges
+Trees_2 -> CombineDataCleaningChanges
+Wine_2 -> CombineDataCleaningChanges
+Coffee_2 -> CombineDataCleaningChanges
+Beans_2 -> CombineDataCleaningChanges
+Fruits_2 -> CombineDataCleaningChanges
+Grains_2 -> CombineDataCleaningChanges
+Juices_2 -> CombineDataCleaningChanges
+Mushrooms_2 -> CombineDataCleaningChanges
+PetFood_2 -> CombineDataCleaningChanges
+Tofu_2 -> CombineDataCleaningChanges
+WildHarvested_2 -> CombineDataCleaningChanges
+Website_2 -> CombineDataCleaningChanges
+Facebook_2 -> CombineDataCleaningChanges
+Twitter_2 -> CombineDataCleaningChanges
+Youtube_2 -> CombineDataCleaningChanges
+OtherMedia_2 -> CombineDataCleaningChanges
+State_2 -> CombineDataCleaningChanges
+Season1Time_2 -> CombineDataCleaningChanges
+Season2Time_2 -> CombineDataCleaningChanges
+Season4Date_3 -> CombineDataCleaningChanges
+Location_2 -> CombineDataCleaningChanges
+
+/* End of double cluster for drawing box around nodes in workflow */
+}}
+
+/* Style for nodes representing workflow input ports */
+node[shape=circle style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica width=0.2]
+
+/* Nodes representing workflow input ports */
+Season2Date_22_input_port [label=""]
+Coffee_input_port [label=""]
+WildHarvested_input_port [label=""]
+Season2Date_29_input_port [label=""]
+Nuts_input_port [label=""]
+Season1Date_28_input_port [label=""]
+Flowers_input_port [label=""]
+Season1Date_11_input_port [label=""]
+Juices_1_input_port [label=""]
+Beans_input_port [label=""]
+SFMNP_input_port [label=""]
+MarketName_input_port [label=""]
+Season2Date_28_input_port [label=""]
+Season1Date_103_input_port [label=""]
+Season1Date_179_input_port [label=""]
+Crafts_input_port [label=""]
+Season1Date_142_input_port [label=""]
+Season1Date_111_input_port [label=""]
+Season1Date_165_input_port [label=""]
+Season1Date_140_input_port [label=""]
+Season1Date_26_input_port [label=""]
+Season2Date_9_input_port [label=""]
+Crafts_1_input_port [label=""]
+Season2Date_14_input_port [label=""]
+Season1Date_135_input_port [label=""]
+MarketName_6_input_port [label=""]
+Website_input_port [label=""]
+Season1Date_160_input_port [label=""]
+Season1Date_162_input_port [label=""]
+Season1Date_12_input_port [label=""]
+Season2Date_21_input_port [label=""]
+Tofu_1_input_port [label=""]
+Season1Date_121_input_port [label=""]
+Season2Date_6_input_port [label=""]
+Season1Date_107_input_port [label=""]
+Seafood_input_port [label=""]
+Trees_1_input_port [label=""]
+Season2Date_17_input_port [label=""]
+Season4Date_2_input_port [label=""]
+SNAP_1_input_port [label=""]
+Season2Date_27_input_port [label=""]
+Season1Date_22_input_port [label=""]
+Season1Date_120_input_port [label=""]
+Longitude_input_port [label=""]
+FMID_input_port [label=""]
+Season1Date_174_input_port [label=""]
+Season1Date_10_input_port [label=""]
+Season1Date_113_input_port [label=""]
+Location_1_input_port [label=""]
+Season1Date_81_input_port [label=""]
+Season1Date_118_input_port [label=""]
+y_input_port [label=""]
+Season1Date_83_input_port [label=""]
+Season1Date_55_input_port [label=""]
+Credit_1_input_port [label=""]
+Organic_1_input_port [label=""]
+Season1Date_170_input_port [label=""]
+Season2Date_18_input_port [label=""]
+Season4Date_input_port [label=""]
+Season2Time_1_input_port [label=""]
+Season1Date_86_input_port [label=""]
+Season1Date_37_input_port [label=""]
+Eggs_input_port [label=""]
+Season2Date_23_input_port [label=""]
+Season1Date_127_input_port [label=""]
+Season1Date_6_input_port [label=""]
+SNAP_input_port [label=""]
+City_1_input_port [label=""]
+OtherMedia_1_input_port [label=""]
+Season1Date_70_input_port [label=""]
+Season1Date_115_input_port [label=""]
+Season1Date_110_input_port [label=""]
+Season1Date_82_input_port [label=""]
+Maple_input_port [label=""]
+Season1Date_13_input_port [label=""]
+Season1Date_153_input_port [label=""]
+Season1Date_181_input_port [label=""]
+Street_input_port [label=""]
+Season1Date_8_input_port [label=""]
+Season2Date_16_input_port [label=""]
+Facebook_input_port [label=""]
+Season3Date_7_input_port [label=""]
+Season2Date_3_input_port [label=""]
+PetFood_1_input_port [label=""]
+Season1Date_104_input_port [label=""]
+WICcash_1_input_port [label=""]
+Herbs_1_input_port [label=""]
+Season1Date_79_input_port [label=""]
+Season1Date_92_input_port [label=""]
+x_input_port [label=""]
+Season1Date_144_input_port [label=""]
+Wine_input_port [label=""]
+Season1Date_141_input_port [label=""]
+Season1Date_163_input_port [label=""]
+Nursery_input_port [label=""]
+Season2Date_12_input_port [label=""]
+Herbs_input_port [label=""]
+Season1Date_98_input_port [label=""]
+Mushrooms_input_port [label=""]
+Season1Date_54_input_port [label=""]
+SFMNP_1_input_port [label=""]
+Bakedgoods_1_input_port [label=""]
+Season1Date_27_input_port [label=""]
+Season2Time_input_port [label=""]
+Season1Date_53_input_port [label=""]
+Tofu_input_port [label=""]
+city_1_input_port [label=""]
+Poultry_1_input_port [label=""]
+MarketName_1_input_port [label=""]
+Season1Date_62_input_port [label=""]
+Jams_input_port [label=""]
+Season1Date_134_input_port [label=""]
+MarketName_2_input_port [label=""]
+Season1Date_69_input_port [label=""]
+Season3Date_input_port [label=""]
+Season1Date_60_input_port [label=""]
+Season1Date_65_input_port [label=""]
+MarketName_4_input_port [label=""]
+Season2Date_input_port [label=""]
+Season1Date_128_input_port [label=""]
+Season1Date_171_input_port [label=""]
+Season1Date_17_input_port [label=""]
+Season1Date_106_input_port [label=""]
+Flowers_1_input_port [label=""]
+Seafood_1_input_port [label=""]
+Season1Date_18_input_port [label=""]
+Season1Date_156_input_port [label=""]
+Season1Date_76_input_port [label=""]
+Season3Date_2_input_port [label=""]
+Season1Date_149_input_port [label=""]
+Season3Date_3_input_port [label=""]
+street_input_port [label=""]
+Season1Date_155_input_port [label=""]
+Season1Date_178_input_port [label=""]
+Season1Date_58_input_port [label=""]
+Twitter_1_input_port [label=""]
+WIC_input_port [label=""]
+Season1Date_117_input_port [label=""]
+Season1Date_14_input_port [label=""]
+Season1Date_90_input_port [label=""]
+Season2Date_13_input_port [label=""]
+Season1Date_114_input_port [label=""]
+Season1Date_38_input_port [label=""]
+Soap_input_port [label=""]
+Zip_input_port [label=""]
+Season1Date_25_input_port [label=""]
+Juices_input_port [label=""]
+Honey_input_port [label=""]
+Season2Date_1_input_port [label=""]
+Season3Date_4_input_port [label=""]
+Season1Date_159_input_port [label=""]
+Mushrooms_1_input_port [label=""]
+Season1Date_130_input_port [label=""]
+Season2Date_24_input_port [label=""]
+Season3Date_1_input_port [label=""]
+Season2Date_26_input_port [label=""]
+Season1Date_101_input_port [label=""]
+Season1Date_52_input_port [label=""]
+Season1Date_138_input_port [label=""]
+Season1Date_40_input_port [label=""]
+PetFood_input_port [label=""]
+zip_input_port [label=""]
+Season1Date_30_input_port [label=""]
+Season1Date_35_input_port [label=""]
+Season2Date_31_input_port [label=""]
+city_3_input_port [label=""]
+Season1Date_74_input_port [label=""]
+Nuts_1_input_port [label=""]
+Plants_1_input_port [label=""]
+Season2Date_10_input_port [label=""]
+Jams_1_input_port [label=""]
+Season1Date_16_input_port [label=""]
+city_2_input_port [label=""]
+Season1Date_167_input_port [label=""]
+Season1Date_56_input_port [label=""]
+Season2Date_25_input_port [label=""]
+Season1Date_19_input_port [label=""]
+Season3Date_6_input_port [label=""]
+Season1Date_97_input_port [label=""]
+Trees_input_port [label=""]
+Season1Date_72_input_port [label=""]
+Season1Date_102_input_port [label=""]
+City_input_port [label=""]
+Youtube_input_port [label=""]
+Season1Date_145_input_port [label=""]
+Season1Date_1_input_port [label=""]
+Season2Date_11_input_port [label=""]
+Season1Date_5_input_port [label=""]
+Season2Date_4_input_port [label=""]
+Season2Date_5_input_port [label=""]
+Zip_1_input_port [label=""]
+Season3Date_9_input_port [label=""]
+Season1Date_91_input_port [label=""]
+Season1Date_88_input_port [label=""]
+Grains_input_port [label=""]
+Plants_input_port [label=""]
+Season1Date_24_input_port [label=""]
+Season1Date_2_input_port [label=""]
+Vegetables_1_input_port [label=""]
+Season1Date_99_input_port [label=""]
+Season1Date_116_input_port [label=""]
+Season1Date_93_input_port [label=""]
+Season1Date_126_input_port [label=""]
+Season1Date_51_input_port [label=""]
+OtherMedia_input_port [label=""]
+Season1Date_31_input_port [label=""]
+Season1Date_41_input_port [label=""]
+Season2Date_33_input_port [label=""]
+Season1Date_164_input_port [label=""]
+Season1Date_161_input_port [label=""]
+County_2_input_port [label=""]
+Season1Date_148_input_port [label=""]
+Season1Date_23_input_port [label=""]
+Season1Date_94_input_port [label=""]
+updateTime_input_port [label=""]
+Season3Date_5_input_port [label=""]
+Cheese_input_port [label=""]
+city_input_port [label=""]
+Season1Date_95_input_port [label=""]
+Fruits_1_input_port [label=""]
+Season1Date_42_input_port [label=""]
+Season1Date_168_input_port [label=""]
+Season1Date_175_input_port [label=""]
+Season1Date_29_input_port [label=""]
+WIC_1_input_port [label=""]
+Season1Date_15_input_port [label=""]
+Prepared_input_port [label=""]
+Meat_1_input_port [label=""]
+Season1Date_124_input_port [label=""]
+Organic_2_input_port [label=""]
+Season1Date_96_input_port [label=""]
+Season1Date_45_input_port [label=""]
+Season1Date_87_input_port [label=""]
+Eggs_1_input_port [label=""]
+Season2Date_7_input_port [label=""]
+Season1Date_input_port [label=""]
+Season1Date_100_input_port [label=""]
+Season1Date_105_input_port [label=""]
+Season1Date_80_input_port [label=""]
+Season1Date_136_input_port [label=""]
+County_input_port [label=""]
+Season2Date_20_input_port [label=""]
+Season1Date_36_input_port [label=""]
+Season1Date_151_input_port [label=""]
+Prepared_1_input_port [label=""]
+Season1Date_150_input_port [label=""]
+County_1_input_port [label=""]
+Season1Date_34_input_port [label=""]
+Season1Date_108_input_port [label=""]
+State_input_port [label=""]
+Beans_1_input_port [label=""]
+Season1Date_33_input_port [label=""]
+Season1Date_4_input_port [label=""]
+Season1Date_143_input_port [label=""]
+Season1Date_68_input_port [label=""]
+Season1Date_158_input_port [label=""]
+Youtube_1_input_port [label=""]
+Season1Date_125_input_port [label=""]
+Grains_1_input_port [label=""]
+State_1_input_port [label=""]
+Season1Date_75_input_port [label=""]
+Season1Date_180_input_port [label=""]
+Season1Date_85_input_port [label=""]
+Season1Date_63_input_port [label=""]
+Season2Date_32_input_port [label=""]
+Season2Date_19_input_port [label=""]
+Season1Date_129_input_port [label=""]
+Season1Date_73_input_port [label=""]
+Twitter_input_port [label=""]
+Season1Date_173_input_port [label=""]
+Maple_1_input_port [label=""]
+MarketName_5_input_port [label=""]
+Season1Date_122_input_port [label=""]
+Season1Date_131_input_port [label=""]
+Vegetables_input_port [label=""]
+MarketName_7_input_port [label=""]
+Bakedgoods_input_port [label=""]
+Coffee_1_input_port [label=""]
+Season1Date_177_input_port [label=""]
+Season1Date_64_input_port [label=""]
+Season1Date_119_input_port [label=""]
+Season1Date_9_input_port [label=""]
+Season1Date_49_input_port [label=""]
+Meat_input_port [label=""]
+Season1Date_133_input_port [label=""]
+Season2Date_8_input_port [label=""]
+Season1Date_20_input_port [label=""]
+Season1Date_66_input_port [label=""]
+Season1Date_77_input_port [label=""]
+Season1Date_39_input_port [label=""]
+Season1Date_3_input_port [label=""]
+Season1Date_46_input_port [label=""]
+Poultry_input_port [label=""]
+Honey_1_input_port [label=""]
+Season1Time_1_input_port [label=""]
+Season1Date_32_input_port [label=""]
+Season1Date_147_input_port [label=""]
+Season1Date_169_input_port [label=""]
+Season2Date_15_input_port [label=""]
+Season1Date_43_input_port [label=""]
+Season1Date_166_input_port [label=""]
+Season1Date_146_input_port [label=""]
+Season1Date_67_input_port [label=""]
+Season2Date_2_input_port [label=""]
+Season3Date_8_input_port [label=""]
+Season1Date_112_input_port [label=""]
+Season1Date_50_input_port [label=""]
+WICcash_input_port [label=""]
+Street_1_input_port [label=""]
+Season1Date_154_input_port [label=""]
+Season1Date_7_input_port [label=""]
+Latitude_input_port [label=""]
+Nursery_1_input_port [label=""]
+Soap_1_input_port [label=""]
+Cheese_1_input_port [label=""]
+Season1Date_78_input_port [label=""]
+updateTime_1_input_port [label=""]
+Season1Date_59_input_port [label=""]
+Credit_input_port [label=""]
+Season4Date_1_input_port [label=""]
+Organic_input_port [label=""]
+Season1Date_132_input_port [label=""]
+Season1Date_48_input_port [label=""]
+Season1Date_152_input_port [label=""]
+MarketName_8_input_port [label=""]
+Website_1_input_port [label=""]
+Location_input_port [label=""]
+Fruits_input_port [label=""]
+Season1Date_157_input_port [label=""]
+WildHarvested_1_input_port [label=""]
+Facebook_1_input_port [label=""]
+Season1Time_input_port [label=""]
+Season1Date_21_input_port [label=""]
+Season1Date_57_input_port [label=""]
+Season1Date_139_input_port [label=""]
+Season1Date_123_input_port [label=""]
+Season1Date_89_input_port [label=""]
+Season1Date_44_input_port [label=""]
+Season1Date_176_input_port [label=""]
+Season1Date_137_input_port [label=""]
+Season2Date_30_input_port [label=""]
+Season1Date_172_input_port [label=""]
+Season1Date_182_input_port [label=""]
+MarketName_3_input_port [label=""]
+Season1Date_61_input_port [label=""]
+Season1Date_47_input_port [label=""]
+Wine_1_input_port [label=""]
+Season1Date_84_input_port [label=""]
+Season1Date_109_input_port [label=""]
+Season1Date_71_input_port [label=""]
+
+/* Style for nodes representing workflow output ports */
+node[shape=circle style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica width=0.2]
+
+/* Nodes representing workflow output ports */
+CleanData_output_port [label=""]
+
+/* Edges from input ports to channels */
+Season2Date_22_input_port -> Season2Date_22
+Coffee_input_port -> Coffee
+WildHarvested_input_port -> WildHarvested
+Season2Date_29_input_port -> Season2Date_29
+Nuts_input_port -> Nuts
+Season1Date_28_input_port -> Season1Date_28
+Flowers_input_port -> Flowers
+Season1Date_11_input_port -> Season1Date_11
+Juices_1_input_port -> Juices_1
+Beans_input_port -> Beans
+SFMNP_input_port -> SFMNP
+MarketName_input_port -> MarketName
+Season2Date_28_input_port -> Season2Date_28
+Season1Date_103_input_port -> Season1Date_103
+Season1Date_179_input_port -> Season1Date_179
+Crafts_input_port -> Crafts
+Season1Date_142_input_port -> Season1Date_142
+Season1Date_111_input_port -> Season1Date_111
+Season1Date_165_input_port -> Season1Date_165
+Season1Date_140_input_port -> Season1Date_140
+Season1Date_26_input_port -> Season1Date_26
+Season2Date_9_input_port -> Season2Date_9
+Crafts_1_input_port -> Crafts_1
+Season2Date_14_input_port -> Season2Date_14
+Season1Date_135_input_port -> Season1Date_135
+MarketName_6_input_port -> MarketName_6
+Website_input_port -> Website
+Season1Date_160_input_port -> Season1Date_160
+Season1Date_162_input_port -> Season1Date_162
+Season1Date_12_input_port -> Season1Date_12
+Season2Date_21_input_port -> Season2Date_21
+Tofu_1_input_port -> Tofu_1
+Season1Date_121_input_port -> Season1Date_121
+Season2Date_6_input_port -> Season2Date_6
+Season1Date_107_input_port -> Season1Date_107
+Seafood_input_port -> Seafood
+Trees_1_input_port -> Trees_1
+Season2Date_17_input_port -> Season2Date_17
+Season4Date_2_input_port -> Season4Date_2
+SNAP_1_input_port -> SNAP_1
+Season2Date_27_input_port -> Season2Date_27
+Season1Date_22_input_port -> Season1Date_22
+Season1Date_120_input_port -> Season1Date_120
+Longitude_input_port -> Longitude
+FMID_input_port -> FMID
+Season1Date_174_input_port -> Season1Date_174
+Season1Date_10_input_port -> Season1Date_10
+Season1Date_113_input_port -> Season1Date_113
+Location_1_input_port -> Location_1
+Season1Date_81_input_port -> Season1Date_81
+Season1Date_118_input_port -> Season1Date_118
+y_input_port -> y
+Season1Date_83_input_port -> Season1Date_83
+Season1Date_55_input_port -> Season1Date_55
+Credit_1_input_port -> Credit_1
+Organic_1_input_port -> Organic_1
+Season1Date_170_input_port -> Season1Date_170
+Season2Date_18_input_port -> Season2Date_18
+Season4Date_input_port -> Season4Date
+Season2Time_1_input_port -> Season2Time_1
+Season1Date_86_input_port -> Season1Date_86
+Season1Date_37_input_port -> Season1Date_37
+Eggs_input_port -> Eggs
+Season2Date_23_input_port -> Season2Date_23
+Season1Date_127_input_port -> Season1Date_127
+Season1Date_6_input_port -> Season1Date_6
+SNAP_input_port -> SNAP
+City_1_input_port -> City_1
+OtherMedia_1_input_port -> OtherMedia_1
+Season1Date_70_input_port -> Season1Date_70
+Season1Date_115_input_port -> Season1Date_115
+Season1Date_110_input_port -> Season1Date_110
+Season1Date_82_input_port -> Season1Date_82
+Maple_input_port -> Maple
+Season1Date_13_input_port -> Season1Date_13
+Season1Date_153_input_port -> Season1Date_153
+Season1Date_181_input_port -> Season1Date_181
+Street_input_port -> Street
+Season1Date_8_input_port -> Season1Date_8
+Season2Date_16_input_port -> Season2Date_16
+Facebook_input_port -> Facebook
+Season3Date_7_input_port -> Season3Date_7
+Season2Date_3_input_port -> Season2Date_3
+PetFood_1_input_port -> PetFood_1
+Season1Date_104_input_port -> Season1Date_104
+WICcash_1_input_port -> WICcash_1
+Herbs_1_input_port -> Herbs_1
+Season1Date_79_input_port -> Season1Date_79
+Season1Date_92_input_port -> Season1Date_92
+x_input_port -> x
+Season1Date_144_input_port -> Season1Date_144
+Wine_input_port -> Wine
+Season1Date_141_input_port -> Season1Date_141
+Season1Date_163_input_port -> Season1Date_163
+Nursery_input_port -> Nursery
+Season2Date_12_input_port -> Season2Date_12
+Herbs_input_port -> Herbs
+Season1Date_98_input_port -> Season1Date_98
+Mushrooms_input_port -> Mushrooms
+Season1Date_54_input_port -> Season1Date_54
+SFMNP_1_input_port -> SFMNP_1
+Bakedgoods_1_input_port -> Bakedgoods_1
+Season1Date_27_input_port -> Season1Date_27
+Season2Time_input_port -> Season2Time
+Season1Date_53_input_port -> Season1Date_53
+Tofu_input_port -> Tofu
+city_1_input_port -> city_1
+Poultry_1_input_port -> Poultry_1
+MarketName_1_input_port -> MarketName_1
+Season1Date_62_input_port -> Season1Date_62
+Jams_input_port -> Jams
+Season1Date_134_input_port -> Season1Date_134
+MarketName_2_input_port -> MarketName_2
+Season1Date_69_input_port -> Season1Date_69
+Season3Date_input_port -> Season3Date
+Season1Date_60_input_port -> Season1Date_60
+Season1Date_65_input_port -> Season1Date_65
+MarketName_4_input_port -> MarketName_4
+Season2Date_input_port -> Season2Date
+Season1Date_128_input_port -> Season1Date_128
+Season1Date_171_input_port -> Season1Date_171
+Season1Date_17_input_port -> Season1Date_17
+Season1Date_106_input_port -> Season1Date_106
+Flowers_1_input_port -> Flowers_1
+Seafood_1_input_port -> Seafood_1
+Season1Date_18_input_port -> Season1Date_18
+Season1Date_156_input_port -> Season1Date_156
+Season1Date_76_input_port -> Season1Date_76
+Season3Date_2_input_port -> Season3Date_2
+Season1Date_149_input_port -> Season1Date_149
+Season3Date_3_input_port -> Season3Date_3
+street_input_port -> street
+Season1Date_155_input_port -> Season1Date_155
+Season1Date_178_input_port -> Season1Date_178
+Season1Date_58_input_port -> Season1Date_58
+Twitter_1_input_port -> Twitter_1
+WIC_input_port -> WIC
+Season1Date_117_input_port -> Season1Date_117
+Season1Date_14_input_port -> Season1Date_14
+Season1Date_90_input_port -> Season1Date_90
+Season2Date_13_input_port -> Season2Date_13
+Season1Date_114_input_port -> Season1Date_114
+Season1Date_38_input_port -> Season1Date_38
+Soap_input_port -> Soap
+Zip_input_port -> Zip
+Season1Date_25_input_port -> Season1Date_25
+Juices_input_port -> Juices
+Honey_input_port -> Honey
+Season2Date_1_input_port -> Season2Date_1
+Season3Date_4_input_port -> Season3Date_4
+Season1Date_159_input_port -> Season1Date_159
+Mushrooms_1_input_port -> Mushrooms_1
+Season1Date_130_input_port -> Season1Date_130
+Season2Date_24_input_port -> Season2Date_24
+Season3Date_1_input_port -> Season3Date_1
+Season2Date_26_input_port -> Season2Date_26
+Season1Date_101_input_port -> Season1Date_101
+Season1Date_52_input_port -> Season1Date_52
+Season1Date_138_input_port -> Season1Date_138
+Season1Date_40_input_port -> Season1Date_40
+PetFood_input_port -> PetFood
+zip_input_port -> zip
+Season1Date_30_input_port -> Season1Date_30
+Season1Date_35_input_port -> Season1Date_35
+Season2Date_31_input_port -> Season2Date_31
+city_3_input_port -> city_3
+Season1Date_74_input_port -> Season1Date_74
+Nuts_1_input_port -> Nuts_1
+Plants_1_input_port -> Plants_1
+Season2Date_10_input_port -> Season2Date_10
+Jams_1_input_port -> Jams_1
+Season1Date_16_input_port -> Season1Date_16
+city_2_input_port -> city_2
+Season1Date_167_input_port -> Season1Date_167
+Season1Date_56_input_port -> Season1Date_56
+Season2Date_25_input_port -> Season2Date_25
+Season1Date_19_input_port -> Season1Date_19
+Season3Date_6_input_port -> Season3Date_6
+Season1Date_97_input_port -> Season1Date_97
+Trees_input_port -> Trees
+Season1Date_72_input_port -> Season1Date_72
+Season1Date_102_input_port -> Season1Date_102
+City_input_port -> City
+Youtube_input_port -> Youtube
+Season1Date_145_input_port -> Season1Date_145
+Season1Date_1_input_port -> Season1Date_1
+Season2Date_11_input_port -> Season2Date_11
+Season1Date_5_input_port -> Season1Date_5
+Season2Date_4_input_port -> Season2Date_4
+Season2Date_5_input_port -> Season2Date_5
+Zip_1_input_port -> Zip_1
+Season3Date_9_input_port -> Season3Date_9
+Season1Date_91_input_port -> Season1Date_91
+Season1Date_88_input_port -> Season1Date_88
+Grains_input_port -> Grains
+Plants_input_port -> Plants
+Season1Date_24_input_port -> Season1Date_24
+Season1Date_2_input_port -> Season1Date_2
+Vegetables_1_input_port -> Vegetables_1
+Season1Date_99_input_port -> Season1Date_99
+Season1Date_116_input_port -> Season1Date_116
+Season1Date_93_input_port -> Season1Date_93
+Season1Date_126_input_port -> Season1Date_126
+Season1Date_51_input_port -> Season1Date_51
+OtherMedia_input_port -> OtherMedia
+Season1Date_31_input_port -> Season1Date_31
+Season1Date_41_input_port -> Season1Date_41
+Season2Date_33_input_port -> Season2Date_33
+Season1Date_164_input_port -> Season1Date_164
+Season1Date_161_input_port -> Season1Date_161
+County_2_input_port -> County_2
+Season1Date_148_input_port -> Season1Date_148
+Season1Date_23_input_port -> Season1Date_23
+Season1Date_94_input_port -> Season1Date_94
+updateTime_input_port -> updateTime
+Season3Date_5_input_port -> Season3Date_5
+Cheese_input_port -> Cheese
+city_input_port -> city
+Season1Date_95_input_port -> Season1Date_95
+Fruits_1_input_port -> Fruits_1
+Season1Date_42_input_port -> Season1Date_42
+Season1Date_168_input_port -> Season1Date_168
+Season1Date_175_input_port -> Season1Date_175
+Season1Date_29_input_port -> Season1Date_29
+WIC_1_input_port -> WIC_1
+Season1Date_15_input_port -> Season1Date_15
+Prepared_input_port -> Prepared
+Meat_1_input_port -> Meat_1
+Season1Date_124_input_port -> Season1Date_124
+Organic_2_input_port -> Organic_2
+Season1Date_96_input_port -> Season1Date_96
+Season1Date_45_input_port -> Season1Date_45
+Season1Date_87_input_port -> Season1Date_87
+Eggs_1_input_port -> Eggs_1
+Season2Date_7_input_port -> Season2Date_7
+Season1Date_input_port -> Season1Date
+Season1Date_100_input_port -> Season1Date_100
+Season1Date_105_input_port -> Season1Date_105
+Season1Date_80_input_port -> Season1Date_80
+Season1Date_136_input_port -> Season1Date_136
+County_input_port -> County
+Season2Date_20_input_port -> Season2Date_20
+Season1Date_36_input_port -> Season1Date_36
+Season1Date_151_input_port -> Season1Date_151
+Prepared_1_input_port -> Prepared_1
+Season1Date_150_input_port -> Season1Date_150
+County_1_input_port -> County_1
+Season1Date_34_input_port -> Season1Date_34
+Season1Date_108_input_port -> Season1Date_108
+State_input_port -> State
+Beans_1_input_port -> Beans_1
+Season1Date_33_input_port -> Season1Date_33
+Season1Date_4_input_port -> Season1Date_4
+Season1Date_143_input_port -> Season1Date_143
+Season1Date_68_input_port -> Season1Date_68
+Season1Date_158_input_port -> Season1Date_158
+Youtube_1_input_port -> Youtube_1
+Season1Date_125_input_port -> Season1Date_125
+Grains_1_input_port -> Grains_1
+State_1_input_port -> State_1
+Season1Date_75_input_port -> Season1Date_75
+Season1Date_180_input_port -> Season1Date_180
+Season1Date_85_input_port -> Season1Date_85
+Season1Date_63_input_port -> Season1Date_63
+Season2Date_32_input_port -> Season2Date_32
+Season2Date_19_input_port -> Season2Date_19
+Season1Date_129_input_port -> Season1Date_129
+Season1Date_73_input_port -> Season1Date_73
+Twitter_input_port -> Twitter
+Season1Date_173_input_port -> Season1Date_173
+Maple_1_input_port -> Maple_1
+MarketName_5_input_port -> MarketName_5
+Season1Date_122_input_port -> Season1Date_122
+Season1Date_131_input_port -> Season1Date_131
+Vegetables_input_port -> Vegetables
+MarketName_7_input_port -> MarketName_7
+Bakedgoods_input_port -> Bakedgoods
+Coffee_1_input_port -> Coffee_1
+Season1Date_177_input_port -> Season1Date_177
+Season1Date_64_input_port -> Season1Date_64
+Season1Date_119_input_port -> Season1Date_119
+Season1Date_9_input_port -> Season1Date_9
+Season1Date_49_input_port -> Season1Date_49
+Meat_input_port -> Meat
+Season1Date_133_input_port -> Season1Date_133
+Season2Date_8_input_port -> Season2Date_8
+Season1Date_20_input_port -> Season1Date_20
+Season1Date_66_input_port -> Season1Date_66
+Season1Date_77_input_port -> Season1Date_77
+Season1Date_39_input_port -> Season1Date_39
+Season1Date_3_input_port -> Season1Date_3
+Season1Date_46_input_port -> Season1Date_46
+Poultry_input_port -> Poultry
+Honey_1_input_port -> Honey_1
+Season1Time_1_input_port -> Season1Time_1
+Season1Date_32_input_port -> Season1Date_32
+Season1Date_147_input_port -> Season1Date_147
+Season1Date_169_input_port -> Season1Date_169
+Season2Date_15_input_port -> Season2Date_15
+Season1Date_43_input_port -> Season1Date_43
+Season1Date_166_input_port -> Season1Date_166
+Season1Date_146_input_port -> Season1Date_146
+Season1Date_67_input_port -> Season1Date_67
+Season2Date_2_input_port -> Season2Date_2
+Season3Date_8_input_port -> Season3Date_8
+Season1Date_112_input_port -> Season1Date_112
+Season1Date_50_input_port -> Season1Date_50
+WICcash_input_port -> WICcash
+Street_1_input_port -> Street_1
+Season1Date_154_input_port -> Season1Date_154
+Season1Date_7_input_port -> Season1Date_7
+Latitude_input_port -> Latitude
+Nursery_1_input_port -> Nursery_1
+Soap_1_input_port -> Soap_1
+Cheese_1_input_port -> Cheese_1
+Season1Date_78_input_port -> Season1Date_78
+updateTime_1_input_port -> updateTime_1
+Season1Date_59_input_port -> Season1Date_59
+Credit_input_port -> Credit
+Season4Date_1_input_port -> Season4Date_1
+Organic_input_port -> Organic
+Season1Date_132_input_port -> Season1Date_132
+Season1Date_48_input_port -> Season1Date_48
+Season1Date_152_input_port -> Season1Date_152
+MarketName_8_input_port -> MarketName_8
+Website_1_input_port -> Website_1
+Location_input_port -> Location
+Fruits_input_port -> Fruits
+Season1Date_157_input_port -> Season1Date_157
+WildHarvested_1_input_port -> WildHarvested_1
+Facebook_1_input_port -> Facebook_1
+Season1Time_input_port -> Season1Time
+Season1Date_21_input_port -> Season1Date_21
+Season1Date_57_input_port -> Season1Date_57
+Season1Date_139_input_port -> Season1Date_139
+Season1Date_123_input_port -> Season1Date_123
+Season1Date_89_input_port -> Season1Date_89
+Season1Date_44_input_port -> Season1Date_44
+Season1Date_176_input_port -> Season1Date_176
+Season1Date_137_input_port -> Season1Date_137
+Season2Date_30_input_port -> Season2Date_30
+Season1Date_172_input_port -> Season1Date_172
+Season1Date_182_input_port -> Season1Date_182
+MarketName_3_input_port -> MarketName_3
+Season1Date_61_input_port -> Season1Date_61
+Season1Date_47_input_port -> Season1Date_47
+Wine_1_input_port -> Wine_1
+Season1Date_84_input_port -> Season1Date_84
+Season1Date_109_input_port -> Season1Date_109
+Season1Date_71_input_port -> Season1Date_71
+
+/* Edges from channels to output ports */
+CleanData -> CleanData_output_port
+
+/* End of top-level graph */
+}

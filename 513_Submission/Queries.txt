@@ -1,0 +1,58 @@
+===========
+SQL Queries 
+===========
+
+1. Find Primary Key IC violations
+
+SELECT FMID, count(*) as NUMBER
+FROM FarmersMarket
+GROUP BY FMID
+HAVING COUNT(*) > 1
+ORDER BY NUMBER desc;
+
+2. Find Non-Nullable Field IC violations
+
+SELECT count(*) AS icv
+FROM FarmersMarket
+WHERE credit = NULL 
+OR wic = NULL 
+OR wiccash = NULL 
+OR sfmnp = NULL	
+OR snap = NULL 
+OR fmid = NULL 
+OR marketname = NULL
+OR updatetime = NULL;
+
+3. Find Latitude and Logitude Field IC violations
+
+SELECT count(*) as icv
+FROM FarmersMarket
+WHERE latitude < 0 
+OR latitude > 90 
+OR longitude < -180 
+OR longitude > 0;
+
+
+============
+DATALOG DEMO
+============
+
+1. Upstream(X) finds all dependencies that CleanData (final CSV output from OpenRefine) relies upon.
+This demo looks at the provenance of MarketName and how it becomes a dependency.
+
+e("core/text-transform0","MarketName_1").
+e("MarketName","core/text-transform0").
+e("core/mass-edit11","MarketName_2").
+e("MarketName_1","core/mass-edit11").
+e("core/mass-edit12","MarketName_3").
+e("MarketName_2","core/mass-edit12").
+e("MarketName_3","core/mass-edit13").
+e("CombineDataCleaningChanges","CleanData").
+e("MarketName_3","CombineDataCleaningChanges").
+
+
+tc(X,Y) :- e(X,Y).
+tc(X,Y) :- e(X,Z), tc(Z,Y).
+
+upstream(X) :- tc(X,"CleanData").
+

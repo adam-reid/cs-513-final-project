@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # @begin ModifyUpdateTime @desc This modifies the update time field to be ISO 8601 compliant.
 # @in file:PostOpenRefineNew.csv
-# @out file:PostOpenRefineFinal.csv
+# @out results @file file:PostOpenRefineFinal.csv
+# @out ValueErrors @as ValidationErrors @file stream:stderr
 
 import csv
 import os
@@ -10,8 +11,8 @@ import datetime
 
 # @begin process @desc Processes the UpdateTimes field in the CSV file.
 # @in file:PostOpenRefineNew.csv
-# @out file:PostOpenRefineFinal.csv
-# @out ValueErrors @as ValidationErrors
+# @out results @file file:PostOpenRefineFinal.csv
+# @out ValueErrors @as ValidationErrors @file stream:stderr
 def process(input_file: str) -> None:
     basename, ext = input_file.rsplit('.', 1)
     output_file = f'PostOpenRefineFinal.{ext}'

@@ -59,7 +59,7 @@ def merge_files(sql_path: Path, csv_path: Path) -> None:
         
     
 if __name__ == "__main__":
-    csv_path = Path('PostMattChangesNew-cleandates.csv')
+    csv_path = Path('PostOpenRefineFinal.csv')
     sql_path = Path('PostOpenRefine.sql')
     merge_files(sql_path, csv_path)
     

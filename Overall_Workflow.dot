@@ -16,19 +16,23 @@ node[shape=box style=filled fillcolor="#CCFFCC" peripheries=1 fontname=Helvetica
 
 /* Nodes representing atomic programs in workflow */
 open_refine [shape=record rankdir=LR label="{<f0> open_refine |<f1> Clean the data at scale}"];
-python [shape=record rankdir=LR label="{<f0> python |<f1> Address URIs and normalize time stamps}"];
+url_cleaning [shape=record rankdir=LR label="{<f0> url_cleaning |<f1> Clean URLs via python script}"];
+timestamp_cleaning [shape=record rankdir=LR label="{<f0> timestamp_cleaning |<f1> Normalize time stamps via python}"];
 schema_processing [shape=record rankdir=LR label="{<f0> schema_processing |<f1> Manually update schema for data set}"];
+merge [shape=record rankdir=LR label="{<f0> merge |<f1> Merge the cleaned data with the schema}"];
 sqllite_load [shape=record rankdir=LR label="{<f0> sqllite_load |<f1> Load data into SQLlite}"];
 
 /* Style for nodes representing non-parameter data channels in workflow */
 node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
 
 /* Nodes for non-parameter data channels in workflow */
-enhanced_csv_file [shape=record rankdir=LR label="{<f0> enhanced_csv_file |<f1> file\:PostOpenRefineNew.csv}"];
+final_csv_file [shape=record rankdir=LR label="{<f0> final_csv_file |<f1> file\:PostOpenRefineFinal.csv}"];
 database [shape=record rankdir=LR label="{<f0> database |<f1> file\:FarmersMarkets.db}"];
 raw_csv_file
 cleaned_csv_file [shape=record rankdir=LR label="{<f0> cleaned_csv_file |<f1> file\:PostOpenRefine.csv}"];
+enhanced_csv_file [shape=record rankdir=LR label="{<f0> enhanced_csv_file |<f1> file\:PostOpenRefineNew.csv}"];
 schema_and_data_file [shape=record rankdir=LR label="{<f0> schema_and_data_file |<f1> file\:PostOpenRefine.sql}"];
+final_schema [shape=record rankdir=LR label="{<f0> final_schema |<f1> file\:PostOpenRefineNew.sql}"];
 final_schema_and_data_file [shape=record rankdir=LR label="{<f0> final_schema_and_data_file |<f1> file\:FarmersMarkets.sql}"];
 
 /* Style for nodes representing parameter channels in workflow */
@@ -40,10 +44,15 @@ node[shape=box style="rounded,filled" fillcolor="#FCFCFC" peripheries=1 fontname
 open_refine -> cleaned_csv_file
 open_refine -> schema_and_data_file
 raw_csv_file -> open_refine
-python -> enhanced_csv_file
-cleaned_csv_file -> python
-schema_processing -> final_schema_and_data_file
+url_cleaning -> enhanced_csv_file
+cleaned_csv_file -> url_cleaning
+timestamp_cleaning -> final_csv_file
+enhanced_csv_file -> timestamp_cleaning
+schema_processing -> final_schema
 schema_and_data_file -> schema_processing
+merge -> final_schema_and_data_file
+final_schema -> merge
+final_csv_file -> merge
 sqllite_load -> database
 final_schema_and_data_file -> sqllite_load
 
@@ -60,14 +69,14 @@ raw_csv_file_input_port [label=""]
 node[shape=circle style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica width=0.2]
 
 /* Nodes representing workflow output ports */
-enhanced_csv_file_output_port [label=""]
+final_csv_file_output_port [label=""]
 database_output_port [label=""]
 
 /* Edges from input ports to channels */
 raw_csv_file_input_port -> raw_csv_file
 
 /* Edges from channels to output ports */
-enhanced_csv_file -> enhanced_csv_file_output_port
+final_csv_file -> final_csv_file_output_port
 database -> database_output_port
 
 /* End of top-level graph */

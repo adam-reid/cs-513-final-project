@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 # @begin ModifySocialMedia @desc This modifies the social media column.
-# @in file:PostMattChanges.csv
-# @out file:PostMattChangesNew.csv
+# @in file:PostOpenRefine.csv
+# @out file:PostOpenRefineNew.csv
 
 import csv
 import os
 
-# @begin Main @desc Checks the 3rd and 4th columns to resolve Twitter and Facebook URLS.
-# @in file:PostMattChanges.csv
-# @out file:PostMattChangesNew.csv
-with open('PostMattChanges.csv') as infile, open('PostMattChangesNew.csv','w') as outfile:
+# @begin process @desc Checks the 3rd and 4th columns to resolve Twitter and Facebook URLS.
+# @in file:PostOpenRefine.csv
+# @out file:PostOpenRefineNew.csv
+with open('PostOpenRefine.csv') as infile, open('PostOpenRefineNew.csv','w') as outfile:
     writer = csv.writer(outfile)
     for row in csv.reader(infile):
         output_row = row
@@ -33,6 +33,6 @@ with open('PostMattChanges.csv') as infile, open('PostMattChangesNew.csv','w') a
             output_row[3] = 'https://' + row[3]
         
         writer.writerow(output_row)
-# @end main
+# @end process
 
 # @end ModifySocialMedia

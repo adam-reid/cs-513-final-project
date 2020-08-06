@@ -1,0 +1,135 @@
+#@begin Linear_OR #@desc Linear OpenRefine Workflow
+#@param oldColumnName:x
+#@param oldColumnName:zip
+#@param oldColumnName:updateTime
+#@param newColumnName:Street
+#@param newColumnName:Latitude
+#@param expression:value.toDate()
+#@param col-name:Latitude
+#@param col-name:FMID
+#@param newColumnName:Zip
+#@param oldColumnName:city
+#@param col-name:updateTime
+#@param newColumnName:Longitude
+#@param newColumnName:UpdateTime
+#@param col-name:city
+#@param col-name:Longitude
+#@param oldColumnName:y
+#@param newColumnName:City
+#@param col-name:MarketName
+#@param oldColumnName:street
+#@param col-name:County
+#@param expression:value.toNumber()
+#@in table0
+#@out table21
+#@begin core/text-transform0#@desc Text transform on cells in column FMID using expression value.toNumber()
+#@param col-name:FMID
+#@param expression:value.toNumber()
+#@in table0
+#@out table1
+#@end core/text-transform0
+#@begin core/text-transform1#@desc Text transform on cells in column updateTime using expression value.toDate()
+#@param col-name:updateTime
+#@param expression:value.toDate()
+#@in table1
+#@out table2
+#@end core/text-transform1
+#@begin core/column-rename0#@desc Rename column x to Longitude
+#@param oldColumnName:x
+#@param newColumnName:Longitude
+#@in table2
+#@out table3
+#@end core/column-rename0
+#@begin core/column-rename1#@desc Rename column y to Latitude
+#@param oldColumnName:y
+#@param newColumnName:Latitude
+#@in table3
+#@out table4
+#@end core/column-rename1
+#@begin core/text-transform2#@desc Text transform on cells in column Latitude using expression value.toNumber()
+#@param col-name:Latitude
+#@param expression:value.toNumber()
+#@in table4
+#@out table5
+#@end core/text-transform2
+#@begin core/text-transform3#@desc Text transform on cells in column Longitude using expression value.toNumber()
+#@param col-name:Longitude
+#@param expression:value.toNumber()
+#@in table5
+#@out table6
+#@end core/text-transform3
+#@begin core/mass-edit0#@desc Mass edit cells in column County
+#@param col-name:County
+#@in table6
+#@out table7
+#@end core/mass-edit0
+#@begin core/mass-edit1#@desc Mass edit cells in column city
+#@param col-name:city
+#@in table7
+#@out table8
+#@end core/mass-edit1
+#@begin core/mass-edit2#@desc Mass edit cells in column city
+#@param col-name:city
+#@in table8
+#@out table9
+#@end core/mass-edit2
+#@begin core/mass-edit3#@desc Mass edit cells in column city
+#@param col-name:city
+#@in table9
+#@out table10
+#@end core/mass-edit3
+#@begin core/mass-edit4#@desc Mass edit cells in column MarketName
+#@param col-name:MarketName
+#@in table10
+#@out table11
+#@end core/mass-edit4
+#@begin core/mass-edit5#@desc Mass edit cells in column MarketName
+#@param col-name:MarketName
+#@in table11
+#@out table12
+#@end core/mass-edit5
+#@begin core/mass-edit6#@desc Mass edit cells in column MarketName
+#@param col-name:MarketName
+#@in table12
+#@out table13
+#@end core/mass-edit6
+#@begin core/mass-edit7#@desc Mass edit cells in column MarketName
+#@param col-name:MarketName
+#@in table13
+#@out table14
+#@end core/mass-edit7
+#@begin core/mass-edit8#@desc Mass edit cells in column MarketName
+#@param col-name:MarketName
+#@in table14
+#@out table15
+#@end core/mass-edit8
+#@begin core/mass-edit9#@desc Mass edit cells in column MarketName
+#@param col-name:MarketName
+#@in table15
+#@out table16
+#@end core/mass-edit9
+#@begin core/column-rename2#@desc Rename column street to Street
+#@param oldColumnName:street
+#@param newColumnName:Street
+#@in table16
+#@out table17
+#@end core/column-rename2
+#@begin core/column-rename3#@desc Rename column city to City
+#@param oldColumnName:city
+#@param newColumnName:City
+#@in table17
+#@out table18
+#@end core/column-rename3
+#@begin core/column-rename4#@desc Rename column zip to Zip
+#@param oldColumnName:zip
+#@param newColumnName:Zip
+#@in table18
+#@out table19
+#@end core/column-rename4
+#@begin core/column-rename5#@desc Rename column updateTime to UpdateTime
+#@param oldColumnName:updateTime
+#@param newColumnName:UpdateTime
+#@in table19
+#@out table20
+#@end core/column-rename5
+#@end Linear_OR

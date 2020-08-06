@@ -14,3 +14,9 @@ OR snap = NULL
 OR fmid = NULL 
 OR marketname = NULL
 OR updatetime = NULL;
+
+SELECT year, count(year)
+FROM (
+    SELECT strftime('%Y', updatetime) AS year FROM farmersmarket
+)
+GROUP BY year;

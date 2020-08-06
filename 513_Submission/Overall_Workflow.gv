@@ -31,7 +31,7 @@ raw_csv_file
 cleaned_csv_file [shape=record rankdir=LR label="{<f0> cleaned_csv_file |<f1> file\:PostOpenRefine.csv}"];
 enhanced_csv_file [shape=record rankdir=LR label="{<f0> enhanced_csv_file |<f1> file\:PostOpenRefineNew.csv}"];
 schema_and_data_file [shape=record rankdir=LR label="{<f0> schema_and_data_file |<f1> file\:PostOpenRefine.sql}"];
-final_schema [shape=record rankdir=LR label="{<f0> final_schema |<f1> file\:PostOpenRefineNew.sql}"];
+final_schema [shape=record rankdir=LR label="{<f0> final_schema |<f1> file\:PostOpenRefine.sql}"];
 final_schema_and_data_file [shape=record rankdir=LR label="{<f0> final_schema_and_data_file |<f1> file\:FarmersMarkets.sql}"];
 
 /* Style for nodes representing parameter channels in workflow */

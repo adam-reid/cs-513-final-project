@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# @begin merger  @desc Merges the schema from the sql file with the cleaned data
+# @begin MergeSqlAndData  @desc Merges the schema from the sql file with the cleaned data
 # @in csv @file file:PostOpenRefineFinal.csv
 # @in sql  @file file:PostOpenRefine.sql
 # @out final_sql  @file file:FarmersMarket.sql
@@ -37,7 +37,7 @@ def load_csv(csv_in):
     return [row for row in csv.reader(csv_in)][1:]
     
 
-# @begin merge_files  @desc Merges the files
+# @begin merge_files  @desc Merges the schema from the SQL file and data from CSV
 # @in csv @file file:PostOpenRefineFinal.csv
 # @in sql  @file file:PostOpenRefine.sql
 # @out final_sql  @file file:FarmersMarket.sql
@@ -63,4 +63,4 @@ if __name__ == "__main__":
     sql_path = Path('PostOpenRefine.sql')
     merge_files(sql_path, csv_path)
     
-# @end merger
+# @end MergeSqlAndData

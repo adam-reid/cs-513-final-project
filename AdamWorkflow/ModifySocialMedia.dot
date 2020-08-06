@@ -1,0 +1,58 @@
+
+/* Start of top-level graph */
+digraph Workflow {
+rankdir=TB
+
+/* Title for graph */
+fontname=Helvetica; fontsize=18; labelloc=t
+label=ModifySocialMedia
+
+/* Start of double cluster for drawing box around nodes in workflow */
+subgraph cluster_workflow_box_outer { label=""; color=black; penwidth=2
+subgraph cluster_workflow_box_inner { label=""; penwidth=0
+
+/* Style for nodes representing atomic programs in workflow */
+node[shape=box style=filled fillcolor="#CCFFCC" peripheries=1 fontname=Helvetica]
+
+/* Nodes representing atomic programs in workflow */
+process [shape=record rankdir=LR label="{<f0> process |<f1> Checks the 3rd and 4th columns to resolve Twitter and Facebook URLS.}"];
+
+/* Style for nodes representing non-parameter data channels in workflow */
+node[shape=box style="rounded,filled" fillcolor="#FFFFCC" peripheries=1 fontname=Helvetica]
+
+/* Nodes for non-parameter data channels in workflow */
+"file:PostOpenRefineNew.csv"
+"file:PostOpenRefine.csv"
+
+/* Style for nodes representing parameter channels in workflow */
+node[shape=box style="rounded,filled" fillcolor="#FCFCFC" peripheries=1 fontname=Helvetica]
+
+/* Nodes representing parameter channels in workflow */
+
+/* Edges representing connections between programs and channels */
+process -> "file:PostOpenRefineNew.csv"
+"file:PostOpenRefine.csv" -> process
+
+/* End of double cluster for drawing box around nodes in workflow */
+}}
+
+/* Style for nodes representing workflow input ports */
+node[shape=circle style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica width=0.2]
+
+/* Nodes representing workflow input ports */
+"file:PostOpenRefine.csv_input_port" [label=""]
+
+/* Style for nodes representing workflow output ports */
+node[shape=circle style="rounded,filled" fillcolor="#FFFFFF" peripheries=1 fontname=Helvetica width=0.2]
+
+/* Nodes representing workflow output ports */
+"file:PostOpenRefineNew.csv_output_port" [label=""]
+
+/* Edges from input ports to channels */
+"file:PostOpenRefine.csv_input_port" -> "file:PostOpenRefine.csv"
+
+/* Edges from channels to output ports */
+"file:PostOpenRefineNew.csv" -> "file:PostOpenRefineNew.csv_output_port"
+
+/* End of top-level graph */
+}

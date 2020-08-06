@@ -21,7 +21,7 @@
 
 #     @begin schema_processing  @desc Manually update schema for data set
 #     @in schema_and_data_file
-#     @out final_schema  @file file:PostOpenRefineNew.sql
+#     @out final_schema  @file file:PostOpenRefine.sql
 #     @end schema_processing
 
 #     @begin merge  @desc Merge the cleaned data with the schema

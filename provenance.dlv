@@ -1,0 +1,15 @@
+e("core/text-transform0","MarketName_1").
+e("MarketName","core/text-transform0").
+e("core/mass-edit11","MarketName_2").
+e("MarketName_1","core/mass-edit11").
+e("core/mass-edit12","MarketName_3").
+e("MarketName_2","core/mass-edit12").
+e("MarketName_3","core/mass-edit13").
+e("CombineDataCleaningChanges","CleanData").
+e("MarketName_3","CombineDataCleaningChanges").
+
+
+tc(X,Y) :- e(X,Y).
+tc(X,Y) :- e(X,Z), tc(Z,Y).
+
+upstream(X) :- tc(X,"CleanData").

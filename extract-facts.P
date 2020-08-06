@@ -1,0 +1,647 @@
+
+% FACT: extract_source(source_id, source_path).
+extract_source(1, 'ystest').
+
+% FACT: annotation(annotation_id, source_id, line_number, tag, keyword, value).
+annotation(1, 1, 1, 'begin', '@begin', 'Parallel_OR').
+annotation(2, 1, 1, 'desc', '@desc', 'Parallel OpenRefine Workflow').
+annotation(3, 1, 2, 'param', '@param', 'expression:sub_ops_17').
+annotation(4, 1, 3, 'param', '@param', 'expression:sub_ops_47').
+annotation(5, 1, 4, 'param', '@param', 'expression:sub_ops_16').
+annotation(6, 1, 5, 'param', '@param', 'expression:sub_ops_55').
+annotation(7, 1, 6, 'param', '@param', 'expression:value.trim()').
+annotation(8, 1, 7, 'param', '@param', 'expression:sub_ops_12').
+annotation(9, 1, 8, 'param', '@param', 'expression:sub_ops_3').
+annotation(10, 1, 9, 'param', '@param', 'expression:sub_ops_4').
+annotation(11, 1, 10, 'param', '@param', 'expression:sub_ops_20').
+annotation(12, 1, 11, 'param', '@param', 'expression:sub_ops_19').
+annotation(13, 1, 12, 'param', '@param', 'expression:sub_ops_36').
+annotation(14, 1, 13, 'param', '@param', 'expression:sub_ops_26').
+annotation(15, 1, 14, 'param', '@param', 'expression:sub_ops_52').
+annotation(16, 1, 15, 'param', '@param', 'expression:value.toNumber()').
+annotation(17, 1, 16, 'param', '@param', 'expression:sub_ops_2').
+annotation(18, 1, 17, 'param', '@param', 'expression:sub_ops_34').
+annotation(19, 1, 18, 'param', '@param', 'expression:sub_ops_50').
+annotation(20, 1, 19, 'param', '@param', 'expression:sub_ops_58').
+annotation(21, 1, 20, 'param', '@param', 'expression:sub_ops_7').
+annotation(22, 1, 21, 'param', '@param', 'expression:sub_ops_15').
+annotation(23, 1, 22, 'param', '@param', 'expression:sub_ops_24').
+annotation(24, 1, 23, 'param', '@param', 'expression:sub_ops_48').
+annotation(25, 1, 24, 'param', '@param', 'expression:sub_ops_32').
+annotation(26, 1, 25, 'param', '@param', 'expression:sub_ops_14').
+annotation(27, 1, 26, 'param', '@param', 'expression:sub_ops_25').
+annotation(28, 1, 27, 'param', '@param', 'expression:sub_ops_30').
+annotation(29, 1, 28, 'param', '@param', 'expression:sub_ops_13').
+annotation(30, 1, 29, 'param', '@param', 'expression:sub_ops_41').
+annotation(31, 1, 30, 'param', '@param', 'expression:sub_ops_11').
+annotation(32, 1, 31, 'param', '@param', 'expression:sub_ops_18').
+annotation(33, 1, 32, 'param', '@param', 'expression:sub_ops_28').
+annotation(34, 1, 33, 'param', '@param', 'expression:sub_ops_49').
+annotation(35, 1, 34, 'param', '@param', 'expression:value').
+annotation(36, 1, 35, 'param', '@param', 'expression:sub_ops_33').
+annotation(37, 1, 36, 'param', '@param', 'expression:sub_ops_37').
+annotation(38, 1, 37, 'param', '@param', 'expression:value.toDate()').
+annotation(39, 1, 38, 'param', '@param', 'expression:sub_ops_10').
+annotation(40, 1, 39, 'param', '@param', 'expression:sub_ops_35').
+annotation(41, 1, 40, 'param', '@param', 'expression:sub_ops_40').
+annotation(42, 1, 41, 'param', '@param', 'expression:sub_ops_57').
+annotation(43, 1, 42, 'param', '@param', 'expression:sub_ops_27').
+annotation(44, 1, 43, 'param', '@param', 'expression:sub_ops_43').
+annotation(45, 1, 44, 'param', '@param', 'expression:sub_ops_54').
+annotation(46, 1, 45, 'param', '@param', 'expression:sub_ops_6').
+annotation(47, 1, 46, 'param', '@param', 'expression:sub_ops_31').
+annotation(48, 1, 47, 'param', '@param', 'expression:sub_ops_46').
+annotation(49, 1, 48, 'param', '@param', 'expression:sub_ops_39').
+annotation(50, 1, 49, 'param', '@param', 'expression:sub_ops_9').
+annotation(51, 1, 50, 'param', '@param', 'expression:sub_ops_5').
+annotation(52, 1, 51, 'param', '@param', 'expression:sub_ops_22').
+annotation(53, 1, 52, 'param', '@param', 'expression:sub_ops_23').
+annotation(54, 1, 53, 'param', '@param', 'expression:sub_ops_44').
+annotation(55, 1, 54, 'param', '@param', 'expression:sub_ops_45').
+annotation(56, 1, 55, 'param', '@param', 'expression:sub_ops_1').
+annotation(57, 1, 56, 'param', '@param', 'expression:sub_ops_51').
+annotation(58, 1, 57, 'param', '@param', 'expression:sub_ops_42').
+annotation(59, 1, 58, 'param', '@param', 'expression:sub_ops_53').
+annotation(60, 1, 59, 'param', '@param', 'expression:sub_ops_8').
+annotation(61, 1, 60, 'param', '@param', 'expression:sub_ops_29').
+annotation(62, 1, 61, 'param', '@param', 'expression:sub_ops_38').
+annotation(63, 1, 62, 'param', '@param', 'expression:sub_ops_21').
+annotation(64, 1, 63, 'param', '@param', 'expression:sub_ops_56').
+annotation(65, 1, 64, 'in', '@in', 'Crafts').
+annotation(66, 1, 65, 'in', '@in', 'Poultry').
+annotation(67, 1, 66, 'in', '@in', 'updateTime').
+annotation(68, 1, 67, 'in', '@in', 'Tofu').
+annotation(69, 1, 68, 'in', '@in', 'Season1Date_1').
+annotation(70, 1, 69, 'in', '@in', 'Longitude').
+annotation(71, 1, 70, 'in', '@in', 'SFMNP').
+annotation(72, 1, 71, 'in', '@in', 'Facebook').
+annotation(73, 1, 72, 'in', '@in', 'Herbs').
+annotation(74, 1, 73, 'in', '@in', 'Grains').
+annotation(75, 1, 74, 'in', '@in', 'County_1').
+annotation(76, 1, 75, 'in', '@in', 'Season1Time').
+annotation(77, 1, 76, 'in', '@in', 'Jams').
+annotation(78, 1, 77, 'in', '@in', 'city').
+annotation(79, 1, 78, 'in', '@in', 'Street').
+annotation(80, 1, 79, 'in', '@in', 'Season1Date').
+annotation(81, 1, 80, 'in', '@in', 'WICcash').
+annotation(82, 1, 81, 'in', '@in', 'Prepared').
+annotation(83, 1, 82, 'in', '@in', 'City').
+annotation(84, 1, 83, 'in', '@in', 'State').
+annotation(85, 1, 84, 'in', '@in', 'Credit').
+annotation(86, 1, 85, 'in', '@in', 'MarketName_1').
+annotation(87, 1, 86, 'in', '@in', 'MarketName').
+annotation(88, 1, 87, 'in', '@in', 'Nursery').
+annotation(89, 1, 88, 'in', '@in', 'Soap').
+annotation(90, 1, 89, 'in', '@in', 'Juices').
+annotation(91, 1, 90, 'in', '@in', 'Season3Date_1').
+annotation(92, 1, 91, 'in', '@in', 'County').
+annotation(93, 1, 92, 'in', '@in', 'Organic').
+annotation(94, 1, 93, 'in', '@in', 'Season2Date').
+annotation(95, 1, 94, 'in', '@in', 'Maple').
+annotation(96, 1, 95, 'in', '@in', 'Bakedgoods').
+annotation(97, 1, 96, 'in', '@in', 'Season3Date').
+annotation(98, 1, 97, 'in', '@in', 'Season2Date_1').
+annotation(99, 1, 98, 'in', '@in', 'Youtube').
+annotation(100, 1, 99, 'in', '@in', 'WIC').
+annotation(101, 1, 100, 'in', '@in', 'Seafood').
+annotation(102, 1, 101, 'in', '@in', 'Season2Time').
+annotation(103, 1, 102, 'in', '@in', 'Cheese').
+annotation(104, 1, 103, 'in', '@in', 'Location').
+annotation(105, 1, 104, 'in', '@in', 'MarketName_2').
+annotation(106, 1, 105, 'in', '@in', 'SNAP').
+annotation(107, 1, 106, 'in', '@in', 'Fruits').
+annotation(108, 1, 107, 'in', '@in', 'Beans').
+annotation(109, 1, 108, 'in', '@in', 'WildHarvested').
+annotation(110, 1, 109, 'in', '@in', 'FMID').
+annotation(111, 1, 110, 'in', '@in', 'Latitude').
+annotation(112, 1, 111, 'in', '@in', 'Nuts').
+annotation(113, 1, 112, 'in', '@in', 'Season4Date').
+annotation(114, 1, 113, 'in', '@in', 'Honey').
+annotation(115, 1, 114, 'in', '@in', 'Eggs').
+annotation(116, 1, 115, 'in', '@in', 'Plants').
+annotation(117, 1, 116, 'in', '@in', 'Meat').
+annotation(118, 1, 117, 'in', '@in', 'Wine').
+annotation(119, 1, 118, 'in', '@in', 'Twitter').
+annotation(120, 1, 119, 'in', '@in', 'OtherMedia').
+annotation(121, 1, 120, 'in', '@in', 'Trees').
+annotation(122, 1, 121, 'in', '@in', 'Mushrooms').
+annotation(123, 1, 122, 'in', '@in', 'Website').
+annotation(124, 1, 123, 'in', '@in', 'PetFood').
+annotation(125, 1, 124, 'in', '@in', 'Coffee').
+annotation(126, 1, 125, 'in', '@in', 'Flowers').
+annotation(127, 1, 126, 'in', '@in', 'Vegetables').
+annotation(128, 1, 127, 'in', '@in', 'Zip').
+annotation(129, 1, 128, 'out', '@out', 'CleanData').
+annotation(130, 1, 129, 'begin', '@begin', 'core/text-transform0').
+annotation(131, 1, 129, 'desc', '@desc', 'Text transform on cells in column MarketName using expression value.trim()').
+annotation(132, 1, 130, 'param', '@param', 'expression:value.trim()').
+annotation(133, 1, 131, 'in', '@in', 'MarketName').
+annotation(134, 1, 132, 'out', '@out', 'MarketName_1').
+annotation(135, 1, 133, 'end', '@end', 'core/text-transform0').
+annotation(136, 1, 134, 'begin', '@begin', 'group_1_core/mass-edit1').
+annotation(137, 1, 134, 'desc', '@desc', 'group of core/mass-edit with 7 operations, details in sub_ops_1.json').
+annotation(138, 1, 135, 'param', '@param', 'expression:sub_ops_1').
+annotation(139, 1, 136, 'in', '@in', 'MarketName_1').
+annotation(140, 1, 137, 'out', '@out', 'MarketName_2').
+annotation(141, 1, 138, 'end', '@end', 'group_1_core/mass-edit1').
+annotation(142, 1, 139, 'begin', '@begin', 'group_2_core/text-transform2').
+annotation(143, 1, 139, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_2.json').
+annotation(144, 1, 140, 'param', '@param', 'expression:sub_ops_2').
+annotation(145, 1, 141, 'in', '@in', 'MarketName_2').
+annotation(146, 1, 142, 'out', '@out', 'MarketName_3').
+annotation(147, 1, 143, 'end', '@end', 'group_2_core/text-transform2').
+annotation(148, 1, 144, 'begin', '@begin', 'core/text-transform3').
+annotation(149, 1, 144, 'desc', '@desc', 'Text transform on cells in column FMID using expression value.toNumber()').
+annotation(150, 1, 145, 'param', '@param', 'expression:value.toNumber()').
+annotation(151, 1, 146, 'in', '@in', 'FMID').
+annotation(152, 1, 147, 'out', '@out', 'FMID_1').
+annotation(153, 1, 148, 'end', '@end', 'core/text-transform3').
+annotation(154, 1, 149, 'begin', '@begin', 'core/text-transform4').
+annotation(155, 1, 149, 'desc', '@desc', 'Text transform on cells in column updateTime using expression value.toDate()').
+annotation(156, 1, 150, 'param', '@param', 'expression:value.toDate()').
+annotation(157, 1, 151, 'in', '@in', 'updateTime').
+annotation(158, 1, 152, 'out', '@out', 'updateTime_1').
+annotation(159, 1, 153, 'end', '@end', 'core/text-transform4').
+annotation(160, 1, 154, 'begin', '@begin', 'core/text-transform5').
+annotation(161, 1, 154, 'desc', '@desc', 'Text transform on cells in column Latitude using expression value.toNumber()').
+annotation(162, 1, 155, 'param', '@param', 'expression:value.toNumber()').
+annotation(163, 1, 156, 'in', '@in', 'Latitude').
+annotation(164, 1, 157, 'out', '@out', 'Latitude_1').
+annotation(165, 1, 158, 'end', '@end', 'core/text-transform5').
+annotation(166, 1, 159, 'begin', '@begin', 'core/text-transform6').
+annotation(167, 1, 159, 'desc', '@desc', 'Text transform on cells in column Longitude using expression value.toNumber()').
+annotation(168, 1, 160, 'param', '@param', 'expression:value.toNumber()').
+annotation(169, 1, 161, 'in', '@in', 'Longitude').
+annotation(170, 1, 162, 'out', '@out', 'Longitude_1').
+annotation(171, 1, 163, 'end', '@end', 'core/text-transform6').
+annotation(172, 1, 164, 'begin', '@begin', 'core/mass-edit7').
+annotation(173, 1, 164, 'desc', '@desc', 'Mass edit cells in column County').
+annotation(174, 1, 165, 'param', '@param', 'expression:value').
+annotation(175, 1, 166, 'in', '@in', 'County').
+annotation(176, 1, 167, 'out', '@out', 'County_1').
+annotation(177, 1, 168, 'end', '@end', 'core/mass-edit7').
+annotation(178, 1, 169, 'begin', '@begin', 'group_3_core/text-transform8').
+annotation(179, 1, 169, 'desc', '@desc', 'group of core/text-transform with 3 operations, details in sub_ops_3.json').
+annotation(180, 1, 170, 'param', '@param', 'expression:sub_ops_3').
+annotation(181, 1, 171, 'in', '@in', 'County_1').
+annotation(182, 1, 172, 'out', '@out', 'County_2').
+annotation(183, 1, 173, 'end', '@end', 'group_3_core/text-transform8').
+annotation(184, 1, 174, 'begin', '@begin', 'group_4_core/mass-edit9').
+annotation(185, 1, 174, 'desc', '@desc', 'group of core/mass-edit with 3 operations, details in sub_ops_4.json').
+annotation(186, 1, 175, 'param', '@param', 'expression:sub_ops_4').
+annotation(187, 1, 176, 'in', '@in', 'city').
+annotation(188, 1, 177, 'out', '@out', 'city_1').
+annotation(189, 1, 178, 'end', '@end', 'group_4_core/mass-edit9').
+annotation(190, 1, 179, 'begin', '@begin', 'group_5_core/mass-edit10').
+annotation(191, 1, 179, 'desc', '@desc', 'group of core/mass-edit with 179 operations, details in sub_ops_5.json').
+annotation(192, 1, 180, 'param', '@param', 'expression:sub_ops_5').
+annotation(193, 1, 181, 'in', '@in', 'Season1Date').
+annotation(194, 1, 182, 'out', '@out', 'Season1Date_1').
+annotation(195, 1, 183, 'end', '@end', 'group_5_core/mass-edit10').
+annotation(196, 1, 184, 'begin', '@begin', 'group_6_core/text-transform11').
+annotation(197, 1, 184, 'desc', '@desc', 'group of core/text-transform with 4 operations, details in sub_ops_6.json').
+annotation(198, 1, 185, 'param', '@param', 'expression:sub_ops_6').
+annotation(199, 1, 186, 'in', '@in', 'Season1Date_1').
+annotation(200, 1, 187, 'out', '@out', 'Season1Date_2').
+annotation(201, 1, 188, 'end', '@end', 'group_6_core/text-transform11').
+annotation(202, 1, 189, 'begin', '@begin', 'group_7_core/mass-edit12').
+annotation(203, 1, 189, 'desc', '@desc', 'group of core/mass-edit with 30 operations, details in sub_ops_7.json').
+annotation(204, 1, 190, 'param', '@param', 'expression:sub_ops_7').
+annotation(205, 1, 191, 'in', '@in', 'Season2Date').
+annotation(206, 1, 192, 'out', '@out', 'Season2Date_1').
+annotation(207, 1, 193, 'end', '@end', 'group_7_core/mass-edit12').
+annotation(208, 1, 194, 'begin', '@begin', 'group_8_core/text-transform13').
+annotation(209, 1, 194, 'desc', '@desc', 'group of core/text-transform with 4 operations, details in sub_ops_8.json').
+annotation(210, 1, 195, 'param', '@param', 'expression:sub_ops_8').
+annotation(211, 1, 196, 'in', '@in', 'Season2Date_1').
+annotation(212, 1, 197, 'out', '@out', 'Season2Date_2').
+annotation(213, 1, 198, 'end', '@end', 'group_8_core/text-transform13').
+annotation(214, 1, 199, 'begin', '@begin', 'group_9_core/mass-edit14').
+annotation(215, 1, 199, 'desc', '@desc', 'group of core/mass-edit with 7 operations, details in sub_ops_9.json').
+annotation(216, 1, 200, 'param', '@param', 'expression:sub_ops_9').
+annotation(217, 1, 201, 'in', '@in', 'Season3Date').
+annotation(218, 1, 202, 'out', '@out', 'Season3Date_1').
+annotation(219, 1, 203, 'end', '@end', 'group_9_core/mass-edit14').
+annotation(220, 1, 204, 'begin', '@begin', 'group_10_core/text-transform15').
+annotation(221, 1, 204, 'desc', '@desc', 'group of core/text-transform with 3 operations, details in sub_ops_10.json').
+annotation(222, 1, 205, 'param', '@param', 'expression:sub_ops_10').
+annotation(223, 1, 206, 'in', '@in', 'Season3Date_1').
+annotation(224, 1, 207, 'out', '@out', 'Season3Date_2').
+annotation(225, 1, 208, 'end', '@end', 'group_10_core/text-transform15').
+annotation(226, 1, 209, 'begin', '@begin', 'group_11_core/mass-edit16').
+annotation(227, 1, 209, 'desc', '@desc', 'group of core/mass-edit with 3 operations, details in sub_ops_11.json').
+annotation(228, 1, 210, 'param', '@param', 'expression:sub_ops_11').
+annotation(229, 1, 211, 'in', '@in', 'Organic').
+annotation(230, 1, 212, 'out', '@out', 'Organic_1').
+annotation(231, 1, 213, 'end', '@end', 'group_11_core/mass-edit16').
+annotation(232, 1, 214, 'begin', '@begin', 'group_12_core/mass-edit17').
+annotation(233, 1, 214, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_12.json').
+annotation(234, 1, 215, 'param', '@param', 'expression:sub_ops_12').
+annotation(235, 1, 216, 'in', '@in', 'Credit').
+annotation(236, 1, 217, 'out', '@out', 'Credit_1').
+annotation(237, 1, 218, 'end', '@end', 'group_12_core/mass-edit17').
+annotation(238, 1, 219, 'begin', '@begin', 'group_13_core/mass-edit18').
+annotation(239, 1, 219, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_13.json').
+annotation(240, 1, 220, 'param', '@param', 'expression:sub_ops_13').
+annotation(241, 1, 221, 'in', '@in', 'WIC').
+annotation(242, 1, 222, 'out', '@out', 'WIC_1').
+annotation(243, 1, 223, 'end', '@end', 'group_13_core/mass-edit18').
+annotation(244, 1, 224, 'begin', '@begin', 'group_14_core/mass-edit19').
+annotation(245, 1, 224, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_14.json').
+annotation(246, 1, 225, 'param', '@param', 'expression:sub_ops_14').
+annotation(247, 1, 226, 'in', '@in', 'WICcash').
+annotation(248, 1, 227, 'out', '@out', 'WICcash_1').
+annotation(249, 1, 228, 'end', '@end', 'group_14_core/mass-edit19').
+annotation(250, 1, 229, 'begin', '@begin', 'group_15_core/mass-edit20').
+annotation(251, 1, 229, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_15.json').
+annotation(252, 1, 230, 'param', '@param', 'expression:sub_ops_15').
+annotation(253, 1, 231, 'in', '@in', 'SFMNP').
+annotation(254, 1, 232, 'out', '@out', 'SFMNP_1').
+annotation(255, 1, 233, 'end', '@end', 'group_15_core/mass-edit20').
+annotation(256, 1, 234, 'begin', '@begin', 'group_16_core/mass-edit21').
+annotation(257, 1, 234, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_16.json').
+annotation(258, 1, 235, 'param', '@param', 'expression:sub_ops_16').
+annotation(259, 1, 236, 'in', '@in', 'SNAP').
+annotation(260, 1, 237, 'out', '@out', 'SNAP_1').
+annotation(261, 1, 238, 'end', '@end', 'group_16_core/mass-edit21').
+annotation(262, 1, 239, 'begin', '@begin', 'group_17_core/mass-edit22').
+annotation(263, 1, 239, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_17.json').
+annotation(264, 1, 240, 'param', '@param', 'expression:sub_ops_17').
+annotation(265, 1, 241, 'in', '@in', 'Bakedgoods').
+annotation(266, 1, 242, 'out', '@out', 'Bakedgoods_1').
+annotation(267, 1, 243, 'end', '@end', 'group_17_core/mass-edit22').
+annotation(268, 1, 244, 'begin', '@begin', 'group_18_core/mass-edit23').
+annotation(269, 1, 244, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_18.json').
+annotation(270, 1, 245, 'param', '@param', 'expression:sub_ops_18').
+annotation(271, 1, 246, 'in', '@in', 'Cheese').
+annotation(272, 1, 247, 'out', '@out', 'Cheese_1').
+annotation(273, 1, 248, 'end', '@end', 'group_18_core/mass-edit23').
+annotation(274, 1, 249, 'begin', '@begin', 'group_19_core/mass-edit24').
+annotation(275, 1, 249, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_19.json').
+annotation(276, 1, 250, 'param', '@param', 'expression:sub_ops_19').
+annotation(277, 1, 251, 'in', '@in', 'Crafts').
+annotation(278, 1, 252, 'out', '@out', 'Crafts_1').
+annotation(279, 1, 253, 'end', '@end', 'group_19_core/mass-edit24').
+annotation(280, 1, 254, 'begin', '@begin', 'group_20_core/mass-edit25').
+annotation(281, 1, 254, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_20.json').
+annotation(282, 1, 255, 'param', '@param', 'expression:sub_ops_20').
+annotation(283, 1, 256, 'in', '@in', 'Flowers').
+annotation(284, 1, 257, 'out', '@out', 'Flowers_1').
+annotation(285, 1, 258, 'end', '@end', 'group_20_core/mass-edit25').
+annotation(286, 1, 259, 'begin', '@begin', 'group_21_core/mass-edit26').
+annotation(287, 1, 259, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_21.json').
+annotation(288, 1, 260, 'param', '@param', 'expression:sub_ops_21').
+annotation(289, 1, 261, 'in', '@in', 'Eggs').
+annotation(290, 1, 262, 'out', '@out', 'Eggs_1').
+annotation(291, 1, 263, 'end', '@end', 'group_21_core/mass-edit26').
+annotation(292, 1, 264, 'begin', '@begin', 'group_22_core/mass-edit27').
+annotation(293, 1, 264, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_22.json').
+annotation(294, 1, 265, 'param', '@param', 'expression:sub_ops_22').
+annotation(295, 1, 266, 'in', '@in', 'Seafood').
+annotation(296, 1, 267, 'out', '@out', 'Seafood_1').
+annotation(297, 1, 268, 'end', '@end', 'group_22_core/mass-edit27').
+annotation(298, 1, 269, 'begin', '@begin', 'group_23_core/mass-edit28').
+annotation(299, 1, 269, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_23.json').
+annotation(300, 1, 270, 'param', '@param', 'expression:sub_ops_23').
+annotation(301, 1, 271, 'in', '@in', 'Herbs').
+annotation(302, 1, 272, 'out', '@out', 'Herbs_1').
+annotation(303, 1, 273, 'end', '@end', 'group_23_core/mass-edit28').
+annotation(304, 1, 274, 'begin', '@begin', 'group_24_core/mass-edit29').
+annotation(305, 1, 274, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_24.json').
+annotation(306, 1, 275, 'param', '@param', 'expression:sub_ops_24').
+annotation(307, 1, 276, 'in', '@in', 'Vegetables').
+annotation(308, 1, 277, 'out', '@out', 'Vegetables_1').
+annotation(309, 1, 278, 'end', '@end', 'group_24_core/mass-edit29').
+annotation(310, 1, 279, 'begin', '@begin', 'group_25_core/mass-edit30').
+annotation(311, 1, 279, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_25.json').
+annotation(312, 1, 280, 'param', '@param', 'expression:sub_ops_25').
+annotation(313, 1, 281, 'in', '@in', 'Honey').
+annotation(314, 1, 282, 'out', '@out', 'Honey_1').
+annotation(315, 1, 283, 'end', '@end', 'group_25_core/mass-edit30').
+annotation(316, 1, 284, 'begin', '@begin', 'group_26_core/mass-edit31').
+annotation(317, 1, 284, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_26.json').
+annotation(318, 1, 285, 'param', '@param', 'expression:sub_ops_26').
+annotation(319, 1, 286, 'in', '@in', 'Jams').
+annotation(320, 1, 287, 'out', '@out', 'Jams_1').
+annotation(321, 1, 288, 'end', '@end', 'group_26_core/mass-edit31').
+annotation(322, 1, 289, 'begin', '@begin', 'group_27_core/mass-edit32').
+annotation(323, 1, 289, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_27.json').
+annotation(324, 1, 290, 'param', '@param', 'expression:sub_ops_27').
+annotation(325, 1, 291, 'in', '@in', 'Maple').
+annotation(326, 1, 292, 'out', '@out', 'Maple_1').
+annotation(327, 1, 293, 'end', '@end', 'group_27_core/mass-edit32').
+annotation(328, 1, 294, 'begin', '@begin', 'group_28_core/mass-edit33').
+annotation(329, 1, 294, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_28.json').
+annotation(330, 1, 295, 'param', '@param', 'expression:sub_ops_28').
+annotation(331, 1, 296, 'in', '@in', 'Meat').
+annotation(332, 1, 297, 'out', '@out', 'Meat_1').
+annotation(333, 1, 298, 'end', '@end', 'group_28_core/mass-edit33').
+annotation(334, 1, 299, 'begin', '@begin', 'group_29_core/mass-edit34').
+annotation(335, 1, 299, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_29.json').
+annotation(336, 1, 300, 'param', '@param', 'expression:sub_ops_29').
+annotation(337, 1, 301, 'in', '@in', 'Nursery').
+annotation(338, 1, 302, 'out', '@out', 'Nursery_1').
+annotation(339, 1, 303, 'end', '@end', 'group_29_core/mass-edit34').
+annotation(340, 1, 304, 'begin', '@begin', 'group_30_core/mass-edit35').
+annotation(341, 1, 304, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_30.json').
+annotation(342, 1, 305, 'param', '@param', 'expression:sub_ops_30').
+annotation(343, 1, 306, 'in', '@in', 'Nuts').
+annotation(344, 1, 307, 'out', '@out', 'Nuts_1').
+annotation(345, 1, 308, 'end', '@end', 'group_30_core/mass-edit35').
+annotation(346, 1, 309, 'begin', '@begin', 'group_31_core/mass-edit36').
+annotation(347, 1, 309, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_31.json').
+annotation(348, 1, 310, 'param', '@param', 'expression:sub_ops_31').
+annotation(349, 1, 311, 'in', '@in', 'Plants').
+annotation(350, 1, 312, 'out', '@out', 'Plants_1').
+annotation(351, 1, 313, 'end', '@end', 'group_31_core/mass-edit36').
+annotation(352, 1, 314, 'begin', '@begin', 'group_32_core/mass-edit37').
+annotation(353, 1, 314, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_32.json').
+annotation(354, 1, 315, 'param', '@param', 'expression:sub_ops_32').
+annotation(355, 1, 316, 'in', '@in', 'Poultry').
+annotation(356, 1, 317, 'out', '@out', 'Poultry_1').
+annotation(357, 1, 318, 'end', '@end', 'group_32_core/mass-edit37').
+annotation(358, 1, 319, 'begin', '@begin', 'group_33_core/mass-edit38').
+annotation(359, 1, 319, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_33.json').
+annotation(360, 1, 320, 'param', '@param', 'expression:sub_ops_33').
+annotation(361, 1, 321, 'in', '@in', 'Prepared').
+annotation(362, 1, 322, 'out', '@out', 'Prepared_1').
+annotation(363, 1, 323, 'end', '@end', 'group_33_core/mass-edit38').
+annotation(364, 1, 324, 'begin', '@begin', 'group_34_core/mass-edit39').
+annotation(365, 1, 324, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_34.json').
+annotation(366, 1, 325, 'param', '@param', 'expression:sub_ops_34').
+annotation(367, 1, 326, 'in', '@in', 'Soap').
+annotation(368, 1, 327, 'out', '@out', 'Soap_1').
+annotation(369, 1, 328, 'end', '@end', 'group_34_core/mass-edit39').
+annotation(370, 1, 329, 'begin', '@begin', 'group_35_core/mass-edit40').
+annotation(371, 1, 329, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_35.json').
+annotation(372, 1, 330, 'param', '@param', 'expression:sub_ops_35').
+annotation(373, 1, 331, 'in', '@in', 'Trees').
+annotation(374, 1, 332, 'out', '@out', 'Trees_1').
+annotation(375, 1, 333, 'end', '@end', 'group_35_core/mass-edit40').
+annotation(376, 1, 334, 'begin', '@begin', 'group_36_core/mass-edit41').
+annotation(377, 1, 334, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_36.json').
+annotation(378, 1, 335, 'param', '@param', 'expression:sub_ops_36').
+annotation(379, 1, 336, 'in', '@in', 'Wine').
+annotation(380, 1, 337, 'out', '@out', 'Wine_1').
+annotation(381, 1, 338, 'end', '@end', 'group_36_core/mass-edit41').
+annotation(382, 1, 339, 'begin', '@begin', 'group_37_core/mass-edit42').
+annotation(383, 1, 339, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_37.json').
+annotation(384, 1, 340, 'param', '@param', 'expression:sub_ops_37').
+annotation(385, 1, 341, 'in', '@in', 'Coffee').
+annotation(386, 1, 342, 'out', '@out', 'Coffee_1').
+annotation(387, 1, 343, 'end', '@end', 'group_37_core/mass-edit42').
+annotation(388, 1, 344, 'begin', '@begin', 'group_38_core/mass-edit43').
+annotation(389, 1, 344, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_38.json').
+annotation(390, 1, 345, 'param', '@param', 'expression:sub_ops_38').
+annotation(391, 1, 346, 'in', '@in', 'Beans').
+annotation(392, 1, 347, 'out', '@out', 'Beans_1').
+annotation(393, 1, 348, 'end', '@end', 'group_38_core/mass-edit43').
+annotation(394, 1, 349, 'begin', '@begin', 'group_39_core/mass-edit44').
+annotation(395, 1, 349, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_39.json').
+annotation(396, 1, 350, 'param', '@param', 'expression:sub_ops_39').
+annotation(397, 1, 351, 'in', '@in', 'Fruits').
+annotation(398, 1, 352, 'out', '@out', 'Fruits_1').
+annotation(399, 1, 353, 'end', '@end', 'group_39_core/mass-edit44').
+annotation(400, 1, 354, 'begin', '@begin', 'group_40_core/mass-edit45').
+annotation(401, 1, 354, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_40.json').
+annotation(402, 1, 355, 'param', '@param', 'expression:sub_ops_40').
+annotation(403, 1, 356, 'in', '@in', 'Grains').
+annotation(404, 1, 357, 'out', '@out', 'Grains_1').
+annotation(405, 1, 358, 'end', '@end', 'group_40_core/mass-edit45').
+annotation(406, 1, 359, 'begin', '@begin', 'group_41_core/mass-edit46').
+annotation(407, 1, 359, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_41.json').
+annotation(408, 1, 360, 'param', '@param', 'expression:sub_ops_41').
+annotation(409, 1, 361, 'in', '@in', 'Juices').
+annotation(410, 1, 362, 'out', '@out', 'Juices_1').
+annotation(411, 1, 363, 'end', '@end', 'group_41_core/mass-edit46').
+annotation(412, 1, 364, 'begin', '@begin', 'group_42_core/mass-edit47').
+annotation(413, 1, 364, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_42.json').
+annotation(414, 1, 365, 'param', '@param', 'expression:sub_ops_42').
+annotation(415, 1, 366, 'in', '@in', 'Mushrooms').
+annotation(416, 1, 367, 'out', '@out', 'Mushrooms_1').
+annotation(417, 1, 368, 'end', '@end', 'group_42_core/mass-edit47').
+annotation(418, 1, 369, 'begin', '@begin', 'group_43_core/mass-edit48').
+annotation(419, 1, 369, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_43.json').
+annotation(420, 1, 370, 'param', '@param', 'expression:sub_ops_43').
+annotation(421, 1, 371, 'in', '@in', 'PetFood').
+annotation(422, 1, 372, 'out', '@out', 'PetFood_1').
+annotation(423, 1, 373, 'end', '@end', 'group_43_core/mass-edit48').
+annotation(424, 1, 374, 'begin', '@begin', 'group_44_core/mass-edit49').
+annotation(425, 1, 374, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_44.json').
+annotation(426, 1, 375, 'param', '@param', 'expression:sub_ops_44').
+annotation(427, 1, 376, 'in', '@in', 'Tofu').
+annotation(428, 1, 377, 'out', '@out', 'Tofu_1').
+annotation(429, 1, 378, 'end', '@end', 'group_44_core/mass-edit49').
+annotation(430, 1, 379, 'begin', '@begin', 'group_45_core/mass-edit50').
+annotation(431, 1, 379, 'desc', '@desc', 'group of core/mass-edit with 2 operations, details in sub_ops_45.json').
+annotation(432, 1, 380, 'param', '@param', 'expression:sub_ops_45').
+annotation(433, 1, 381, 'in', '@in', 'WildHarvested').
+annotation(434, 1, 382, 'out', '@out', 'WildHarvested_1').
+annotation(435, 1, 383, 'end', '@end', 'group_45_core/mass-edit50').
+annotation(436, 1, 384, 'begin', '@begin', 'group_46_core/text-transform51').
+annotation(437, 1, 384, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_46.json').
+annotation(438, 1, 385, 'param', '@param', 'expression:sub_ops_46').
+annotation(439, 1, 386, 'in', '@in', 'Website').
+annotation(440, 1, 387, 'out', '@out', 'Website_1').
+annotation(441, 1, 388, 'end', '@end', 'group_46_core/text-transform51').
+annotation(442, 1, 389, 'begin', '@begin', 'group_47_core/text-transform52').
+annotation(443, 1, 389, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_47.json').
+annotation(444, 1, 390, 'param', '@param', 'expression:sub_ops_47').
+annotation(445, 1, 391, 'in', '@in', 'Facebook').
+annotation(446, 1, 392, 'out', '@out', 'Facebook_1').
+annotation(447, 1, 393, 'end', '@end', 'group_47_core/text-transform52').
+annotation(448, 1, 394, 'begin', '@begin', 'group_48_core/text-transform53').
+annotation(449, 1, 394, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_48.json').
+annotation(450, 1, 395, 'param', '@param', 'expression:sub_ops_48').
+annotation(451, 1, 396, 'in', '@in', 'Twitter').
+annotation(452, 1, 397, 'out', '@out', 'Twitter_1').
+annotation(453, 1, 398, 'end', '@end', 'group_48_core/text-transform53').
+annotation(454, 1, 399, 'begin', '@begin', 'group_49_core/text-transform54').
+annotation(455, 1, 399, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_49.json').
+annotation(456, 1, 400, 'param', '@param', 'expression:sub_ops_49').
+annotation(457, 1, 401, 'in', '@in', 'Youtube').
+annotation(458, 1, 402, 'out', '@out', 'Youtube_1').
+annotation(459, 1, 403, 'end', '@end', 'group_49_core/text-transform54').
+annotation(460, 1, 404, 'begin', '@begin', 'group_50_core/text-transform55').
+annotation(461, 1, 404, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_50.json').
+annotation(462, 1, 405, 'param', '@param', 'expression:sub_ops_50').
+annotation(463, 1, 406, 'in', '@in', 'OtherMedia').
+annotation(464, 1, 407, 'out', '@out', 'OtherMedia_1').
+annotation(465, 1, 408, 'end', '@end', 'group_50_core/text-transform55').
+annotation(466, 1, 409, 'begin', '@begin', 'group_51_core/text-transform56').
+annotation(467, 1, 409, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_51.json').
+annotation(468, 1, 410, 'param', '@param', 'expression:sub_ops_51').
+annotation(469, 1, 411, 'in', '@in', 'Street').
+annotation(470, 1, 412, 'out', '@out', 'Street_1').
+annotation(471, 1, 413, 'end', '@end', 'group_51_core/text-transform56').
+annotation(472, 1, 414, 'begin', '@begin', 'group_52_core/text-transform57').
+annotation(473, 1, 414, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_52.json').
+annotation(474, 1, 415, 'param', '@param', 'expression:sub_ops_52').
+annotation(475, 1, 416, 'in', '@in', 'City').
+annotation(476, 1, 417, 'out', '@out', 'City_1').
+annotation(477, 1, 418, 'end', '@end', 'group_52_core/text-transform57').
+annotation(478, 1, 419, 'begin', '@begin', 'group_53_core/text-transform58').
+annotation(479, 1, 419, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_53.json').
+annotation(480, 1, 420, 'param', '@param', 'expression:sub_ops_53').
+annotation(481, 1, 421, 'in', '@in', 'State').
+annotation(482, 1, 422, 'out', '@out', 'State_1').
+annotation(483, 1, 423, 'end', '@end', 'group_53_core/text-transform58').
+annotation(484, 1, 424, 'begin', '@begin', 'group_54_core/text-transform59').
+annotation(485, 1, 424, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_54.json').
+annotation(486, 1, 425, 'param', '@param', 'expression:sub_ops_54').
+annotation(487, 1, 426, 'in', '@in', 'Zip').
+annotation(488, 1, 427, 'out', '@out', 'Zip_1').
+annotation(489, 1, 428, 'end', '@end', 'group_54_core/text-transform59').
+annotation(490, 1, 429, 'begin', '@begin', 'group_55_core/text-transform60').
+annotation(491, 1, 429, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_55.json').
+annotation(492, 1, 430, 'param', '@param', 'expression:sub_ops_55').
+annotation(493, 1, 431, 'in', '@in', 'Season1Time').
+annotation(494, 1, 432, 'out', '@out', 'Season1Time_1').
+annotation(495, 1, 433, 'end', '@end', 'group_55_core/text-transform60').
+annotation(496, 1, 434, 'begin', '@begin', 'group_56_core/text-transform61').
+annotation(497, 1, 434, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_56.json').
+annotation(498, 1, 435, 'param', '@param', 'expression:sub_ops_56').
+annotation(499, 1, 436, 'in', '@in', 'Season2Time').
+annotation(500, 1, 437, 'out', '@out', 'Season2Time_1').
+annotation(501, 1, 438, 'end', '@end', 'group_56_core/text-transform61').
+annotation(502, 1, 439, 'begin', '@begin', 'group_57_core/text-transform62').
+annotation(503, 1, 439, 'desc', '@desc', 'group of core/text-transform with 3 operations, details in sub_ops_57.json').
+annotation(504, 1, 440, 'param', '@param', 'expression:sub_ops_57').
+annotation(505, 1, 441, 'in', '@in', 'Season4Date').
+annotation(506, 1, 442, 'out', '@out', 'Season4Date_1').
+annotation(507, 1, 443, 'end', '@end', 'group_57_core/text-transform62').
+annotation(508, 1, 444, 'begin', '@begin', 'group_58_core/text-transform63').
+annotation(509, 1, 444, 'desc', '@desc', 'group of core/text-transform with 2 operations, details in sub_ops_58.json').
+annotation(510, 1, 445, 'param', '@param', 'expression:sub_ops_58').
+annotation(511, 1, 446, 'in', '@in', 'Location').
+annotation(512, 1, 447, 'out', '@out', 'Location_1').
+annotation(513, 1, 448, 'end', '@end', 'group_58_core/text-transform63').
+annotation(514, 1, 449, 'begin', '@begin', 'CombineDataCleaningChanges').
+annotation(515, 1, 450, 'in', '@in', 'MarketName_3').
+annotation(516, 1, 451, 'in', '@in', 'FMID_1').
+annotation(517, 1, 452, 'in', '@in', 'updateTime_1').
+annotation(518, 1, 453, 'in', '@in', 'Latitude_1').
+annotation(519, 1, 454, 'in', '@in', 'Longitude_1').
+annotation(520, 1, 455, 'in', '@in', 'County_2').
+annotation(521, 1, 456, 'in', '@in', 'city_1').
+annotation(522, 1, 457, 'in', '@in', 'Season1Date_2').
+annotation(523, 1, 458, 'in', '@in', 'Season2Date_2').
+annotation(524, 1, 459, 'in', '@in', 'Season3Date_2').
+annotation(525, 1, 460, 'in', '@in', 'Organic_1').
+annotation(526, 1, 461, 'in', '@in', 'Credit_1').
+annotation(527, 1, 462, 'in', '@in', 'WIC_1').
+annotation(528, 1, 463, 'in', '@in', 'WICcash_1').
+annotation(529, 1, 464, 'in', '@in', 'SFMNP_1').
+annotation(530, 1, 465, 'in', '@in', 'SNAP_1').
+annotation(531, 1, 466, 'in', '@in', 'Bakedgoods_1').
+annotation(532, 1, 467, 'in', '@in', 'Cheese_1').
+annotation(533, 1, 468, 'in', '@in', 'Crafts_1').
+annotation(534, 1, 469, 'in', '@in', 'Flowers_1').
+annotation(535, 1, 470, 'in', '@in', 'Eggs_1').
+annotation(536, 1, 471, 'in', '@in', 'Seafood_1').
+annotation(537, 1, 472, 'in', '@in', 'Herbs_1').
+annotation(538, 1, 473, 'in', '@in', 'Vegetables_1').
+annotation(539, 1, 474, 'in', '@in', 'Honey_1').
+annotation(540, 1, 475, 'in', '@in', 'Jams_1').
+annotation(541, 1, 476, 'in', '@in', 'Maple_1').
+annotation(542, 1, 477, 'in', '@in', 'Meat_1').
+annotation(543, 1, 478, 'in', '@in', 'Nursery_1').
+annotation(544, 1, 479, 'in', '@in', 'Nuts_1').
+annotation(545, 1, 480, 'in', '@in', 'Plants_1').
+annotation(546, 1, 481, 'in', '@in', 'Poultry_1').
+annotation(547, 1, 482, 'in', '@in', 'Prepared_1').
+annotation(548, 1, 483, 'in', '@in', 'Soap_1').
+annotation(549, 1, 484, 'in', '@in', 'Trees_1').
+annotation(550, 1, 485, 'in', '@in', 'Wine_1').
+annotation(551, 1, 486, 'in', '@in', 'Coffee_1').
+annotation(552, 1, 487, 'in', '@in', 'Beans_1').
+annotation(553, 1, 488, 'in', '@in', 'Fruits_1').
+annotation(554, 1, 489, 'in', '@in', 'Grains_1').
+annotation(555, 1, 490, 'in', '@in', 'Juices_1').
+annotation(556, 1, 491, 'in', '@in', 'Mushrooms_1').
+annotation(557, 1, 492, 'in', '@in', 'PetFood_1').
+annotation(558, 1, 493, 'in', '@in', 'Tofu_1').
+annotation(559, 1, 494, 'in', '@in', 'WildHarvested_1').
+annotation(560, 1, 495, 'in', '@in', 'Website_1').
+annotation(561, 1, 496, 'in', '@in', 'Facebook_1').
+annotation(562, 1, 497, 'in', '@in', 'Twitter_1').
+annotation(563, 1, 498, 'in', '@in', 'Youtube_1').
+annotation(564, 1, 499, 'in', '@in', 'OtherMedia_1').
+annotation(565, 1, 500, 'in', '@in', 'Street_1').
+annotation(566, 1, 501, 'in', '@in', 'City_1').
+annotation(567, 1, 502, 'in', '@in', 'State_1').
+annotation(568, 1, 503, 'in', '@in', 'Zip_1').
+annotation(569, 1, 504, 'in', '@in', 'Season1Time_1').
+annotation(570, 1, 505, 'in', '@in', 'Season2Time_1').
+annotation(571, 1, 506, 'in', '@in', 'Season4Date_1').
+annotation(572, 1, 507, 'in', '@in', 'Location_1').
+annotation(573, 1, 508, 'out', '@out', 'CleanData').
+annotation(574, 1, 509, 'end', '@end', 'CombineDataCleaningChanges').
+annotation(575, 1, 510, 'end', '@end', 'Parallel_OR').
+
+% FACT: annotation_qualifies(qualifying_annotation_id, primary_annotation_id).
+annotation_qualifies(2, 1).
+annotation_qualifies(131, 130).
+annotation_qualifies(137, 136).
+annotation_qualifies(143, 142).
+annotation_qualifies(149, 148).
+annotation_qualifies(155, 154).
+annotation_qualifies(161, 160).
+annotation_qualifies(167, 166).
+annotation_qualifies(173, 172).
+annotation_qualifies(179, 178).
+annotation_qualifies(185, 184).
+annotation_qualifies(191, 190).
+annotation_qualifies(197, 196).
+annotation_qualifies(203, 202).
+annotation_qualifies(209, 208).
+annotation_qualifies(215, 214).
+annotation_qualifies(221, 220).
+annotation_qualifies(227, 226).
+annotation_qualifies(233, 232).
+annotation_qualifies(239, 238).
+annotation_qualifies(245, 244).
+annotation_qualifies(251, 250).
+annotation_qualifies(257, 256).
+annotation_qualifies(263, 262).
+annotation_qualifies(269, 268).
+annotation_qualifies(275, 274).
+annotation_qualifies(281, 280).
+annotation_qualifies(287, 286).
+annotation_qualifies(293, 292).
+annotation_qualifies(299, 298).
+annotation_qualifies(305, 304).
+annotation_qualifies(311, 310).
+annotation_qualifies(317, 316).
+annotation_qualifies(323, 322).
+annotation_qualifies(329, 328).
+annotation_qualifies(335, 334).
+annotation_qualifies(341, 340).
+annotation_qualifies(347, 346).
+annotation_qualifies(353, 352).
+annotation_qualifies(359, 358).
+annotation_qualifies(365, 364).
+annotation_qualifies(371, 370).
+annotation_qualifies(377, 376).
+annotation_qualifies(383, 382).
+annotation_qualifies(389, 388).
+annotation_qualifies(395, 394).
+annotation_qualifies(401, 400).
+annotation_qualifies(407, 406).
+annotation_qualifies(413, 412).
+annotation_qualifies(419, 418).
+annotation_qualifies(425, 424).
+annotation_qualifies(431, 430).
+annotation_qualifies(437, 436).
+annotation_qualifies(443, 442).
+annotation_qualifies(449, 448).
+annotation_qualifies(455, 454).
+annotation_qualifies(461, 460).
+annotation_qualifies(467, 466).
+annotation_qualifies(473, 472).
+annotation_qualifies(479, 478).
+annotation_qualifies(485, 484).
+annotation_qualifies(491, 490).
+annotation_qualifies(497, 496).
+annotation_qualifies(503, 502).
+annotation_qualifies(509, 508).

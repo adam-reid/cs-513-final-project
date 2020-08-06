@@ -1,0 +1,510 @@
+#@begin Parallel_OR #@desc Parallel OpenRefine Workflow
+#@param expression:sub_ops_17
+#@param expression:sub_ops_47
+#@param expression:sub_ops_16
+#@param expression:sub_ops_55
+#@param expression:value.trim()
+#@param expression:sub_ops_12
+#@param expression:sub_ops_3
+#@param expression:sub_ops_4
+#@param expression:sub_ops_20
+#@param expression:sub_ops_19
+#@param expression:sub_ops_36
+#@param expression:sub_ops_26
+#@param expression:sub_ops_52
+#@param expression:value.toNumber()
+#@param expression:sub_ops_2
+#@param expression:sub_ops_34
+#@param expression:sub_ops_50
+#@param expression:sub_ops_58
+#@param expression:sub_ops_7
+#@param expression:sub_ops_15
+#@param expression:sub_ops_24
+#@param expression:sub_ops_48
+#@param expression:sub_ops_32
+#@param expression:sub_ops_14
+#@param expression:sub_ops_25
+#@param expression:sub_ops_30
+#@param expression:sub_ops_13
+#@param expression:sub_ops_41
+#@param expression:sub_ops_11
+#@param expression:sub_ops_18
+#@param expression:sub_ops_28
+#@param expression:sub_ops_49
+#@param expression:value
+#@param expression:sub_ops_33
+#@param expression:sub_ops_37
+#@param expression:value.toDate()
+#@param expression:sub_ops_10
+#@param expression:sub_ops_35
+#@param expression:sub_ops_40
+#@param expression:sub_ops_57
+#@param expression:sub_ops_27
+#@param expression:sub_ops_43
+#@param expression:sub_ops_54
+#@param expression:sub_ops_6
+#@param expression:sub_ops_31
+#@param expression:sub_ops_46
+#@param expression:sub_ops_39
+#@param expression:sub_ops_9
+#@param expression:sub_ops_5
+#@param expression:sub_ops_22
+#@param expression:sub_ops_23
+#@param expression:sub_ops_44
+#@param expression:sub_ops_45
+#@param expression:sub_ops_1
+#@param expression:sub_ops_51
+#@param expression:sub_ops_42
+#@param expression:sub_ops_53
+#@param expression:sub_ops_8
+#@param expression:sub_ops_29
+#@param expression:sub_ops_38
+#@param expression:sub_ops_21
+#@param expression:sub_ops_56
+#@in Crafts
+#@in Poultry
+#@in updateTime
+#@in Tofu
+#@in Season1Date_1
+#@in Longitude
+#@in SFMNP
+#@in Facebook
+#@in Herbs
+#@in Grains
+#@in County_1
+#@in Season1Time
+#@in Jams
+#@in city
+#@in Street
+#@in Season1Date
+#@in WICcash
+#@in Prepared
+#@in City
+#@in State
+#@in Credit
+#@in MarketName_1
+#@in MarketName
+#@in Nursery
+#@in Soap
+#@in Juices
+#@in Season3Date_1
+#@in County
+#@in Organic
+#@in Season2Date
+#@in Maple
+#@in Bakedgoods
+#@in Season3Date
+#@in Season2Date_1
+#@in Youtube
+#@in WIC
+#@in Seafood
+#@in Season2Time
+#@in Cheese
+#@in Location
+#@in MarketName_2
+#@in SNAP
+#@in Fruits
+#@in Beans
+#@in WildHarvested
+#@in FMID
+#@in Latitude
+#@in Nuts
+#@in Season4Date
+#@in Honey
+#@in Eggs
+#@in Plants
+#@in Meat
+#@in Wine
+#@in Twitter
+#@in OtherMedia
+#@in Trees
+#@in Mushrooms
+#@in Website
+#@in PetFood
+#@in Coffee
+#@in Flowers
+#@in Vegetables
+#@in Zip
+#@out CleanData
+#@begin core/text-transform0 #@desc Text transform on cells in column MarketName using expression value.trim()
+#@param expression:value.trim()
+#@in MarketName
+#@out MarketName_1
+#@end core/text-transform0
+#@begin group_1_core/mass-edit1 #@desc group of core/mass-edit with 7 operations, details in sub_ops_1.json
+#@param expression:sub_ops_1
+#@in MarketName_1
+#@out MarketName_2
+#@end group_1_core/mass-edit1
+#@begin group_2_core/text-transform2 #@desc group of core/text-transform with 2 operations, details in sub_ops_2.json
+#@param expression:sub_ops_2
+#@in MarketName_2
+#@out MarketName_3
+#@end group_2_core/text-transform2
+#@begin core/text-transform3 #@desc Text transform on cells in column FMID using expression value.toNumber()
+#@param expression:value.toNumber()
+#@in FMID
+#@out FMID_1
+#@end core/text-transform3
+#@begin core/text-transform4 #@desc Text transform on cells in column updateTime using expression value.toDate()
+#@param expression:value.toDate()
+#@in updateTime
+#@out updateTime_1
+#@end core/text-transform4
+#@begin core/text-transform5 #@desc Text transform on cells in column Latitude using expression value.toNumber()
+#@param expression:value.toNumber()
+#@in Latitude
+#@out Latitude_1
+#@end core/text-transform5
+#@begin core/text-transform6 #@desc Text transform on cells in column Longitude using expression value.toNumber()
+#@param expression:value.toNumber()
+#@in Longitude
+#@out Longitude_1
+#@end core/text-transform6
+#@begin core/mass-edit7 #@desc Mass edit cells in column County
+#@param expression:value
+#@in County
+#@out County_1
+#@end core/mass-edit7
+#@begin group_3_core/text-transform8 #@desc group of core/text-transform with 3 operations, details in sub_ops_3.json
+#@param expression:sub_ops_3
+#@in County_1
+#@out County_2
+#@end group_3_core/text-transform8
+#@begin group_4_core/mass-edit9 #@desc group of core/mass-edit with 3 operations, details in sub_ops_4.json
+#@param expression:sub_ops_4
+#@in city
+#@out city_1
+#@end group_4_core/mass-edit9
+#@begin group_5_core/mass-edit10 #@desc group of core/mass-edit with 179 operations, details in sub_ops_5.json
+#@param expression:sub_ops_5
+#@in Season1Date
+#@out Season1Date_1
+#@end group_5_core/mass-edit10
+#@begin group_6_core/text-transform11 #@desc group of core/text-transform with 4 operations, details in sub_ops_6.json
+#@param expression:sub_ops_6
+#@in Season1Date_1
+#@out Season1Date_2
+#@end group_6_core/text-transform11
+#@begin group_7_core/mass-edit12 #@desc group of core/mass-edit with 30 operations, details in sub_ops_7.json
+#@param expression:sub_ops_7
+#@in Season2Date
+#@out Season2Date_1
+#@end group_7_core/mass-edit12
+#@begin group_8_core/text-transform13 #@desc group of core/text-transform with 4 operations, details in sub_ops_8.json
+#@param expression:sub_ops_8
+#@in Season2Date_1
+#@out Season2Date_2
+#@end group_8_core/text-transform13
+#@begin group_9_core/mass-edit14 #@desc group of core/mass-edit with 7 operations, details in sub_ops_9.json
+#@param expression:sub_ops_9
+#@in Season3Date
+#@out Season3Date_1
+#@end group_9_core/mass-edit14
+#@begin group_10_core/text-transform15 #@desc group of core/text-transform with 3 operations, details in sub_ops_10.json
+#@param expression:sub_ops_10
+#@in Season3Date_1
+#@out Season3Date_2
+#@end group_10_core/text-transform15
+#@begin group_11_core/mass-edit16 #@desc group of core/mass-edit with 3 operations, details in sub_ops_11.json
+#@param expression:sub_ops_11
+#@in Organic
+#@out Organic_1
+#@end group_11_core/mass-edit16
+#@begin group_12_core/mass-edit17 #@desc group of core/mass-edit with 2 operations, details in sub_ops_12.json
+#@param expression:sub_ops_12
+#@in Credit
+#@out Credit_1
+#@end group_12_core/mass-edit17
+#@begin group_13_core/mass-edit18 #@desc group of core/mass-edit with 2 operations, details in sub_ops_13.json
+#@param expression:sub_ops_13
+#@in WIC
+#@out WIC_1
+#@end group_13_core/mass-edit18
+#@begin group_14_core/mass-edit19 #@desc group of core/mass-edit with 2 operations, details in sub_ops_14.json
+#@param expression:sub_ops_14
+#@in WICcash
+#@out WICcash_1
+#@end group_14_core/mass-edit19
+#@begin group_15_core/mass-edit20 #@desc group of core/mass-edit with 2 operations, details in sub_ops_15.json
+#@param expression:sub_ops_15
+#@in SFMNP
+#@out SFMNP_1
+#@end group_15_core/mass-edit20
+#@begin group_16_core/mass-edit21 #@desc group of core/mass-edit with 2 operations, details in sub_ops_16.json
+#@param expression:sub_ops_16
+#@in SNAP
+#@out SNAP_1
+#@end group_16_core/mass-edit21
+#@begin group_17_core/mass-edit22 #@desc group of core/mass-edit with 2 operations, details in sub_ops_17.json
+#@param expression:sub_ops_17
+#@in Bakedgoods
+#@out Bakedgoods_1
+#@end group_17_core/mass-edit22
+#@begin group_18_core/mass-edit23 #@desc group of core/mass-edit with 2 operations, details in sub_ops_18.json
+#@param expression:sub_ops_18
+#@in Cheese
+#@out Cheese_1
+#@end group_18_core/mass-edit23
+#@begin group_19_core/mass-edit24 #@desc group of core/mass-edit with 2 operations, details in sub_ops_19.json
+#@param expression:sub_ops_19
+#@in Crafts
+#@out Crafts_1
+#@end group_19_core/mass-edit24
+#@begin group_20_core/mass-edit25 #@desc group of core/mass-edit with 2 operations, details in sub_ops_20.json
+#@param expression:sub_ops_20
+#@in Flowers
+#@out Flowers_1
+#@end group_20_core/mass-edit25
+#@begin group_21_core/mass-edit26 #@desc group of core/mass-edit with 2 operations, details in sub_ops_21.json
+#@param expression:sub_ops_21
+#@in Eggs
+#@out Eggs_1
+#@end group_21_core/mass-edit26
+#@begin group_22_core/mass-edit27 #@desc group of core/mass-edit with 2 operations, details in sub_ops_22.json
+#@param expression:sub_ops_22
+#@in Seafood
+#@out Seafood_1
+#@end group_22_core/mass-edit27
+#@begin group_23_core/mass-edit28 #@desc group of core/mass-edit with 2 operations, details in sub_ops_23.json
+#@param expression:sub_ops_23
+#@in Herbs
+#@out Herbs_1
+#@end group_23_core/mass-edit28
+#@begin group_24_core/mass-edit29 #@desc group of core/mass-edit with 2 operations, details in sub_ops_24.json
+#@param expression:sub_ops_24
+#@in Vegetables
+#@out Vegetables_1
+#@end group_24_core/mass-edit29
+#@begin group_25_core/mass-edit30 #@desc group of core/mass-edit with 2 operations, details in sub_ops_25.json
+#@param expression:sub_ops_25
+#@in Honey
+#@out Honey_1
+#@end group_25_core/mass-edit30
+#@begin group_26_core/mass-edit31 #@desc group of core/mass-edit with 2 operations, details in sub_ops_26.json
+#@param expression:sub_ops_26
+#@in Jams
+#@out Jams_1
+#@end group_26_core/mass-edit31
+#@begin group_27_core/mass-edit32 #@desc group of core/mass-edit with 2 operations, details in sub_ops_27.json
+#@param expression:sub_ops_27
+#@in Maple
+#@out Maple_1
+#@end group_27_core/mass-edit32
+#@begin group_28_core/mass-edit33 #@desc group of core/mass-edit with 2 operations, details in sub_ops_28.json
+#@param expression:sub_ops_28
+#@in Meat
+#@out Meat_1
+#@end group_28_core/mass-edit33
+#@begin group_29_core/mass-edit34 #@desc group of core/mass-edit with 2 operations, details in sub_ops_29.json
+#@param expression:sub_ops_29
+#@in Nursery
+#@out Nursery_1
+#@end group_29_core/mass-edit34
+#@begin group_30_core/mass-edit35 #@desc group of core/mass-edit with 2 operations, details in sub_ops_30.json
+#@param expression:sub_ops_30
+#@in Nuts
+#@out Nuts_1
+#@end group_30_core/mass-edit35
+#@begin group_31_core/mass-edit36 #@desc group of core/mass-edit with 2 operations, details in sub_ops_31.json
+#@param expression:sub_ops_31
+#@in Plants
+#@out Plants_1
+#@end group_31_core/mass-edit36
+#@begin group_32_core/mass-edit37 #@desc group of core/mass-edit with 2 operations, details in sub_ops_32.json
+#@param expression:sub_ops_32
+#@in Poultry
+#@out Poultry_1
+#@end group_32_core/mass-edit37
+#@begin group_33_core/mass-edit38 #@desc group of core/mass-edit with 2 operations, details in sub_ops_33.json
+#@param expression:sub_ops_33
+#@in Prepared
+#@out Prepared_1
+#@end group_33_core/mass-edit38
+#@begin group_34_core/mass-edit39 #@desc group of core/mass-edit with 2 operations, details in sub_ops_34.json
+#@param expression:sub_ops_34
+#@in Soap
+#@out Soap_1
+#@end group_34_core/mass-edit39
+#@begin group_35_core/mass-edit40 #@desc group of core/mass-edit with 2 operations, details in sub_ops_35.json
+#@param expression:sub_ops_35
+#@in Trees
+#@out Trees_1
+#@end group_35_core/mass-edit40
+#@begin group_36_core/mass-edit41 #@desc group of core/mass-edit with 2 operations, details in sub_ops_36.json
+#@param expression:sub_ops_36
+#@in Wine
+#@out Wine_1
+#@end group_36_core/mass-edit41
+#@begin group_37_core/mass-edit42 #@desc group of core/mass-edit with 2 operations, details in sub_ops_37.json
+#@param expression:sub_ops_37
+#@in Coffee
+#@out Coffee_1
+#@end group_37_core/mass-edit42
+#@begin group_38_core/mass-edit43 #@desc group of core/mass-edit with 2 operations, details in sub_ops_38.json
+#@param expression:sub_ops_38
+#@in Beans
+#@out Beans_1
+#@end group_38_core/mass-edit43
+#@begin group_39_core/mass-edit44 #@desc group of core/mass-edit with 2 operations, details in sub_ops_39.json
+#@param expression:sub_ops_39
+#@in Fruits
+#@out Fruits_1
+#@end group_39_core/mass-edit44
+#@begin group_40_core/mass-edit45 #@desc group of core/mass-edit with 2 operations, details in sub_ops_40.json
+#@param expression:sub_ops_40
+#@in Grains
+#@out Grains_1
+#@end group_40_core/mass-edit45
+#@begin group_41_core/mass-edit46 #@desc group of core/mass-edit with 2 operations, details in sub_ops_41.json
+#@param expression:sub_ops_41
+#@in Juices
+#@out Juices_1
+#@end group_41_core/mass-edit46
+#@begin group_42_core/mass-edit47 #@desc group of core/mass-edit with 2 operations, details in sub_ops_42.json
+#@param expression:sub_ops_42
+#@in Mushrooms
+#@out Mushrooms_1
+#@end group_42_core/mass-edit47
+#@begin group_43_core/mass-edit48 #@desc group of core/mass-edit with 2 operations, details in sub_ops_43.json
+#@param expression:sub_ops_43
+#@in PetFood
+#@out PetFood_1
+#@end group_43_core/mass-edit48
+#@begin group_44_core/mass-edit49 #@desc group of core/mass-edit with 2 operations, details in sub_ops_44.json
+#@param expression:sub_ops_44
+#@in Tofu
+#@out Tofu_1
+#@end group_44_core/mass-edit49
+#@begin group_45_core/mass-edit50 #@desc group of core/mass-edit with 2 operations, details in sub_ops_45.json
+#@param expression:sub_ops_45
+#@in WildHarvested
+#@out WildHarvested_1
+#@end group_45_core/mass-edit50
+#@begin group_46_core/text-transform51 #@desc group of core/text-transform with 2 operations, details in sub_ops_46.json
+#@param expression:sub_ops_46
+#@in Website
+#@out Website_1
+#@end group_46_core/text-transform51
+#@begin group_47_core/text-transform52 #@desc group of core/text-transform with 2 operations, details in sub_ops_47.json
+#@param expression:sub_ops_47
+#@in Facebook
+#@out Facebook_1
+#@end group_47_core/text-transform52
+#@begin group_48_core/text-transform53 #@desc group of core/text-transform with 2 operations, details in sub_ops_48.json
+#@param expression:sub_ops_48
+#@in Twitter
+#@out Twitter_1
+#@end group_48_core/text-transform53
+#@begin group_49_core/text-transform54 #@desc group of core/text-transform with 2 operations, details in sub_ops_49.json
+#@param expression:sub_ops_49
+#@in Youtube
+#@out Youtube_1
+#@end group_49_core/text-transform54
+#@begin group_50_core/text-transform55 #@desc group of core/text-transform with 2 operations, details in sub_ops_50.json
+#@param expression:sub_ops_50
+#@in OtherMedia
+#@out OtherMedia_1
+#@end group_50_core/text-transform55
+#@begin group_51_core/text-transform56 #@desc group of core/text-transform with 2 operations, details in sub_ops_51.json
+#@param expression:sub_ops_51
+#@in Street
+#@out Street_1
+#@end group_51_core/text-transform56
+#@begin group_52_core/text-transform57 #@desc group of core/text-transform with 2 operations, details in sub_ops_52.json
+#@param expression:sub_ops_52
+#@in City
+#@out City_1
+#@end group_52_core/text-transform57
+#@begin group_53_core/text-transform58 #@desc group of core/text-transform with 2 operations, details in sub_ops_53.json
+#@param expression:sub_ops_53
+#@in State
+#@out State_1
+#@end group_53_core/text-transform58
+#@begin group_54_core/text-transform59 #@desc group of core/text-transform with 2 operations, details in sub_ops_54.json
+#@param expression:sub_ops_54
+#@in Zip
+#@out Zip_1
+#@end group_54_core/text-transform59
+#@begin group_55_core/text-transform60 #@desc group of core/text-transform with 2 operations, details in sub_ops_55.json
+#@param expression:sub_ops_55
+#@in Season1Time
+#@out Season1Time_1
+#@end group_55_core/text-transform60
+#@begin group_56_core/text-transform61 #@desc group of core/text-transform with 2 operations, details in sub_ops_56.json
+#@param expression:sub_ops_56
+#@in Season2Time
+#@out Season2Time_1
+#@end group_56_core/text-transform61
+#@begin group_57_core/text-transform62 #@desc group of core/text-transform with 3 operations, details in sub_ops_57.json
+#@param expression:sub_ops_57
+#@in Season4Date
+#@out Season4Date_1
+#@end group_57_core/text-transform62
+#@begin group_58_core/text-transform63 #@desc group of core/text-transform with 2 operations, details in sub_ops_58.json
+#@param expression:sub_ops_58
+#@in Location
+#@out Location_1
+#@end group_58_core/text-transform63
+#@begin CombineDataCleaningChanges
+#@in MarketName_3
+#@in FMID_1
+#@in updateTime_1
+#@in Latitude_1
+#@in Longitude_1
+#@in County_2
+#@in city_1
+#@in Season1Date_2
+#@in Season2Date_2
+#@in Season3Date_2
+#@in Organic_1
+#@in Credit_1
+#@in WIC_1
+#@in WICcash_1
+#@in SFMNP_1
+#@in SNAP_1
+#@in Bakedgoods_1
+#@in Cheese_1
+#@in Crafts_1
+#@in Flowers_1
+#@in Eggs_1
+#@in Seafood_1
+#@in Herbs_1
+#@in Vegetables_1
+#@in Honey_1
+#@in Jams_1
+#@in Maple_1
+#@in Meat_1
+#@in Nursery_1
+#@in Nuts_1
+#@in Plants_1
+#@in Poultry_1
+#@in Prepared_1
+#@in Soap_1
+#@in Trees_1
+#@in Wine_1
+#@in Coffee_1
+#@in Beans_1
+#@in Fruits_1
+#@in Grains_1
+#@in Juices_1
+#@in Mushrooms_1
+#@in PetFood_1
+#@in Tofu_1
+#@in WildHarvested_1
+#@in Website_1
+#@in Facebook_1
+#@in Twitter_1
+#@in Youtube_1
+#@in OtherMedia_1
+#@in Street_1
+#@in City_1
+#@in State_1
+#@in Zip_1
+#@in Season1Time_1
+#@in Season2Time_1
+#@in Season4Date_1
+#@in Location_1
+#@out CleanData
+#@end CombineDataCleaningChanges
+#@end Parallel_OR

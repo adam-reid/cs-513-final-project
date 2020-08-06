@@ -9,7 +9,7 @@ import os
 # @begin process @desc Checks the 3rd and 4th columns to resolve Twitter and Facebook URLS.
 # @in file:PostOpenRefine.csv
 # @out file:PostOpenRefineNew.csv
-with open('PostOpenRefine.csv') as infile, open('PostOpenRefineNew.csv','w') as outfile:
+with open('PostOpenRefine.csv') as infile, open('PostOpenRefineNew.csv','w', newline='') as outfile:
     writer = csv.writer(outfile)
     for row in csv.reader(infile):
         output_row = row

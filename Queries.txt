@@ -1,0 +1,22 @@
+SELECT FMID, count(*) as NUMBER
+FROM FarmersMarket
+GROUP BY FMID
+HAVING COUNT(*) > 1
+ORDER BY NUMBER desc;
+
+SELECT count(*) AS icv
+FROM FarmersMarket
+WHERE credit = NULL 
+OR wic = NULL 
+OR wiccash = NULL 
+OR sfmnp = NULL	
+OR snap = NULL 
+OR fmid = NULL 
+OR marketname = NULL
+OR updatetime = NULL;
+
+SELECT year, count(year)
+FROM (
+    SELECT strftime('%Y', updatetime) AS year FROM farmersmarket
+)
+GROUP BY year;
